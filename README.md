@@ -30,7 +30,7 @@
 | 1                               | Algorithmic thinking, peak finding                           | Problem set 1 out                   | Asymptotic Practice & 2D Peek-Finding |
 | 2                               | Models of computation, Python cost model, document distance  |                                     |                                       |
 | **Unit 2: Sorting and Trees**   |                                                              |                                     |                                       |
-| 3                               | Insertion sort, merge sort                                   | Problem set 1 due Problem set 2 out | Fractal Rendering heap                |
+| 3                               | Insertion sort, merge sort                                   | Problem set 1 due Problem set 2 out | Fractal Rendering & Heap              |
 | 4                               | Heaps and heap sort                                          |                                     |                                       |
 | 5                               | Binary search trees, BST sort                                |                                     |                                       |
 | 6                               | AVL trees, AVL sort                                          | Problem set 2 due                   |                                       |
