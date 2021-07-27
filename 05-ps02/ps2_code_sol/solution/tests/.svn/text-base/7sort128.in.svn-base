@@ -1,0 +1,4369 @@
+table eq 0 1
+table and2 0 0 0 1
+table or2 0 1 1 1
+
+type in eq  0
+type or0 or2 1
+type and2_0 and2 1000
+type and2_1 and2 2000
+type and2_2 and2 4000
+type and2_3 and2 8000
+type and2_4 and2 16000
+type and2_5 and2 32000
+type and2_6 and2 64000
+type and2_7 and2 128000
+gate a0_0_00 in
+gate a0_0_01 in
+gate a0_0_02 in
+gate a0_0_03 in
+gate a0_0_04 in
+gate a0_0_05 in
+gate a0_0_06 in
+gate a0_0_07 in
+gate a0_0_08 in
+gate a0_0_09 in
+gate a0_0_10 in
+gate a0_0_11 in
+gate a0_0_12 in
+gate a0_0_13 in
+gate a0_0_14 in
+gate a0_0_15 in
+gate a0_0_16 in
+gate a0_0_17 in
+gate a0_0_18 in
+gate a0_0_19 in
+gate a0_0_20 in
+gate a0_0_21 in
+gate a0_0_22 in
+gate a0_0_23 in
+gate a0_0_24 in
+gate a0_0_25 in
+gate a0_0_26 in
+gate a0_0_27 in
+gate a0_0_28 in
+gate a0_0_29 in
+gate a0_0_30 in
+gate a0_0_31 in
+gate a0_0_32 in
+gate a0_0_33 in
+gate a0_0_34 in
+gate a0_0_35 in
+gate a0_0_36 in
+gate a0_0_37 in
+gate a0_0_38 in
+gate a0_0_39 in
+gate a0_0_40 in
+gate a0_0_41 in
+gate a0_0_42 in
+gate a0_0_43 in
+gate a0_0_44 in
+gate a0_0_45 in
+gate a0_0_46 in
+gate a0_0_47 in
+gate a0_0_48 in
+gate a0_0_49 in
+gate a0_0_50 in
+gate a0_0_51 in
+gate a0_0_52 in
+gate a0_0_53 in
+gate a0_0_54 in
+gate a0_0_55 in
+gate a0_0_56 in
+gate a0_0_57 in
+gate a0_0_58 in
+gate a0_0_59 in
+gate a0_0_60 in
+gate a0_0_61 in
+gate a0_0_62 in
+gate a0_0_63 in
+gate a0_0_64 in
+gate a0_0_65 in
+gate a0_0_66 in
+gate a0_0_67 in
+gate a0_0_68 in
+gate a0_0_69 in
+gate a0_0_70 in
+gate a0_0_71 in
+gate a0_0_72 in
+gate a0_0_73 in
+gate a0_0_74 in
+gate a0_0_75 in
+gate a0_0_76 in
+gate a0_0_77 in
+gate a0_0_78 in
+gate a0_0_79 in
+gate a0_0_80 in
+gate a0_0_81 in
+gate a0_0_82 in
+gate a0_0_83 in
+gate a0_0_84 in
+gate a0_0_85 in
+gate a0_0_86 in
+gate a0_0_87 in
+gate a0_0_88 in
+gate a0_0_89 in
+gate a0_0_90 in
+gate a0_0_91 in
+gate a0_0_92 in
+gate a0_0_93 in
+gate a0_0_94 in
+gate a0_0_95 in
+gate a0_0_96 in
+gate a0_0_97 in
+gate a0_0_98 in
+gate a0_0_99 in
+gate a0_0_100 in
+gate a0_0_101 in
+gate a0_0_102 in
+gate a0_0_103 in
+gate a0_0_104 in
+gate a0_0_105 in
+gate a0_0_106 in
+gate a0_0_107 in
+gate a0_0_108 in
+gate a0_0_109 in
+gate a0_0_110 in
+gate a0_0_111 in
+gate a0_0_112 in
+gate a0_0_113 in
+gate a0_0_114 in
+gate a0_0_115 in
+gate a0_0_116 in
+gate a0_0_117 in
+gate a0_0_118 in
+gate a0_0_119 in
+gate a0_0_120 in
+gate a0_0_121 in
+gate a0_0_122 in
+gate a0_0_123 in
+gate a0_0_124 in
+gate a0_0_125 in
+gate a0_0_126 in
+gate a0_0_127 in
+gate a1_0_00 and2_0 a0_0_00 a0_0_01
+gate a1_0_01 or0    a0_0_00 a0_0_01
+gate a1_0_02 and2_0 a0_0_02 a0_0_03
+gate a1_0_03 or0    a0_0_02 a0_0_03
+gate a2_1_00 and2_0 a1_0_00 a1_0_03
+gate a2_1_03 or0    a1_0_00 a1_0_03
+gate a2_1_01 and2_0 a1_0_01 a1_0_02
+gate a2_1_02 or0    a1_0_01 a1_0_02
+gate a2_0_00 and2_0 a2_1_00 a2_1_01
+gate a2_0_01 or0    a2_1_00 a2_1_01
+gate a2_0_02 and2_0 a2_1_02 a2_1_03
+gate a2_0_03 or0    a2_1_02 a2_1_03
+gate a1_0_04 and2_0 a0_0_04 a0_0_05
+gate a1_0_05 or0    a0_0_04 a0_0_05
+gate a1_0_06 and2_0 a0_0_06 a0_0_07
+gate a1_0_07 or0    a0_0_06 a0_0_07
+gate a2_1_04 and2_0 a1_0_04 a1_0_07
+gate a2_1_07 or0    a1_0_04 a1_0_07
+gate a2_1_05 and2_0 a1_0_05 a1_0_06
+gate a2_1_06 or0    a1_0_05 a1_0_06
+gate a2_0_04 and2_0 a2_1_04 a2_1_05
+gate a2_0_05 or0    a2_1_04 a2_1_05
+gate a2_0_06 and2_0 a2_1_06 a2_1_07
+gate a2_0_07 or0    a2_1_06 a2_1_07
+gate a3_2_00 and2_0 a2_0_00 a2_0_07
+gate a3_2_07 or0    a2_0_00 a2_0_07
+gate a3_2_01 and2_0 a2_0_01 a2_0_06
+gate a3_2_06 or0    a2_0_01 a2_0_06
+gate a3_2_02 and2_0 a2_0_02 a2_0_05
+gate a3_2_05 or0    a2_0_02 a2_0_05
+gate a3_2_03 and2_0 a2_0_03 a2_0_04
+gate a3_2_04 or0    a2_0_03 a2_0_04
+gate a3_1_00 and2_0 a3_2_00 a3_2_02
+gate a3_1_02 or0    a3_2_00 a3_2_02
+gate a3_1_01 and2_0 a3_2_01 a3_2_03
+gate a3_1_03 or0    a3_2_01 a3_2_03
+gate a3_0_00 and2_0 a3_1_00 a3_1_01
+gate a3_0_01 or0    a3_1_00 a3_1_01
+gate a3_0_02 and2_2 a3_1_02 a3_1_03
+gate a3_0_03 or0    a3_1_02 a3_1_03
+gate a3_1_04 and2_1 a3_2_04 a3_2_06
+gate a3_1_06 or0    a3_2_04 a3_2_06
+gate a3_1_05 and2_1 a3_2_05 a3_2_07
+gate a3_1_07 or0    a3_2_05 a3_2_07
+gate a3_0_04 and2_1 a3_1_04 a3_1_05
+gate a3_0_05 or0    a3_1_04 a3_1_05
+gate a3_0_06 and2_0 a3_1_06 a3_1_07
+gate a3_0_07 or0    a3_1_06 a3_1_07
+gate a1_0_08 and2_0 a0_0_08 a0_0_09
+gate a1_0_09 or0    a0_0_08 a0_0_09
+gate a1_0_10 and2_0 a0_0_10 a0_0_11
+gate a1_0_11 or0    a0_0_10 a0_0_11
+gate a2_1_08 and2_0 a1_0_08 a1_0_11
+gate a2_1_11 or0    a1_0_08 a1_0_11
+gate a2_1_09 and2_0 a1_0_09 a1_0_10
+gate a2_1_10 or0    a1_0_09 a1_0_10
+gate a2_0_08 and2_0 a2_1_08 a2_1_09
+gate a2_0_09 or0    a2_1_08 a2_1_09
+gate a2_0_10 and2_0 a2_1_10 a2_1_11
+gate a2_0_11 or0    a2_1_10 a2_1_11
+gate a1_0_12 and2_0 a0_0_12 a0_0_13
+gate a1_0_13 or0    a0_0_12 a0_0_13
+gate a1_0_14 and2_0 a0_0_14 a0_0_15
+gate a1_0_15 or0    a0_0_14 a0_0_15
+gate a2_1_12 and2_0 a1_0_12 a1_0_15
+gate a2_1_15 or0    a1_0_12 a1_0_15
+gate a2_1_13 and2_0 a1_0_13 a1_0_14
+gate a2_1_14 or0    a1_0_13 a1_0_14
+gate a2_0_12 and2_0 a2_1_12 a2_1_13
+gate a2_0_13 or0    a2_1_12 a2_1_13
+gate a2_0_14 and2_0 a2_1_14 a2_1_15
+gate a2_0_15 or0    a2_1_14 a2_1_15
+gate a3_2_08 and2_2 a2_0_08 a2_0_15
+gate a3_2_15 or0    a2_0_08 a2_0_15
+gate a3_2_09 and2_2 a2_0_09 a2_0_14
+gate a3_2_14 or0    a2_0_09 a2_0_14
+gate a3_2_10 and2_2 a2_0_10 a2_0_13
+gate a3_2_13 or0    a2_0_10 a2_0_13
+gate a3_2_11 and2_2 a2_0_11 a2_0_12
+gate a3_2_12 or0    a2_0_11 a2_0_12
+gate a3_1_08 and2_2 a3_2_08 a3_2_10
+gate a3_1_10 or0    a3_2_08 a3_2_10
+gate a3_1_09 and2_2 a3_2_09 a3_2_11
+gate a3_1_11 or0    a3_2_09 a3_2_11
+gate a3_0_08 and2_2 a3_1_08 a3_1_09
+gate a3_0_09 or0    a3_1_08 a3_1_09
+gate a3_0_10 and2_1 a3_1_10 a3_1_11
+gate a3_0_11 or0    a3_1_10 a3_1_11
+gate a3_1_12 and2_0 a3_2_12 a3_2_14
+gate a3_1_14 or0    a3_2_12 a3_2_14
+gate a3_1_13 and2_0 a3_2_13 a3_2_15
+gate a3_1_15 or0    a3_2_13 a3_2_15
+gate a3_0_12 and2_0 a3_1_12 a3_1_13
+gate a3_0_13 or0    a3_1_12 a3_1_13
+gate a3_0_14 and2_2 a3_1_14 a3_1_15
+gate a3_0_15 or0    a3_1_14 a3_1_15
+gate a4_3_00 and2_0 a3_0_00 a3_0_15
+gate a4_3_15 or0    a3_0_00 a3_0_15
+gate a4_3_01 and2_0 a3_0_01 a3_0_14
+gate a4_3_14 or0    a3_0_01 a3_0_14
+gate a4_3_02 and2_0 a3_0_02 a3_0_13
+gate a4_3_13 or0    a3_0_02 a3_0_13
+gate a4_3_03 and2_0 a3_0_03 a3_0_12
+gate a4_3_12 or0    a3_0_03 a3_0_12
+gate a4_3_04 and2_0 a3_0_04 a3_0_11
+gate a4_3_11 or0    a3_0_04 a3_0_11
+gate a4_3_05 and2_0 a3_0_05 a3_0_10
+gate a4_3_10 or0    a3_0_05 a3_0_10
+gate a4_3_06 and2_0 a3_0_06 a3_0_09
+gate a4_3_09 or0    a3_0_06 a3_0_09
+gate a4_3_07 and2_0 a3_0_07 a3_0_08
+gate a4_3_08 or0    a3_0_07 a3_0_08
+gate a4_2_00 and2_0 a4_3_00 a4_3_04
+gate a4_2_04 or0    a4_3_00 a4_3_04
+gate a4_2_01 and2_0 a4_3_01 a4_3_05
+gate a4_2_05 or0    a4_3_01 a4_3_05
+gate a4_2_02 and2_0 a4_3_02 a4_3_06
+gate a4_2_06 or0    a4_3_02 a4_3_06
+gate a4_2_03 and2_0 a4_3_03 a4_3_07
+gate a4_2_07 or0    a4_3_03 a4_3_07
+gate a4_1_00 and2_0 a4_2_00 a4_2_02
+gate a4_1_02 or0    a4_2_00 a4_2_02
+gate a4_1_01 and2_0 a4_2_01 a4_2_03
+gate a4_1_03 or0    a4_2_01 a4_2_03
+gate a4_0_00 and2_0 a4_1_00 a4_1_01
+gate a4_0_01 or0    a4_1_00 a4_1_01
+gate a4_0_02 and2_2 a4_1_02 a4_1_03
+gate a4_0_03 or0    a4_1_02 a4_1_03
+gate a4_1_04 and2_0 a4_2_04 a4_2_06
+gate a4_1_06 or0    a4_2_04 a4_2_06
+gate a4_1_05 and2_0 a4_2_05 a4_2_07
+gate a4_1_07 or0    a4_2_05 a4_2_07
+gate a4_0_04 and2_0 a4_1_04 a4_1_05
+gate a4_0_05 or0    a4_1_04 a4_1_05
+gate a4_0_06 and2_2 a4_1_06 a4_1_07
+gate a4_0_07 or0    a4_1_06 a4_1_07
+gate a4_2_08 and2_0 a4_3_08 a4_3_12
+gate a4_2_12 or0    a4_3_08 a4_3_12
+gate a4_2_09 and2_0 a4_3_09 a4_3_13
+gate a4_2_13 or0    a4_3_09 a4_3_13
+gate a4_2_10 and2_0 a4_3_10 a4_3_14
+gate a4_2_14 or0    a4_3_10 a4_3_14
+gate a4_2_11 and2_0 a4_3_11 a4_3_15
+gate a4_2_15 or0    a4_3_11 a4_3_15
+gate a4_1_08 and2_0 a4_2_08 a4_2_10
+gate a4_1_10 or0    a4_2_08 a4_2_10
+gate a4_1_09 and2_0 a4_2_09 a4_2_11
+gate a4_1_11 or0    a4_2_09 a4_2_11
+gate a4_0_08 and2_0 a4_1_08 a4_1_09
+gate a4_0_09 or0    a4_1_08 a4_1_09
+gate a4_0_10 and2_2 a4_1_10 a4_1_11
+gate a4_0_11 or0    a4_1_10 a4_1_11
+gate a4_1_12 and2_0 a4_2_12 a4_2_14
+gate a4_1_14 or0    a4_2_12 a4_2_14
+gate a4_1_13 and2_0 a4_2_13 a4_2_15
+gate a4_1_15 or0    a4_2_13 a4_2_15
+gate a4_0_12 and2_0 a4_1_12 a4_1_13
+gate a4_0_13 or0    a4_1_12 a4_1_13
+gate a4_0_14 and2_2 a4_1_14 a4_1_15
+gate a4_0_15 or0    a4_1_14 a4_1_15
+gate a1_0_16 and2_0 a0_0_16 a0_0_17
+gate a1_0_17 or0    a0_0_16 a0_0_17
+gate a1_0_18 and2_0 a0_0_18 a0_0_19
+gate a1_0_19 or0    a0_0_18 a0_0_19
+gate a2_1_16 and2_0 a1_0_16 a1_0_19
+gate a2_1_19 or0    a1_0_16 a1_0_19
+gate a2_1_17 and2_0 a1_0_17 a1_0_18
+gate a2_1_18 or0    a1_0_17 a1_0_18
+gate a2_0_16 and2_0 a2_1_16 a2_1_17
+gate a2_0_17 or0    a2_1_16 a2_1_17
+gate a2_0_18 and2_0 a2_1_18 a2_1_19
+gate a2_0_19 or0    a2_1_18 a2_1_19
+gate a1_0_20 and2_0 a0_0_20 a0_0_21
+gate a1_0_21 or0    a0_0_20 a0_0_21
+gate a1_0_22 and2_0 a0_0_22 a0_0_23
+gate a1_0_23 or0    a0_0_22 a0_0_23
+gate a2_1_20 and2_0 a1_0_20 a1_0_23
+gate a2_1_23 or0    a1_0_20 a1_0_23
+gate a2_1_21 and2_0 a1_0_21 a1_0_22
+gate a2_1_22 or0    a1_0_21 a1_0_22
+gate a2_0_20 and2_0 a2_1_20 a2_1_21
+gate a2_0_21 or0    a2_1_20 a2_1_21
+gate a2_0_22 and2_0 a2_1_22 a2_1_23
+gate a2_0_23 or0    a2_1_22 a2_1_23
+gate a3_2_16 and2_1 a2_0_16 a2_0_23
+gate a3_2_23 or0    a2_0_16 a2_0_23
+gate a3_2_17 and2_1 a2_0_17 a2_0_22
+gate a3_2_22 or0    a2_0_17 a2_0_22
+gate a3_2_18 and2_1 a2_0_18 a2_0_21
+gate a3_2_21 or0    a2_0_18 a2_0_21
+gate a3_2_19 and2_1 a2_0_19 a2_0_20
+gate a3_2_20 or0    a2_0_19 a2_0_20
+gate a3_1_16 and2_1 a3_2_16 a3_2_18
+gate a3_1_18 or0    a3_2_16 a3_2_18
+gate a3_1_17 and2_1 a3_2_17 a3_2_19
+gate a3_1_19 or0    a3_2_17 a3_2_19
+gate a3_0_16 and2_1 a3_1_16 a3_1_17
+gate a3_0_17 or0    a3_1_16 a3_1_17
+gate a3_0_18 and2_0 a3_1_18 a3_1_19
+gate a3_0_19 or0    a3_1_18 a3_1_19
+gate a3_1_20 and2_2 a3_2_20 a3_2_22
+gate a3_1_22 or0    a3_2_20 a3_2_22
+gate a3_1_21 and2_2 a3_2_21 a3_2_23
+gate a3_1_23 or0    a3_2_21 a3_2_23
+gate a3_0_20 and2_2 a3_1_20 a3_1_21
+gate a3_0_21 or0    a3_1_20 a3_1_21
+gate a3_0_22 and2_1 a3_1_22 a3_1_23
+gate a3_0_23 or0    a3_1_22 a3_1_23
+gate a1_0_24 and2_0 a0_0_24 a0_0_25
+gate a1_0_25 or0    a0_0_24 a0_0_25
+gate a1_0_26 and2_0 a0_0_26 a0_0_27
+gate a1_0_27 or0    a0_0_26 a0_0_27
+gate a2_1_24 and2_0 a1_0_24 a1_0_27
+gate a2_1_27 or0    a1_0_24 a1_0_27
+gate a2_1_25 and2_0 a1_0_25 a1_0_26
+gate a2_1_26 or0    a1_0_25 a1_0_26
+gate a2_0_24 and2_0 a2_1_24 a2_1_25
+gate a2_0_25 or0    a2_1_24 a2_1_25
+gate a2_0_26 and2_0 a2_1_26 a2_1_27
+gate a2_0_27 or0    a2_1_26 a2_1_27
+gate a1_0_28 and2_0 a0_0_28 a0_0_29
+gate a1_0_29 or0    a0_0_28 a0_0_29
+gate a1_0_30 and2_0 a0_0_30 a0_0_31
+gate a1_0_31 or0    a0_0_30 a0_0_31
+gate a2_1_28 and2_0 a1_0_28 a1_0_31
+gate a2_1_31 or0    a1_0_28 a1_0_31
+gate a2_1_29 and2_0 a1_0_29 a1_0_30
+gate a2_1_30 or0    a1_0_29 a1_0_30
+gate a2_0_28 and2_0 a2_1_28 a2_1_29
+gate a2_0_29 or0    a2_1_28 a2_1_29
+gate a2_0_30 and2_0 a2_1_30 a2_1_31
+gate a2_0_31 or0    a2_1_30 a2_1_31
+gate a3_2_24 and2_0 a2_0_24 a2_0_31
+gate a3_2_31 or0    a2_0_24 a2_0_31
+gate a3_2_25 and2_0 a2_0_25 a2_0_30
+gate a3_2_30 or0    a2_0_25 a2_0_30
+gate a3_2_26 and2_0 a2_0_26 a2_0_29
+gate a3_2_29 or0    a2_0_26 a2_0_29
+gate a3_2_27 and2_0 a2_0_27 a2_0_28
+gate a3_2_28 or0    a2_0_27 a2_0_28
+gate a3_1_24 and2_0 a3_2_24 a3_2_26
+gate a3_1_26 or0    a3_2_24 a3_2_26
+gate a3_1_25 and2_0 a3_2_25 a3_2_27
+gate a3_1_27 or0    a3_2_25 a3_2_27
+gate a3_0_24 and2_0 a3_1_24 a3_1_25
+gate a3_0_25 or0    a3_1_24 a3_1_25
+gate a3_0_26 and2_2 a3_1_26 a3_1_27
+gate a3_0_27 or0    a3_1_26 a3_1_27
+gate a3_1_28 and2_1 a3_2_28 a3_2_30
+gate a3_1_30 or0    a3_2_28 a3_2_30
+gate a3_1_29 and2_1 a3_2_29 a3_2_31
+gate a3_1_31 or0    a3_2_29 a3_2_31
+gate a3_0_28 and2_1 a3_1_28 a3_1_29
+gate a3_0_29 or0    a3_1_28 a3_1_29
+gate a3_0_30 and2_0 a3_1_30 a3_1_31
+gate a3_0_31 or0    a3_1_30 a3_1_31
+gate a4_3_16 and2_0 a3_0_16 a3_0_31
+gate a4_3_31 or0    a3_0_16 a3_0_31
+gate a4_3_17 and2_0 a3_0_17 a3_0_30
+gate a4_3_30 or0    a3_0_17 a3_0_30
+gate a4_3_18 and2_0 a3_0_18 a3_0_29
+gate a4_3_29 or0    a3_0_18 a3_0_29
+gate a4_3_19 and2_0 a3_0_19 a3_0_28
+gate a4_3_28 or0    a3_0_19 a3_0_28
+gate a4_3_20 and2_0 a3_0_20 a3_0_27
+gate a4_3_27 or0    a3_0_20 a3_0_27
+gate a4_3_21 and2_0 a3_0_21 a3_0_26
+gate a4_3_26 or0    a3_0_21 a3_0_26
+gate a4_3_22 and2_0 a3_0_22 a3_0_25
+gate a4_3_25 or0    a3_0_22 a3_0_25
+gate a4_3_23 and2_0 a3_0_23 a3_0_24
+gate a4_3_24 or0    a3_0_23 a3_0_24
+gate a4_2_16 and2_0 a4_3_16 a4_3_20
+gate a4_2_20 or0    a4_3_16 a4_3_20
+gate a4_2_17 and2_0 a4_3_17 a4_3_21
+gate a4_2_21 or0    a4_3_17 a4_3_21
+gate a4_2_18 and2_0 a4_3_18 a4_3_22
+gate a4_2_22 or0    a4_3_18 a4_3_22
+gate a4_2_19 and2_0 a4_3_19 a4_3_23
+gate a4_2_23 or0    a4_3_19 a4_3_23
+gate a4_1_16 and2_0 a4_2_16 a4_2_18
+gate a4_1_18 or0    a4_2_16 a4_2_18
+gate a4_1_17 and2_0 a4_2_17 a4_2_19
+gate a4_1_19 or0    a4_2_17 a4_2_19
+gate a4_0_16 and2_0 a4_1_16 a4_1_17
+gate a4_0_17 or0    a4_1_16 a4_1_17
+gate a4_0_18 and2_2 a4_1_18 a4_1_19
+gate a4_0_19 or0    a4_1_18 a4_1_19
+gate a4_1_20 and2_0 a4_2_20 a4_2_22
+gate a4_1_22 or0    a4_2_20 a4_2_22
+gate a4_1_21 and2_0 a4_2_21 a4_2_23
+gate a4_1_23 or0    a4_2_21 a4_2_23
+gate a4_0_20 and2_0 a4_1_20 a4_1_21
+gate a4_0_21 or0    a4_1_20 a4_1_21
+gate a4_0_22 and2_2 a4_1_22 a4_1_23
+gate a4_0_23 or0    a4_1_22 a4_1_23
+gate a4_2_24 and2_0 a4_3_24 a4_3_28
+gate a4_2_28 or0    a4_3_24 a4_3_28
+gate a4_2_25 and2_0 a4_3_25 a4_3_29
+gate a4_2_29 or0    a4_3_25 a4_3_29
+gate a4_2_26 and2_0 a4_3_26 a4_3_30
+gate a4_2_30 or0    a4_3_26 a4_3_30
+gate a4_2_27 and2_0 a4_3_27 a4_3_31
+gate a4_2_31 or0    a4_3_27 a4_3_31
+gate a4_1_24 and2_0 a4_2_24 a4_2_26
+gate a4_1_26 or0    a4_2_24 a4_2_26
+gate a4_1_25 and2_0 a4_2_25 a4_2_27
+gate a4_1_27 or0    a4_2_25 a4_2_27
+gate a4_0_24 and2_0 a4_1_24 a4_1_25
+gate a4_0_25 or0    a4_1_24 a4_1_25
+gate a4_0_26 and2_2 a4_1_26 a4_1_27
+gate a4_0_27 or0    a4_1_26 a4_1_27
+gate a4_1_28 and2_0 a4_2_28 a4_2_30
+gate a4_1_30 or0    a4_2_28 a4_2_30
+gate a4_1_29 and2_0 a4_2_29 a4_2_31
+gate a4_1_31 or0    a4_2_29 a4_2_31
+gate a4_0_28 and2_0 a4_1_28 a4_1_29
+gate a4_0_29 or0    a4_1_28 a4_1_29
+gate a4_0_30 and2_2 a4_1_30 a4_1_31
+gate a4_0_31 or0    a4_1_30 a4_1_31
+gate a5_4_00 and2_0 a4_0_00 a4_0_31
+gate a5_4_31 or0    a4_0_00 a4_0_31
+gate a5_4_01 and2_0 a4_0_01 a4_0_30
+gate a5_4_30 or0    a4_0_01 a4_0_30
+gate a5_4_02 and2_0 a4_0_02 a4_0_29
+gate a5_4_29 or0    a4_0_02 a4_0_29
+gate a5_4_03 and2_0 a4_0_03 a4_0_28
+gate a5_4_28 or0    a4_0_03 a4_0_28
+gate a5_4_04 and2_0 a4_0_04 a4_0_27
+gate a5_4_27 or0    a4_0_04 a4_0_27
+gate a5_4_05 and2_0 a4_0_05 a4_0_26
+gate a5_4_26 or0    a4_0_05 a4_0_26
+gate a5_4_06 and2_0 a4_0_06 a4_0_25
+gate a5_4_25 or0    a4_0_06 a4_0_25
+gate a5_4_07 and2_0 a4_0_07 a4_0_24
+gate a5_4_24 or0    a4_0_07 a4_0_24
+gate a5_4_08 and2_0 a4_0_08 a4_0_23
+gate a5_4_23 or0    a4_0_08 a4_0_23
+gate a5_4_09 and2_0 a4_0_09 a4_0_22
+gate a5_4_22 or0    a4_0_09 a4_0_22
+gate a5_4_10 and2_0 a4_0_10 a4_0_21
+gate a5_4_21 or0    a4_0_10 a4_0_21
+gate a5_4_11 and2_0 a4_0_11 a4_0_20
+gate a5_4_20 or0    a4_0_11 a4_0_20
+gate a5_4_12 and2_0 a4_0_12 a4_0_19
+gate a5_4_19 or0    a4_0_12 a4_0_19
+gate a5_4_13 and2_0 a4_0_13 a4_0_18
+gate a5_4_18 or0    a4_0_13 a4_0_18
+gate a5_4_14 and2_0 a4_0_14 a4_0_17
+gate a5_4_17 or0    a4_0_14 a4_0_17
+gate a5_4_15 and2_0 a4_0_15 a4_0_16
+gate a5_4_16 or0    a4_0_15 a4_0_16
+gate a5_3_00 and2_0 a5_4_00 a5_4_08
+gate a5_3_08 or0    a5_4_00 a5_4_08
+gate a5_3_01 and2_0 a5_4_01 a5_4_09
+gate a5_3_09 or0    a5_4_01 a5_4_09
+gate a5_3_02 and2_0 a5_4_02 a5_4_10
+gate a5_3_10 or0    a5_4_02 a5_4_10
+gate a5_3_03 and2_0 a5_4_03 a5_4_11
+gate a5_3_11 or0    a5_4_03 a5_4_11
+gate a5_3_04 and2_0 a5_4_04 a5_4_12
+gate a5_3_12 or0    a5_4_04 a5_4_12
+gate a5_3_05 and2_0 a5_4_05 a5_4_13
+gate a5_3_13 or0    a5_4_05 a5_4_13
+gate a5_3_06 and2_0 a5_4_06 a5_4_14
+gate a5_3_14 or0    a5_4_06 a5_4_14
+gate a5_3_07 and2_0 a5_4_07 a5_4_15
+gate a5_3_15 or0    a5_4_07 a5_4_15
+gate a5_2_00 and2_0 a5_3_00 a5_3_04
+gate a5_2_04 or0    a5_3_00 a5_3_04
+gate a5_2_01 and2_0 a5_3_01 a5_3_05
+gate a5_2_05 or0    a5_3_01 a5_3_05
+gate a5_2_02 and2_0 a5_3_02 a5_3_06
+gate a5_2_06 or0    a5_3_02 a5_3_06
+gate a5_2_03 and2_0 a5_3_03 a5_3_07
+gate a5_2_07 or0    a5_3_03 a5_3_07
+gate a5_1_00 and2_0 a5_2_00 a5_2_02
+gate a5_1_02 or0    a5_2_00 a5_2_02
+gate a5_1_01 and2_0 a5_2_01 a5_2_03
+gate a5_1_03 or0    a5_2_01 a5_2_03
+gate a5_0_00 and2_0 a5_1_00 a5_1_01
+gate a5_0_01 or0    a5_1_00 a5_1_01
+gate a5_0_02 and2_2 a5_1_02 a5_1_03
+gate a5_0_03 or0    a5_1_02 a5_1_03
+gate a5_1_04 and2_4 a5_2_04 a5_2_06
+gate a5_1_06 or0    a5_2_04 a5_2_06
+gate a5_1_05 and2_4 a5_2_05 a5_2_07
+gate a5_1_07 or0    a5_2_05 a5_2_07
+gate a5_0_04 and2_4 a5_1_04 a5_1_05
+gate a5_0_05 or0    a5_1_04 a5_1_05
+gate a5_0_06 and2_1 a5_1_06 a5_1_07
+gate a5_0_07 or0    a5_1_06 a5_1_07
+gate a5_2_08 and2_3 a5_3_08 a5_3_12
+gate a5_2_12 or0    a5_3_08 a5_3_12
+gate a5_2_09 and2_3 a5_3_09 a5_3_13
+gate a5_2_13 or0    a5_3_09 a5_3_13
+gate a5_2_10 and2_3 a5_3_10 a5_3_14
+gate a5_2_14 or0    a5_3_10 a5_3_14
+gate a5_2_11 and2_3 a5_3_11 a5_3_15
+gate a5_2_15 or0    a5_3_11 a5_3_15
+gate a5_1_08 and2_3 a5_2_08 a5_2_10
+gate a5_1_10 or0    a5_2_08 a5_2_10
+gate a5_1_09 and2_3 a5_2_09 a5_2_11
+gate a5_1_11 or0    a5_2_09 a5_2_11
+gate a5_0_08 and2_3 a5_1_08 a5_1_09
+gate a5_0_09 or0    a5_1_08 a5_1_09
+gate a5_0_10 and2_0 a5_1_10 a5_1_11
+gate a5_0_11 or0    a5_1_10 a5_1_11
+gate a5_1_12 and2_2 a5_2_12 a5_2_14
+gate a5_1_14 or0    a5_2_12 a5_2_14
+gate a5_1_13 and2_2 a5_2_13 a5_2_15
+gate a5_1_15 or0    a5_2_13 a5_2_15
+gate a5_0_12 and2_2 a5_1_12 a5_1_13
+gate a5_0_13 or0    a5_1_12 a5_1_13
+gate a5_0_14 and2_4 a5_1_14 a5_1_15
+gate a5_0_15 or0    a5_1_14 a5_1_15
+gate a5_3_16 and2_1 a5_4_16 a5_4_24
+gate a5_3_24 or0    a5_4_16 a5_4_24
+gate a5_3_17 and2_1 a5_4_17 a5_4_25
+gate a5_3_25 or0    a5_4_17 a5_4_25
+gate a5_3_18 and2_1 a5_4_18 a5_4_26
+gate a5_3_26 or0    a5_4_18 a5_4_26
+gate a5_3_19 and2_1 a5_4_19 a5_4_27
+gate a5_3_27 or0    a5_4_19 a5_4_27
+gate a5_3_20 and2_1 a5_4_20 a5_4_28
+gate a5_3_28 or0    a5_4_20 a5_4_28
+gate a5_3_21 and2_1 a5_4_21 a5_4_29
+gate a5_3_29 or0    a5_4_21 a5_4_29
+gate a5_3_22 and2_1 a5_4_22 a5_4_30
+gate a5_3_30 or0    a5_4_22 a5_4_30
+gate a5_3_23 and2_1 a5_4_23 a5_4_31
+gate a5_3_31 or0    a5_4_23 a5_4_31
+gate a5_2_16 and2_1 a5_3_16 a5_3_20
+gate a5_2_20 or0    a5_3_16 a5_3_20
+gate a5_2_17 and2_1 a5_3_17 a5_3_21
+gate a5_2_21 or0    a5_3_17 a5_3_21
+gate a5_2_18 and2_1 a5_3_18 a5_3_22
+gate a5_2_22 or0    a5_3_18 a5_3_22
+gate a5_2_19 and2_1 a5_3_19 a5_3_23
+gate a5_2_23 or0    a5_3_19 a5_3_23
+gate a5_1_16 and2_1 a5_2_16 a5_2_18
+gate a5_1_18 or0    a5_2_16 a5_2_18
+gate a5_1_17 and2_1 a5_2_17 a5_2_19
+gate a5_1_19 or0    a5_2_17 a5_2_19
+gate a5_0_16 and2_1 a5_1_16 a5_1_17
+gate a5_0_17 or0    a5_1_16 a5_1_17
+gate a5_0_18 and2_3 a5_1_18 a5_1_19
+gate a5_0_19 or0    a5_1_18 a5_1_19
+gate a5_1_20 and2_0 a5_2_20 a5_2_22
+gate a5_1_22 or0    a5_2_20 a5_2_22
+gate a5_1_21 and2_0 a5_2_21 a5_2_23
+gate a5_1_23 or0    a5_2_21 a5_2_23
+gate a5_0_20 and2_0 a5_1_20 a5_1_21
+gate a5_0_21 or0    a5_1_20 a5_1_21
+gate a5_0_22 and2_2 a5_1_22 a5_1_23
+gate a5_0_23 or0    a5_1_22 a5_1_23
+gate a5_2_24 and2_4 a5_3_24 a5_3_28
+gate a5_2_28 or0    a5_3_24 a5_3_28
+gate a5_2_25 and2_4 a5_3_25 a5_3_29
+gate a5_2_29 or0    a5_3_25 a5_3_29
+gate a5_2_26 and2_4 a5_3_26 a5_3_30
+gate a5_2_30 or0    a5_3_26 a5_3_30
+gate a5_2_27 and2_4 a5_3_27 a5_3_31
+gate a5_2_31 or0    a5_3_27 a5_3_31
+gate a5_1_24 and2_4 a5_2_24 a5_2_26
+gate a5_1_26 or0    a5_2_24 a5_2_26
+gate a5_1_25 and2_4 a5_2_25 a5_2_27
+gate a5_1_27 or0    a5_2_25 a5_2_27
+gate a5_0_24 and2_4 a5_1_24 a5_1_25
+gate a5_0_25 or0    a5_1_24 a5_1_25
+gate a5_0_26 and2_1 a5_1_26 a5_1_27
+gate a5_0_27 or0    a5_1_26 a5_1_27
+gate a5_1_28 and2_3 a5_2_28 a5_2_30
+gate a5_1_30 or0    a5_2_28 a5_2_30
+gate a5_1_29 and2_3 a5_2_29 a5_2_31
+gate a5_1_31 or0    a5_2_29 a5_2_31
+gate a5_0_28 and2_3 a5_1_28 a5_1_29
+gate a5_0_29 or0    a5_1_28 a5_1_29
+gate a5_0_30 and2_0 a5_1_30 a5_1_31
+gate a5_0_31 or0    a5_1_30 a5_1_31
+gate a1_0_32 and2_0 a0_0_32 a0_0_33
+gate a1_0_33 or0    a0_0_32 a0_0_33
+gate a1_0_34 and2_0 a0_0_34 a0_0_35
+gate a1_0_35 or0    a0_0_34 a0_0_35
+gate a2_1_32 and2_0 a1_0_32 a1_0_35
+gate a2_1_35 or0    a1_0_32 a1_0_35
+gate a2_1_33 and2_0 a1_0_33 a1_0_34
+gate a2_1_34 or0    a1_0_33 a1_0_34
+gate a2_0_32 and2_0 a2_1_32 a2_1_33
+gate a2_0_33 or0    a2_1_32 a2_1_33
+gate a2_0_34 and2_0 a2_1_34 a2_1_35
+gate a2_0_35 or0    a2_1_34 a2_1_35
+gate a1_0_36 and2_0 a0_0_36 a0_0_37
+gate a1_0_37 or0    a0_0_36 a0_0_37
+gate a1_0_38 and2_0 a0_0_38 a0_0_39
+gate a1_0_39 or0    a0_0_38 a0_0_39
+gate a2_1_36 and2_0 a1_0_36 a1_0_39
+gate a2_1_39 or0    a1_0_36 a1_0_39
+gate a2_1_37 and2_0 a1_0_37 a1_0_38
+gate a2_1_38 or0    a1_0_37 a1_0_38
+gate a2_0_36 and2_0 a2_1_36 a2_1_37
+gate a2_0_37 or0    a2_1_36 a2_1_37
+gate a2_0_38 and2_0 a2_1_38 a2_1_39
+gate a2_0_39 or0    a2_1_38 a2_1_39
+gate a3_2_32 and2_2 a2_0_32 a2_0_39
+gate a3_2_39 or0    a2_0_32 a2_0_39
+gate a3_2_33 and2_2 a2_0_33 a2_0_38
+gate a3_2_38 or0    a2_0_33 a2_0_38
+gate a3_2_34 and2_2 a2_0_34 a2_0_37
+gate a3_2_37 or0    a2_0_34 a2_0_37
+gate a3_2_35 and2_2 a2_0_35 a2_0_36
+gate a3_2_36 or0    a2_0_35 a2_0_36
+gate a3_1_32 and2_2 a3_2_32 a3_2_34
+gate a3_1_34 or0    a3_2_32 a3_2_34
+gate a3_1_33 and2_2 a3_2_33 a3_2_35
+gate a3_1_35 or0    a3_2_33 a3_2_35
+gate a3_0_32 and2_2 a3_1_32 a3_1_33
+gate a3_0_33 or0    a3_1_32 a3_1_33
+gate a3_0_34 and2_1 a3_1_34 a3_1_35
+gate a3_0_35 or0    a3_1_34 a3_1_35
+gate a3_1_36 and2_0 a3_2_36 a3_2_38
+gate a3_1_38 or0    a3_2_36 a3_2_38
+gate a3_1_37 and2_0 a3_2_37 a3_2_39
+gate a3_1_39 or0    a3_2_37 a3_2_39
+gate a3_0_36 and2_0 a3_1_36 a3_1_37
+gate a3_0_37 or0    a3_1_36 a3_1_37
+gate a3_0_38 and2_2 a3_1_38 a3_1_39
+gate a3_0_39 or0    a3_1_38 a3_1_39
+gate a1_0_40 and2_0 a0_0_40 a0_0_41
+gate a1_0_41 or0    a0_0_40 a0_0_41
+gate a1_0_42 and2_0 a0_0_42 a0_0_43
+gate a1_0_43 or0    a0_0_42 a0_0_43
+gate a2_1_40 and2_0 a1_0_40 a1_0_43
+gate a2_1_43 or0    a1_0_40 a1_0_43
+gate a2_1_41 and2_0 a1_0_41 a1_0_42
+gate a2_1_42 or0    a1_0_41 a1_0_42
+gate a2_0_40 and2_0 a2_1_40 a2_1_41
+gate a2_0_41 or0    a2_1_40 a2_1_41
+gate a2_0_42 and2_0 a2_1_42 a2_1_43
+gate a2_0_43 or0    a2_1_42 a2_1_43
+gate a1_0_44 and2_0 a0_0_44 a0_0_45
+gate a1_0_45 or0    a0_0_44 a0_0_45
+gate a1_0_46 and2_0 a0_0_46 a0_0_47
+gate a1_0_47 or0    a0_0_46 a0_0_47
+gate a2_1_44 and2_0 a1_0_44 a1_0_47
+gate a2_1_47 or0    a1_0_44 a1_0_47
+gate a2_1_45 and2_0 a1_0_45 a1_0_46
+gate a2_1_46 or0    a1_0_45 a1_0_46
+gate a2_0_44 and2_0 a2_1_44 a2_1_45
+gate a2_0_45 or0    a2_1_44 a2_1_45
+gate a2_0_46 and2_0 a2_1_46 a2_1_47
+gate a2_0_47 or0    a2_1_46 a2_1_47
+gate a3_2_40 and2_1 a2_0_40 a2_0_47
+gate a3_2_47 or0    a2_0_40 a2_0_47
+gate a3_2_41 and2_1 a2_0_41 a2_0_46
+gate a3_2_46 or0    a2_0_41 a2_0_46
+gate a3_2_42 and2_1 a2_0_42 a2_0_45
+gate a3_2_45 or0    a2_0_42 a2_0_45
+gate a3_2_43 and2_1 a2_0_43 a2_0_44
+gate a3_2_44 or0    a2_0_43 a2_0_44
+gate a3_1_40 and2_1 a3_2_40 a3_2_42
+gate a3_1_42 or0    a3_2_40 a3_2_42
+gate a3_1_41 and2_1 a3_2_41 a3_2_43
+gate a3_1_43 or0    a3_2_41 a3_2_43
+gate a3_0_40 and2_1 a3_1_40 a3_1_41
+gate a3_0_41 or0    a3_1_40 a3_1_41
+gate a3_0_42 and2_0 a3_1_42 a3_1_43
+gate a3_0_43 or0    a3_1_42 a3_1_43
+gate a3_1_44 and2_2 a3_2_44 a3_2_46
+gate a3_1_46 or0    a3_2_44 a3_2_46
+gate a3_1_45 and2_2 a3_2_45 a3_2_47
+gate a3_1_47 or0    a3_2_45 a3_2_47
+gate a3_0_44 and2_2 a3_1_44 a3_1_45
+gate a3_0_45 or0    a3_1_44 a3_1_45
+gate a3_0_46 and2_1 a3_1_46 a3_1_47
+gate a3_0_47 or0    a3_1_46 a3_1_47
+gate a4_3_32 and2_0 a3_0_32 a3_0_47
+gate a4_3_47 or0    a3_0_32 a3_0_47
+gate a4_3_33 and2_0 a3_0_33 a3_0_46
+gate a4_3_46 or0    a3_0_33 a3_0_46
+gate a4_3_34 and2_0 a3_0_34 a3_0_45
+gate a4_3_45 or0    a3_0_34 a3_0_45
+gate a4_3_35 and2_0 a3_0_35 a3_0_44
+gate a4_3_44 or0    a3_0_35 a3_0_44
+gate a4_3_36 and2_0 a3_0_36 a3_0_43
+gate a4_3_43 or0    a3_0_36 a3_0_43
+gate a4_3_37 and2_0 a3_0_37 a3_0_42
+gate a4_3_42 or0    a3_0_37 a3_0_42
+gate a4_3_38 and2_0 a3_0_38 a3_0_41
+gate a4_3_41 or0    a3_0_38 a3_0_41
+gate a4_3_39 and2_0 a3_0_39 a3_0_40
+gate a4_3_40 or0    a3_0_39 a3_0_40
+gate a4_2_32 and2_0 a4_3_32 a4_3_36
+gate a4_2_36 or0    a4_3_32 a4_3_36
+gate a4_2_33 and2_0 a4_3_33 a4_3_37
+gate a4_2_37 or0    a4_3_33 a4_3_37
+gate a4_2_34 and2_0 a4_3_34 a4_3_38
+gate a4_2_38 or0    a4_3_34 a4_3_38
+gate a4_2_35 and2_0 a4_3_35 a4_3_39
+gate a4_2_39 or0    a4_3_35 a4_3_39
+gate a4_1_32 and2_0 a4_2_32 a4_2_34
+gate a4_1_34 or0    a4_2_32 a4_2_34
+gate a4_1_33 and2_0 a4_2_33 a4_2_35
+gate a4_1_35 or0    a4_2_33 a4_2_35
+gate a4_0_32 and2_0 a4_1_32 a4_1_33
+gate a4_0_33 or0    a4_1_32 a4_1_33
+gate a4_0_34 and2_2 a4_1_34 a4_1_35
+gate a4_0_35 or0    a4_1_34 a4_1_35
+gate a4_1_36 and2_0 a4_2_36 a4_2_38
+gate a4_1_38 or0    a4_2_36 a4_2_38
+gate a4_1_37 and2_0 a4_2_37 a4_2_39
+gate a4_1_39 or0    a4_2_37 a4_2_39
+gate a4_0_36 and2_0 a4_1_36 a4_1_37
+gate a4_0_37 or0    a4_1_36 a4_1_37
+gate a4_0_38 and2_2 a4_1_38 a4_1_39
+gate a4_0_39 or0    a4_1_38 a4_1_39
+gate a4_2_40 and2_0 a4_3_40 a4_3_44
+gate a4_2_44 or0    a4_3_40 a4_3_44
+gate a4_2_41 and2_0 a4_3_41 a4_3_45
+gate a4_2_45 or0    a4_3_41 a4_3_45
+gate a4_2_42 and2_0 a4_3_42 a4_3_46
+gate a4_2_46 or0    a4_3_42 a4_3_46
+gate a4_2_43 and2_0 a4_3_43 a4_3_47
+gate a4_2_47 or0    a4_3_43 a4_3_47
+gate a4_1_40 and2_0 a4_2_40 a4_2_42
+gate a4_1_42 or0    a4_2_40 a4_2_42
+gate a4_1_41 and2_0 a4_2_41 a4_2_43
+gate a4_1_43 or0    a4_2_41 a4_2_43
+gate a4_0_40 and2_0 a4_1_40 a4_1_41
+gate a4_0_41 or0    a4_1_40 a4_1_41
+gate a4_0_42 and2_2 a4_1_42 a4_1_43
+gate a4_0_43 or0    a4_1_42 a4_1_43
+gate a4_1_44 and2_0 a4_2_44 a4_2_46
+gate a4_1_46 or0    a4_2_44 a4_2_46
+gate a4_1_45 and2_0 a4_2_45 a4_2_47
+gate a4_1_47 or0    a4_2_45 a4_2_47
+gate a4_0_44 and2_0 a4_1_44 a4_1_45
+gate a4_0_45 or0    a4_1_44 a4_1_45
+gate a4_0_46 and2_2 a4_1_46 a4_1_47
+gate a4_0_47 or0    a4_1_46 a4_1_47
+gate a1_0_48 and2_0 a0_0_48 a0_0_49
+gate a1_0_49 or0    a0_0_48 a0_0_49
+gate a1_0_50 and2_0 a0_0_50 a0_0_51
+gate a1_0_51 or0    a0_0_50 a0_0_51
+gate a2_1_48 and2_0 a1_0_48 a1_0_51
+gate a2_1_51 or0    a1_0_48 a1_0_51
+gate a2_1_49 and2_0 a1_0_49 a1_0_50
+gate a2_1_50 or0    a1_0_49 a1_0_50
+gate a2_0_48 and2_0 a2_1_48 a2_1_49
+gate a2_0_49 or0    a2_1_48 a2_1_49
+gate a2_0_50 and2_0 a2_1_50 a2_1_51
+gate a2_0_51 or0    a2_1_50 a2_1_51
+gate a1_0_52 and2_0 a0_0_52 a0_0_53
+gate a1_0_53 or0    a0_0_52 a0_0_53
+gate a1_0_54 and2_0 a0_0_54 a0_0_55
+gate a1_0_55 or0    a0_0_54 a0_0_55
+gate a2_1_52 and2_0 a1_0_52 a1_0_55
+gate a2_1_55 or0    a1_0_52 a1_0_55
+gate a2_1_53 and2_0 a1_0_53 a1_0_54
+gate a2_1_54 or0    a1_0_53 a1_0_54
+gate a2_0_52 and2_0 a2_1_52 a2_1_53
+gate a2_0_53 or0    a2_1_52 a2_1_53
+gate a2_0_54 and2_0 a2_1_54 a2_1_55
+gate a2_0_55 or0    a2_1_54 a2_1_55
+gate a3_2_48 and2_0 a2_0_48 a2_0_55
+gate a3_2_55 or0    a2_0_48 a2_0_55
+gate a3_2_49 and2_0 a2_0_49 a2_0_54
+gate a3_2_54 or0    a2_0_49 a2_0_54
+gate a3_2_50 and2_0 a2_0_50 a2_0_53
+gate a3_2_53 or0    a2_0_50 a2_0_53
+gate a3_2_51 and2_0 a2_0_51 a2_0_52
+gate a3_2_52 or0    a2_0_51 a2_0_52
+gate a3_1_48 and2_0 a3_2_48 a3_2_50
+gate a3_1_50 or0    a3_2_48 a3_2_50
+gate a3_1_49 and2_0 a3_2_49 a3_2_51
+gate a3_1_51 or0    a3_2_49 a3_2_51
+gate a3_0_48 and2_0 a3_1_48 a3_1_49
+gate a3_0_49 or0    a3_1_48 a3_1_49
+gate a3_0_50 and2_2 a3_1_50 a3_1_51
+gate a3_0_51 or0    a3_1_50 a3_1_51
+gate a3_1_52 and2_1 a3_2_52 a3_2_54
+gate a3_1_54 or0    a3_2_52 a3_2_54
+gate a3_1_53 and2_1 a3_2_53 a3_2_55
+gate a3_1_55 or0    a3_2_53 a3_2_55
+gate a3_0_52 and2_1 a3_1_52 a3_1_53
+gate a3_0_53 or0    a3_1_52 a3_1_53
+gate a3_0_54 and2_0 a3_1_54 a3_1_55
+gate a3_0_55 or0    a3_1_54 a3_1_55
+gate a1_0_56 and2_0 a0_0_56 a0_0_57
+gate a1_0_57 or0    a0_0_56 a0_0_57
+gate a1_0_58 and2_0 a0_0_58 a0_0_59
+gate a1_0_59 or0    a0_0_58 a0_0_59
+gate a2_1_56 and2_0 a1_0_56 a1_0_59
+gate a2_1_59 or0    a1_0_56 a1_0_59
+gate a2_1_57 and2_0 a1_0_57 a1_0_58
+gate a2_1_58 or0    a1_0_57 a1_0_58
+gate a2_0_56 and2_0 a2_1_56 a2_1_57
+gate a2_0_57 or0    a2_1_56 a2_1_57
+gate a2_0_58 and2_0 a2_1_58 a2_1_59
+gate a2_0_59 or0    a2_1_58 a2_1_59
+gate a1_0_60 and2_0 a0_0_60 a0_0_61
+gate a1_0_61 or0    a0_0_60 a0_0_61
+gate a1_0_62 and2_0 a0_0_62 a0_0_63
+gate a1_0_63 or0    a0_0_62 a0_0_63
+gate a2_1_60 and2_0 a1_0_60 a1_0_63
+gate a2_1_63 or0    a1_0_60 a1_0_63
+gate a2_1_61 and2_0 a1_0_61 a1_0_62
+gate a2_1_62 or0    a1_0_61 a1_0_62
+gate a2_0_60 and2_0 a2_1_60 a2_1_61
+gate a2_0_61 or0    a2_1_60 a2_1_61
+gate a2_0_62 and2_0 a2_1_62 a2_1_63
+gate a2_0_63 or0    a2_1_62 a2_1_63
+gate a3_2_56 and2_2 a2_0_56 a2_0_63
+gate a3_2_63 or0    a2_0_56 a2_0_63
+gate a3_2_57 and2_2 a2_0_57 a2_0_62
+gate a3_2_62 or0    a2_0_57 a2_0_62
+gate a3_2_58 and2_2 a2_0_58 a2_0_61
+gate a3_2_61 or0    a2_0_58 a2_0_61
+gate a3_2_59 and2_2 a2_0_59 a2_0_60
+gate a3_2_60 or0    a2_0_59 a2_0_60
+gate a3_1_56 and2_2 a3_2_56 a3_2_58
+gate a3_1_58 or0    a3_2_56 a3_2_58
+gate a3_1_57 and2_2 a3_2_57 a3_2_59
+gate a3_1_59 or0    a3_2_57 a3_2_59
+gate a3_0_56 and2_2 a3_1_56 a3_1_57
+gate a3_0_57 or0    a3_1_56 a3_1_57
+gate a3_0_58 and2_1 a3_1_58 a3_1_59
+gate a3_0_59 or0    a3_1_58 a3_1_59
+gate a3_1_60 and2_0 a3_2_60 a3_2_62
+gate a3_1_62 or0    a3_2_60 a3_2_62
+gate a3_1_61 and2_0 a3_2_61 a3_2_63
+gate a3_1_63 or0    a3_2_61 a3_2_63
+gate a3_0_60 and2_0 a3_1_60 a3_1_61
+gate a3_0_61 or0    a3_1_60 a3_1_61
+gate a3_0_62 and2_2 a3_1_62 a3_1_63
+gate a3_0_63 or0    a3_1_62 a3_1_63
+gate a4_3_48 and2_0 a3_0_48 a3_0_63
+gate a4_3_63 or0    a3_0_48 a3_0_63
+gate a4_3_49 and2_0 a3_0_49 a3_0_62
+gate a4_3_62 or0    a3_0_49 a3_0_62
+gate a4_3_50 and2_0 a3_0_50 a3_0_61
+gate a4_3_61 or0    a3_0_50 a3_0_61
+gate a4_3_51 and2_0 a3_0_51 a3_0_60
+gate a4_3_60 or0    a3_0_51 a3_0_60
+gate a4_3_52 and2_0 a3_0_52 a3_0_59
+gate a4_3_59 or0    a3_0_52 a3_0_59
+gate a4_3_53 and2_0 a3_0_53 a3_0_58
+gate a4_3_58 or0    a3_0_53 a3_0_58
+gate a4_3_54 and2_0 a3_0_54 a3_0_57
+gate a4_3_57 or0    a3_0_54 a3_0_57
+gate a4_3_55 and2_0 a3_0_55 a3_0_56
+gate a4_3_56 or0    a3_0_55 a3_0_56
+gate a4_2_48 and2_0 a4_3_48 a4_3_52
+gate a4_2_52 or0    a4_3_48 a4_3_52
+gate a4_2_49 and2_0 a4_3_49 a4_3_53
+gate a4_2_53 or0    a4_3_49 a4_3_53
+gate a4_2_50 and2_0 a4_3_50 a4_3_54
+gate a4_2_54 or0    a4_3_50 a4_3_54
+gate a4_2_51 and2_0 a4_3_51 a4_3_55
+gate a4_2_55 or0    a4_3_51 a4_3_55
+gate a4_1_48 and2_0 a4_2_48 a4_2_50
+gate a4_1_50 or0    a4_2_48 a4_2_50
+gate a4_1_49 and2_0 a4_2_49 a4_2_51
+gate a4_1_51 or0    a4_2_49 a4_2_51
+gate a4_0_48 and2_0 a4_1_48 a4_1_49
+gate a4_0_49 or0    a4_1_48 a4_1_49
+gate a4_0_50 and2_2 a4_1_50 a4_1_51
+gate a4_0_51 or0    a4_1_50 a4_1_51
+gate a4_1_52 and2_0 a4_2_52 a4_2_54
+gate a4_1_54 or0    a4_2_52 a4_2_54
+gate a4_1_53 and2_0 a4_2_53 a4_2_55
+gate a4_1_55 or0    a4_2_53 a4_2_55
+gate a4_0_52 and2_0 a4_1_52 a4_1_53
+gate a4_0_53 or0    a4_1_52 a4_1_53
+gate a4_0_54 and2_2 a4_1_54 a4_1_55
+gate a4_0_55 or0    a4_1_54 a4_1_55
+gate a4_2_56 and2_0 a4_3_56 a4_3_60
+gate a4_2_60 or0    a4_3_56 a4_3_60
+gate a4_2_57 and2_0 a4_3_57 a4_3_61
+gate a4_2_61 or0    a4_3_57 a4_3_61
+gate a4_2_58 and2_0 a4_3_58 a4_3_62
+gate a4_2_62 or0    a4_3_58 a4_3_62
+gate a4_2_59 and2_0 a4_3_59 a4_3_63
+gate a4_2_63 or0    a4_3_59 a4_3_63
+gate a4_1_56 and2_0 a4_2_56 a4_2_58
+gate a4_1_58 or0    a4_2_56 a4_2_58
+gate a4_1_57 and2_0 a4_2_57 a4_2_59
+gate a4_1_59 or0    a4_2_57 a4_2_59
+gate a4_0_56 and2_0 a4_1_56 a4_1_57
+gate a4_0_57 or0    a4_1_56 a4_1_57
+gate a4_0_58 and2_2 a4_1_58 a4_1_59
+gate a4_0_59 or0    a4_1_58 a4_1_59
+gate a4_1_60 and2_0 a4_2_60 a4_2_62
+gate a4_1_62 or0    a4_2_60 a4_2_62
+gate a4_1_61 and2_0 a4_2_61 a4_2_63
+gate a4_1_63 or0    a4_2_61 a4_2_63
+gate a4_0_60 and2_0 a4_1_60 a4_1_61
+gate a4_0_61 or0    a4_1_60 a4_1_61
+gate a4_0_62 and2_2 a4_1_62 a4_1_63
+gate a4_0_63 or0    a4_1_62 a4_1_63
+gate a5_4_32 and2_2 a4_0_32 a4_0_63
+gate a5_4_63 or0    a4_0_32 a4_0_63
+gate a5_4_33 and2_2 a4_0_33 a4_0_62
+gate a5_4_62 or0    a4_0_33 a4_0_62
+gate a5_4_34 and2_2 a4_0_34 a4_0_61
+gate a5_4_61 or0    a4_0_34 a4_0_61
+gate a5_4_35 and2_2 a4_0_35 a4_0_60
+gate a5_4_60 or0    a4_0_35 a4_0_60
+gate a5_4_36 and2_2 a4_0_36 a4_0_59
+gate a5_4_59 or0    a4_0_36 a4_0_59
+gate a5_4_37 and2_2 a4_0_37 a4_0_58
+gate a5_4_58 or0    a4_0_37 a4_0_58
+gate a5_4_38 and2_2 a4_0_38 a4_0_57
+gate a5_4_57 or0    a4_0_38 a4_0_57
+gate a5_4_39 and2_2 a4_0_39 a4_0_56
+gate a5_4_56 or0    a4_0_39 a4_0_56
+gate a5_4_40 and2_2 a4_0_40 a4_0_55
+gate a5_4_55 or0    a4_0_40 a4_0_55
+gate a5_4_41 and2_2 a4_0_41 a4_0_54
+gate a5_4_54 or0    a4_0_41 a4_0_54
+gate a5_4_42 and2_2 a4_0_42 a4_0_53
+gate a5_4_53 or0    a4_0_42 a4_0_53
+gate a5_4_43 and2_2 a4_0_43 a4_0_52
+gate a5_4_52 or0    a4_0_43 a4_0_52
+gate a5_4_44 and2_2 a4_0_44 a4_0_51
+gate a5_4_51 or0    a4_0_44 a4_0_51
+gate a5_4_45 and2_2 a4_0_45 a4_0_50
+gate a5_4_50 or0    a4_0_45 a4_0_50
+gate a5_4_46 and2_2 a4_0_46 a4_0_49
+gate a5_4_49 or0    a4_0_46 a4_0_49
+gate a5_4_47 and2_2 a4_0_47 a4_0_48
+gate a5_4_48 or0    a4_0_47 a4_0_48
+gate a5_3_32 and2_2 a5_4_32 a5_4_40
+gate a5_3_40 or0    a5_4_32 a5_4_40
+gate a5_3_33 and2_2 a5_4_33 a5_4_41
+gate a5_3_41 or0    a5_4_33 a5_4_41
+gate a5_3_34 and2_2 a5_4_34 a5_4_42
+gate a5_3_42 or0    a5_4_34 a5_4_42
+gate a5_3_35 and2_2 a5_4_35 a5_4_43
+gate a5_3_43 or0    a5_4_35 a5_4_43
+gate a5_3_36 and2_2 a5_4_36 a5_4_44
+gate a5_3_44 or0    a5_4_36 a5_4_44
+gate a5_3_37 and2_2 a5_4_37 a5_4_45
+gate a5_3_45 or0    a5_4_37 a5_4_45
+gate a5_3_38 and2_2 a5_4_38 a5_4_46
+gate a5_3_46 or0    a5_4_38 a5_4_46
+gate a5_3_39 and2_2 a5_4_39 a5_4_47
+gate a5_3_47 or0    a5_4_39 a5_4_47
+gate a5_2_32 and2_2 a5_3_32 a5_3_36
+gate a5_2_36 or0    a5_3_32 a5_3_36
+gate a5_2_33 and2_2 a5_3_33 a5_3_37
+gate a5_2_37 or0    a5_3_33 a5_3_37
+gate a5_2_34 and2_2 a5_3_34 a5_3_38
+gate a5_2_38 or0    a5_3_34 a5_3_38
+gate a5_2_35 and2_2 a5_3_35 a5_3_39
+gate a5_2_39 or0    a5_3_35 a5_3_39
+gate a5_1_32 and2_2 a5_2_32 a5_2_34
+gate a5_1_34 or0    a5_2_32 a5_2_34
+gate a5_1_33 and2_2 a5_2_33 a5_2_35
+gate a5_1_35 or0    a5_2_33 a5_2_35
+gate a5_0_32 and2_2 a5_1_32 a5_1_33
+gate a5_0_33 or0    a5_1_32 a5_1_33
+gate a5_0_34 and2_4 a5_1_34 a5_1_35
+gate a5_0_35 or0    a5_1_34 a5_1_35
+gate a5_1_36 and2_1 a5_2_36 a5_2_38
+gate a5_1_38 or0    a5_2_36 a5_2_38
+gate a5_1_37 and2_1 a5_2_37 a5_2_39
+gate a5_1_39 or0    a5_2_37 a5_2_39
+gate a5_0_36 and2_1 a5_1_36 a5_1_37
+gate a5_0_37 or0    a5_1_36 a5_1_37
+gate a5_0_38 and2_3 a5_1_38 a5_1_39
+gate a5_0_39 or0    a5_1_38 a5_1_39
+gate a5_2_40 and2_0 a5_3_40 a5_3_44
+gate a5_2_44 or0    a5_3_40 a5_3_44
+gate a5_2_41 and2_0 a5_3_41 a5_3_45
+gate a5_2_45 or0    a5_3_41 a5_3_45
+gate a5_2_42 and2_0 a5_3_42 a5_3_46
+gate a5_2_46 or0    a5_3_42 a5_3_46
+gate a5_2_43 and2_0 a5_3_43 a5_3_47
+gate a5_2_47 or0    a5_3_43 a5_3_47
+gate a5_1_40 and2_0 a5_2_40 a5_2_42
+gate a5_1_42 or0    a5_2_40 a5_2_42
+gate a5_1_41 and2_0 a5_2_41 a5_2_43
+gate a5_1_43 or0    a5_2_41 a5_2_43
+gate a5_0_40 and2_0 a5_1_40 a5_1_41
+gate a5_0_41 or0    a5_1_40 a5_1_41
+gate a5_0_42 and2_2 a5_1_42 a5_1_43
+gate a5_0_43 or0    a5_1_42 a5_1_43
+gate a5_1_44 and2_4 a5_2_44 a5_2_46
+gate a5_1_46 or0    a5_2_44 a5_2_46
+gate a5_1_45 and2_4 a5_2_45 a5_2_47
+gate a5_1_47 or0    a5_2_45 a5_2_47
+gate a5_0_44 and2_4 a5_1_44 a5_1_45
+gate a5_0_45 or0    a5_1_44 a5_1_45
+gate a5_0_46 and2_1 a5_1_46 a5_1_47
+gate a5_0_47 or0    a5_1_46 a5_1_47
+gate a5_3_48 and2_3 a5_4_48 a5_4_56
+gate a5_3_56 or0    a5_4_48 a5_4_56
+gate a5_3_49 and2_3 a5_4_49 a5_4_57
+gate a5_3_57 or0    a5_4_49 a5_4_57
+gate a5_3_50 and2_3 a5_4_50 a5_4_58
+gate a5_3_58 or0    a5_4_50 a5_4_58
+gate a5_3_51 and2_3 a5_4_51 a5_4_59
+gate a5_3_59 or0    a5_4_51 a5_4_59
+gate a5_3_52 and2_3 a5_4_52 a5_4_60
+gate a5_3_60 or0    a5_4_52 a5_4_60
+gate a5_3_53 and2_3 a5_4_53 a5_4_61
+gate a5_3_61 or0    a5_4_53 a5_4_61
+gate a5_3_54 and2_3 a5_4_54 a5_4_62
+gate a5_3_62 or0    a5_4_54 a5_4_62
+gate a5_3_55 and2_3 a5_4_55 a5_4_63
+gate a5_3_63 or0    a5_4_55 a5_4_63
+gate a5_2_48 and2_3 a5_3_48 a5_3_52
+gate a5_2_52 or0    a5_3_48 a5_3_52
+gate a5_2_49 and2_3 a5_3_49 a5_3_53
+gate a5_2_53 or0    a5_3_49 a5_3_53
+gate a5_2_50 and2_3 a5_3_50 a5_3_54
+gate a5_2_54 or0    a5_3_50 a5_3_54
+gate a5_2_51 and2_3 a5_3_51 a5_3_55
+gate a5_2_55 or0    a5_3_51 a5_3_55
+gate a5_1_48 and2_3 a5_2_48 a5_2_50
+gate a5_1_50 or0    a5_2_48 a5_2_50
+gate a5_1_49 and2_3 a5_2_49 a5_2_51
+gate a5_1_51 or0    a5_2_49 a5_2_51
+gate a5_0_48 and2_3 a5_1_48 a5_1_49
+gate a5_0_49 or0    a5_1_48 a5_1_49
+gate a5_0_50 and2_0 a5_1_50 a5_1_51
+gate a5_0_51 or0    a5_1_50 a5_1_51
+gate a5_1_52 and2_2 a5_2_52 a5_2_54
+gate a5_1_54 or0    a5_2_52 a5_2_54
+gate a5_1_53 and2_2 a5_2_53 a5_2_55
+gate a5_1_55 or0    a5_2_53 a5_2_55
+gate a5_0_52 and2_2 a5_1_52 a5_1_53
+gate a5_0_53 or0    a5_1_52 a5_1_53
+gate a5_0_54 and2_4 a5_1_54 a5_1_55
+gate a5_0_55 or0    a5_1_54 a5_1_55
+gate a5_2_56 and2_1 a5_3_56 a5_3_60
+gate a5_2_60 or0    a5_3_56 a5_3_60
+gate a5_2_57 and2_1 a5_3_57 a5_3_61
+gate a5_2_61 or0    a5_3_57 a5_3_61
+gate a5_2_58 and2_1 a5_3_58 a5_3_62
+gate a5_2_62 or0    a5_3_58 a5_3_62
+gate a5_2_59 and2_1 a5_3_59 a5_3_63
+gate a5_2_63 or0    a5_3_59 a5_3_63
+gate a5_1_56 and2_1 a5_2_56 a5_2_58
+gate a5_1_58 or0    a5_2_56 a5_2_58
+gate a5_1_57 and2_1 a5_2_57 a5_2_59
+gate a5_1_59 or0    a5_2_57 a5_2_59
+gate a5_0_56 and2_1 a5_1_56 a5_1_57
+gate a5_0_57 or0    a5_1_56 a5_1_57
+gate a5_0_58 and2_3 a5_1_58 a5_1_59
+gate a5_0_59 or0    a5_1_58 a5_1_59
+gate a5_1_60 and2_0 a5_2_60 a5_2_62
+gate a5_1_62 or0    a5_2_60 a5_2_62
+gate a5_1_61 and2_0 a5_2_61 a5_2_63
+gate a5_1_63 or0    a5_2_61 a5_2_63
+gate a5_0_60 and2_0 a5_1_60 a5_1_61
+gate a5_0_61 or0    a5_1_60 a5_1_61
+gate a5_0_62 and2_2 a5_1_62 a5_1_63
+gate a5_0_63 or0    a5_1_62 a5_1_63
+gate a6_5_00 and2_0 a5_0_00 a5_0_63
+gate a6_5_63 or0    a5_0_00 a5_0_63
+gate a6_5_01 and2_0 a5_0_01 a5_0_62
+gate a6_5_62 or0    a5_0_01 a5_0_62
+gate a6_5_02 and2_0 a5_0_02 a5_0_61
+gate a6_5_61 or0    a5_0_02 a5_0_61
+gate a6_5_03 and2_0 a5_0_03 a5_0_60
+gate a6_5_60 or0    a5_0_03 a5_0_60
+gate a6_5_04 and2_0 a5_0_04 a5_0_59
+gate a6_5_59 or0    a5_0_04 a5_0_59
+gate a6_5_05 and2_0 a5_0_05 a5_0_58
+gate a6_5_58 or0    a5_0_05 a5_0_58
+gate a6_5_06 and2_0 a5_0_06 a5_0_57
+gate a6_5_57 or0    a5_0_06 a5_0_57
+gate a6_5_07 and2_0 a5_0_07 a5_0_56
+gate a6_5_56 or0    a5_0_07 a5_0_56
+gate a6_5_08 and2_0 a5_0_08 a5_0_55
+gate a6_5_55 or0    a5_0_08 a5_0_55
+gate a6_5_09 and2_0 a5_0_09 a5_0_54
+gate a6_5_54 or0    a5_0_09 a5_0_54
+gate a6_5_10 and2_0 a5_0_10 a5_0_53
+gate a6_5_53 or0    a5_0_10 a5_0_53
+gate a6_5_11 and2_0 a5_0_11 a5_0_52
+gate a6_5_52 or0    a5_0_11 a5_0_52
+gate a6_5_12 and2_0 a5_0_12 a5_0_51
+gate a6_5_51 or0    a5_0_12 a5_0_51
+gate a6_5_13 and2_0 a5_0_13 a5_0_50
+gate a6_5_50 or0    a5_0_13 a5_0_50
+gate a6_5_14 and2_0 a5_0_14 a5_0_49
+gate a6_5_49 or0    a5_0_14 a5_0_49
+gate a6_5_15 and2_0 a5_0_15 a5_0_48
+gate a6_5_48 or0    a5_0_15 a5_0_48
+gate a6_5_16 and2_0 a5_0_16 a5_0_47
+gate a6_5_47 or0    a5_0_16 a5_0_47
+gate a6_5_17 and2_0 a5_0_17 a5_0_46
+gate a6_5_46 or0    a5_0_17 a5_0_46
+gate a6_5_18 and2_0 a5_0_18 a5_0_45
+gate a6_5_45 or0    a5_0_18 a5_0_45
+gate a6_5_19 and2_0 a5_0_19 a5_0_44
+gate a6_5_44 or0    a5_0_19 a5_0_44
+gate a6_5_20 and2_0 a5_0_20 a5_0_43
+gate a6_5_43 or0    a5_0_20 a5_0_43
+gate a6_5_21 and2_0 a5_0_21 a5_0_42
+gate a6_5_42 or0    a5_0_21 a5_0_42
+gate a6_5_22 and2_0 a5_0_22 a5_0_41
+gate a6_5_41 or0    a5_0_22 a5_0_41
+gate a6_5_23 and2_0 a5_0_23 a5_0_40
+gate a6_5_40 or0    a5_0_23 a5_0_40
+gate a6_5_24 and2_0 a5_0_24 a5_0_39
+gate a6_5_39 or0    a5_0_24 a5_0_39
+gate a6_5_25 and2_0 a5_0_25 a5_0_38
+gate a6_5_38 or0    a5_0_25 a5_0_38
+gate a6_5_26 and2_0 a5_0_26 a5_0_37
+gate a6_5_37 or0    a5_0_26 a5_0_37
+gate a6_5_27 and2_0 a5_0_27 a5_0_36
+gate a6_5_36 or0    a5_0_27 a5_0_36
+gate a6_5_28 and2_0 a5_0_28 a5_0_35
+gate a6_5_35 or0    a5_0_28 a5_0_35
+gate a6_5_29 and2_0 a5_0_29 a5_0_34
+gate a6_5_34 or0    a5_0_29 a5_0_34
+gate a6_5_30 and2_0 a5_0_30 a5_0_33
+gate a6_5_33 or0    a5_0_30 a5_0_33
+gate a6_5_31 and2_0 a5_0_31 a5_0_32
+gate a6_5_32 or0    a5_0_31 a5_0_32
+gate a6_4_00 and2_0 a6_5_00 a6_5_16
+gate a6_4_16 or0    a6_5_00 a6_5_16
+gate a6_4_01 and2_0 a6_5_01 a6_5_17
+gate a6_4_17 or0    a6_5_01 a6_5_17
+gate a6_4_02 and2_0 a6_5_02 a6_5_18
+gate a6_4_18 or0    a6_5_02 a6_5_18
+gate a6_4_03 and2_0 a6_5_03 a6_5_19
+gate a6_4_19 or0    a6_5_03 a6_5_19
+gate a6_4_04 and2_0 a6_5_04 a6_5_20
+gate a6_4_20 or0    a6_5_04 a6_5_20
+gate a6_4_05 and2_0 a6_5_05 a6_5_21
+gate a6_4_21 or0    a6_5_05 a6_5_21
+gate a6_4_06 and2_0 a6_5_06 a6_5_22
+gate a6_4_22 or0    a6_5_06 a6_5_22
+gate a6_4_07 and2_0 a6_5_07 a6_5_23
+gate a6_4_23 or0    a6_5_07 a6_5_23
+gate a6_4_08 and2_0 a6_5_08 a6_5_24
+gate a6_4_24 or0    a6_5_08 a6_5_24
+gate a6_4_09 and2_0 a6_5_09 a6_5_25
+gate a6_4_25 or0    a6_5_09 a6_5_25
+gate a6_4_10 and2_0 a6_5_10 a6_5_26
+gate a6_4_26 or0    a6_5_10 a6_5_26
+gate a6_4_11 and2_0 a6_5_11 a6_5_27
+gate a6_4_27 or0    a6_5_11 a6_5_27
+gate a6_4_12 and2_0 a6_5_12 a6_5_28
+gate a6_4_28 or0    a6_5_12 a6_5_28
+gate a6_4_13 and2_0 a6_5_13 a6_5_29
+gate a6_4_29 or0    a6_5_13 a6_5_29
+gate a6_4_14 and2_0 a6_5_14 a6_5_30
+gate a6_4_30 or0    a6_5_14 a6_5_30
+gate a6_4_15 and2_0 a6_5_15 a6_5_31
+gate a6_4_31 or0    a6_5_15 a6_5_31
+gate a6_3_00 and2_0 a6_4_00 a6_4_08
+gate a6_3_08 or0    a6_4_00 a6_4_08
+gate a6_3_01 and2_0 a6_4_01 a6_4_09
+gate a6_3_09 or0    a6_4_01 a6_4_09
+gate a6_3_02 and2_0 a6_4_02 a6_4_10
+gate a6_3_10 or0    a6_4_02 a6_4_10
+gate a6_3_03 and2_0 a6_4_03 a6_4_11
+gate a6_3_11 or0    a6_4_03 a6_4_11
+gate a6_3_04 and2_0 a6_4_04 a6_4_12
+gate a6_3_12 or0    a6_4_04 a6_4_12
+gate a6_3_05 and2_0 a6_4_05 a6_4_13
+gate a6_3_13 or0    a6_4_05 a6_4_13
+gate a6_3_06 and2_0 a6_4_06 a6_4_14
+gate a6_3_14 or0    a6_4_06 a6_4_14
+gate a6_3_07 and2_0 a6_4_07 a6_4_15
+gate a6_3_15 or0    a6_4_07 a6_4_15
+gate a6_2_00 and2_0 a6_3_00 a6_3_04
+gate a6_2_04 or0    a6_3_00 a6_3_04
+gate a6_2_01 and2_0 a6_3_01 a6_3_05
+gate a6_2_05 or0    a6_3_01 a6_3_05
+gate a6_2_02 and2_0 a6_3_02 a6_3_06
+gate a6_2_06 or0    a6_3_02 a6_3_06
+gate a6_2_03 and2_0 a6_3_03 a6_3_07
+gate a6_2_07 or0    a6_3_03 a6_3_07
+gate a6_1_00 and2_0 a6_2_00 a6_2_02
+gate a6_1_02 or0    a6_2_00 a6_2_02
+gate a6_1_01 and2_0 a6_2_01 a6_2_03
+gate a6_1_03 or0    a6_2_01 a6_2_03
+gate a6_0_00 and2_0 a6_1_00 a6_1_01
+gate a6_0_01 or0    a6_1_00 a6_1_01
+gate a6_0_02 and2_2 a6_1_02 a6_1_03
+gate a6_0_03 or0    a6_1_02 a6_1_03
+gate a6_1_04 and2_4 a6_2_04 a6_2_06
+gate a6_1_06 or0    a6_2_04 a6_2_06
+gate a6_1_05 and2_4 a6_2_05 a6_2_07
+gate a6_1_07 or0    a6_2_05 a6_2_07
+gate a6_0_04 and2_4 a6_1_04 a6_1_05
+gate a6_0_05 or0    a6_1_04 a6_1_05
+gate a6_0_06 and2_0 a6_1_06 a6_1_07
+gate a6_0_07 or0    a6_1_06 a6_1_07
+gate a6_2_08 and2_2 a6_3_08 a6_3_12
+gate a6_2_12 or0    a6_3_08 a6_3_12
+gate a6_2_09 and2_2 a6_3_09 a6_3_13
+gate a6_2_13 or0    a6_3_09 a6_3_13
+gate a6_2_10 and2_2 a6_3_10 a6_3_14
+gate a6_2_14 or0    a6_3_10 a6_3_14
+gate a6_2_11 and2_2 a6_3_11 a6_3_15
+gate a6_2_15 or0    a6_3_11 a6_3_15
+gate a6_1_08 and2_2 a6_2_08 a6_2_10
+gate a6_1_10 or0    a6_2_08 a6_2_10
+gate a6_1_09 and2_2 a6_2_09 a6_2_11
+gate a6_1_11 or0    a6_2_09 a6_2_11
+gate a6_0_08 and2_2 a6_1_08 a6_1_09
+gate a6_0_09 or0    a6_1_08 a6_1_09
+gate a6_0_10 and2_4 a6_1_10 a6_1_11
+gate a6_0_11 or0    a6_1_10 a6_1_11
+gate a6_1_12 and2_0 a6_2_12 a6_2_14
+gate a6_1_14 or0    a6_2_12 a6_2_14
+gate a6_1_13 and2_0 a6_2_13 a6_2_15
+gate a6_1_15 or0    a6_2_13 a6_2_15
+gate a6_0_12 and2_0 a6_1_12 a6_1_13
+gate a6_0_13 or0    a6_1_12 a6_1_13
+gate a6_0_14 and2_2 a6_1_14 a6_1_15
+gate a6_0_15 or0    a6_1_14 a6_1_15
+gate a6_3_16 and2_4 a6_4_16 a6_4_24
+gate a6_3_24 or0    a6_4_16 a6_4_24
+gate a6_3_17 and2_4 a6_4_17 a6_4_25
+gate a6_3_25 or0    a6_4_17 a6_4_25
+gate a6_3_18 and2_4 a6_4_18 a6_4_26
+gate a6_3_26 or0    a6_4_18 a6_4_26
+gate a6_3_19 and2_4 a6_4_19 a6_4_27
+gate a6_3_27 or0    a6_4_19 a6_4_27
+gate a6_3_20 and2_4 a6_4_20 a6_4_28
+gate a6_3_28 or0    a6_4_20 a6_4_28
+gate a6_3_21 and2_4 a6_4_21 a6_4_29
+gate a6_3_29 or0    a6_4_21 a6_4_29
+gate a6_3_22 and2_4 a6_4_22 a6_4_30
+gate a6_3_30 or0    a6_4_22 a6_4_30
+gate a6_3_23 and2_4 a6_4_23 a6_4_31
+gate a6_3_31 or0    a6_4_23 a6_4_31
+gate a6_2_16 and2_4 a6_3_16 a6_3_20
+gate a6_2_20 or0    a6_3_16 a6_3_20
+gate a6_2_17 and2_4 a6_3_17 a6_3_21
+gate a6_2_21 or0    a6_3_17 a6_3_21
+gate a6_2_18 and2_4 a6_3_18 a6_3_22
+gate a6_2_22 or0    a6_3_18 a6_3_22
+gate a6_2_19 and2_4 a6_3_19 a6_3_23
+gate a6_2_23 or0    a6_3_19 a6_3_23
+gate a6_1_16 and2_4 a6_2_16 a6_2_18
+gate a6_1_18 or0    a6_2_16 a6_2_18
+gate a6_1_17 and2_4 a6_2_17 a6_2_19
+gate a6_1_19 or0    a6_2_17 a6_2_19
+gate a6_0_16 and2_4 a6_1_16 a6_1_17
+gate a6_0_17 or0    a6_1_16 a6_1_17
+gate a6_0_18 and2_0 a6_1_18 a6_1_19
+gate a6_0_19 or0    a6_1_18 a6_1_19
+gate a6_1_20 and2_2 a6_2_20 a6_2_22
+gate a6_1_22 or0    a6_2_20 a6_2_22
+gate a6_1_21 and2_2 a6_2_21 a6_2_23
+gate a6_1_23 or0    a6_2_21 a6_2_23
+gate a6_0_20 and2_2 a6_1_20 a6_1_21
+gate a6_0_21 or0    a6_1_20 a6_1_21
+gate a6_0_22 and2_4 a6_1_22 a6_1_23
+gate a6_0_23 or0    a6_1_22 a6_1_23
+gate a6_2_24 and2_0 a6_3_24 a6_3_28
+gate a6_2_28 or0    a6_3_24 a6_3_28
+gate a6_2_25 and2_0 a6_3_25 a6_3_29
+gate a6_2_29 or0    a6_3_25 a6_3_29
+gate a6_2_26 and2_0 a6_3_26 a6_3_30
+gate a6_2_30 or0    a6_3_26 a6_3_30
+gate a6_2_27 and2_0 a6_3_27 a6_3_31
+gate a6_2_31 or0    a6_3_27 a6_3_31
+gate a6_1_24 and2_0 a6_2_24 a6_2_26
+gate a6_1_26 or0    a6_2_24 a6_2_26
+gate a6_1_25 and2_0 a6_2_25 a6_2_27
+gate a6_1_27 or0    a6_2_25 a6_2_27
+gate a6_0_24 and2_0 a6_1_24 a6_1_25
+gate a6_0_25 or0    a6_1_24 a6_1_25
+gate a6_0_26 and2_2 a6_1_26 a6_1_27
+gate a6_0_27 or0    a6_1_26 a6_1_27
+gate a6_1_28 and2_4 a6_2_28 a6_2_30
+gate a6_1_30 or0    a6_2_28 a6_2_30
+gate a6_1_29 and2_4 a6_2_29 a6_2_31
+gate a6_1_31 or0    a6_2_29 a6_2_31
+gate a6_0_28 and2_4 a6_1_28 a6_1_29
+gate a6_0_29 or0    a6_1_28 a6_1_29
+gate a6_0_30 and2_0 a6_1_30 a6_1_31
+gate a6_0_31 or0    a6_1_30 a6_1_31
+gate a6_4_32 and2_2 a6_5_32 a6_5_48
+gate a6_4_48 or0    a6_5_32 a6_5_48
+gate a6_4_33 and2_2 a6_5_33 a6_5_49
+gate a6_4_49 or0    a6_5_33 a6_5_49
+gate a6_4_34 and2_2 a6_5_34 a6_5_50
+gate a6_4_50 or0    a6_5_34 a6_5_50
+gate a6_4_35 and2_2 a6_5_35 a6_5_51
+gate a6_4_51 or0    a6_5_35 a6_5_51
+gate a6_4_36 and2_2 a6_5_36 a6_5_52
+gate a6_4_52 or0    a6_5_36 a6_5_52
+gate a6_4_37 and2_2 a6_5_37 a6_5_53
+gate a6_4_53 or0    a6_5_37 a6_5_53
+gate a6_4_38 and2_2 a6_5_38 a6_5_54
+gate a6_4_54 or0    a6_5_38 a6_5_54
+gate a6_4_39 and2_2 a6_5_39 a6_5_55
+gate a6_4_55 or0    a6_5_39 a6_5_55
+gate a6_4_40 and2_2 a6_5_40 a6_5_56
+gate a6_4_56 or0    a6_5_40 a6_5_56
+gate a6_4_41 and2_2 a6_5_41 a6_5_57
+gate a6_4_57 or0    a6_5_41 a6_5_57
+gate a6_4_42 and2_2 a6_5_42 a6_5_58
+gate a6_4_58 or0    a6_5_42 a6_5_58
+gate a6_4_43 and2_2 a6_5_43 a6_5_59
+gate a6_4_59 or0    a6_5_43 a6_5_59
+gate a6_4_44 and2_2 a6_5_44 a6_5_60
+gate a6_4_60 or0    a6_5_44 a6_5_60
+gate a6_4_45 and2_2 a6_5_45 a6_5_61
+gate a6_4_61 or0    a6_5_45 a6_5_61
+gate a6_4_46 and2_2 a6_5_46 a6_5_62
+gate a6_4_62 or0    a6_5_46 a6_5_62
+gate a6_4_47 and2_2 a6_5_47 a6_5_63
+gate a6_4_63 or0    a6_5_47 a6_5_63
+gate a6_3_32 and2_2 a6_4_32 a6_4_40
+gate a6_3_40 or0    a6_4_32 a6_4_40
+gate a6_3_33 and2_2 a6_4_33 a6_4_41
+gate a6_3_41 or0    a6_4_33 a6_4_41
+gate a6_3_34 and2_2 a6_4_34 a6_4_42
+gate a6_3_42 or0    a6_4_34 a6_4_42
+gate a6_3_35 and2_2 a6_4_35 a6_4_43
+gate a6_3_43 or0    a6_4_35 a6_4_43
+gate a6_3_36 and2_2 a6_4_36 a6_4_44
+gate a6_3_44 or0    a6_4_36 a6_4_44
+gate a6_3_37 and2_2 a6_4_37 a6_4_45
+gate a6_3_45 or0    a6_4_37 a6_4_45
+gate a6_3_38 and2_2 a6_4_38 a6_4_46
+gate a6_3_46 or0    a6_4_38 a6_4_46
+gate a6_3_39 and2_2 a6_4_39 a6_4_47
+gate a6_3_47 or0    a6_4_39 a6_4_47
+gate a6_2_32 and2_2 a6_3_32 a6_3_36
+gate a6_2_36 or0    a6_3_32 a6_3_36
+gate a6_2_33 and2_2 a6_3_33 a6_3_37
+gate a6_2_37 or0    a6_3_33 a6_3_37
+gate a6_2_34 and2_2 a6_3_34 a6_3_38
+gate a6_2_38 or0    a6_3_34 a6_3_38
+gate a6_2_35 and2_2 a6_3_35 a6_3_39
+gate a6_2_39 or0    a6_3_35 a6_3_39
+gate a6_1_32 and2_2 a6_2_32 a6_2_34
+gate a6_1_34 or0    a6_2_32 a6_2_34
+gate a6_1_33 and2_2 a6_2_33 a6_2_35
+gate a6_1_35 or0    a6_2_33 a6_2_35
+gate a6_0_32 and2_2 a6_1_32 a6_1_33
+gate a6_0_33 or0    a6_1_32 a6_1_33
+gate a6_0_34 and2_4 a6_1_34 a6_1_35
+gate a6_0_35 or0    a6_1_34 a6_1_35
+gate a6_1_36 and2_0 a6_2_36 a6_2_38
+gate a6_1_38 or0    a6_2_36 a6_2_38
+gate a6_1_37 and2_0 a6_2_37 a6_2_39
+gate a6_1_39 or0    a6_2_37 a6_2_39
+gate a6_0_36 and2_0 a6_1_36 a6_1_37
+gate a6_0_37 or0    a6_1_36 a6_1_37
+gate a6_0_38 and2_2 a6_1_38 a6_1_39
+gate a6_0_39 or0    a6_1_38 a6_1_39
+gate a6_2_40 and2_4 a6_3_40 a6_3_44
+gate a6_2_44 or0    a6_3_40 a6_3_44
+gate a6_2_41 and2_4 a6_3_41 a6_3_45
+gate a6_2_45 or0    a6_3_41 a6_3_45
+gate a6_2_42 and2_4 a6_3_42 a6_3_46
+gate a6_2_46 or0    a6_3_42 a6_3_46
+gate a6_2_43 and2_4 a6_3_43 a6_3_47
+gate a6_2_47 or0    a6_3_43 a6_3_47
+gate a6_1_40 and2_4 a6_2_40 a6_2_42
+gate a6_1_42 or0    a6_2_40 a6_2_42
+gate a6_1_41 and2_4 a6_2_41 a6_2_43
+gate a6_1_43 or0    a6_2_41 a6_2_43
+gate a6_0_40 and2_4 a6_1_40 a6_1_41
+gate a6_0_41 or0    a6_1_40 a6_1_41
+gate a6_0_42 and2_0 a6_1_42 a6_1_43
+gate a6_0_43 or0    a6_1_42 a6_1_43
+gate a6_1_44 and2_2 a6_2_44 a6_2_46
+gate a6_1_46 or0    a6_2_44 a6_2_46
+gate a6_1_45 and2_2 a6_2_45 a6_2_47
+gate a6_1_47 or0    a6_2_45 a6_2_47
+gate a6_0_44 and2_2 a6_1_44 a6_1_45
+gate a6_0_45 or0    a6_1_44 a6_1_45
+gate a6_0_46 and2_4 a6_1_46 a6_1_47
+gate a6_0_47 or0    a6_1_46 a6_1_47
+gate a6_3_48 and2_0 a6_4_48 a6_4_56
+gate a6_3_56 or0    a6_4_48 a6_4_56
+gate a6_3_49 and2_0 a6_4_49 a6_4_57
+gate a6_3_57 or0    a6_4_49 a6_4_57
+gate a6_3_50 and2_0 a6_4_50 a6_4_58
+gate a6_3_58 or0    a6_4_50 a6_4_58
+gate a6_3_51 and2_0 a6_4_51 a6_4_59
+gate a6_3_59 or0    a6_4_51 a6_4_59
+gate a6_3_52 and2_0 a6_4_52 a6_4_60
+gate a6_3_60 or0    a6_4_52 a6_4_60
+gate a6_3_53 and2_0 a6_4_53 a6_4_61
+gate a6_3_61 or0    a6_4_53 a6_4_61
+gate a6_3_54 and2_0 a6_4_54 a6_4_62
+gate a6_3_62 or0    a6_4_54 a6_4_62
+gate a6_3_55 and2_0 a6_4_55 a6_4_63
+gate a6_3_63 or0    a6_4_55 a6_4_63
+gate a6_2_48 and2_0 a6_3_48 a6_3_52
+gate a6_2_52 or0    a6_3_48 a6_3_52
+gate a6_2_49 and2_0 a6_3_49 a6_3_53
+gate a6_2_53 or0    a6_3_49 a6_3_53
+gate a6_2_50 and2_0 a6_3_50 a6_3_54
+gate a6_2_54 or0    a6_3_50 a6_3_54
+gate a6_2_51 and2_0 a6_3_51 a6_3_55
+gate a6_2_55 or0    a6_3_51 a6_3_55
+gate a6_1_48 and2_0 a6_2_48 a6_2_50
+gate a6_1_50 or0    a6_2_48 a6_2_50
+gate a6_1_49 and2_0 a6_2_49 a6_2_51
+gate a6_1_51 or0    a6_2_49 a6_2_51
+gate a6_0_48 and2_0 a6_1_48 a6_1_49
+gate a6_0_49 or0    a6_1_48 a6_1_49
+gate a6_0_50 and2_2 a6_1_50 a6_1_51
+gate a6_0_51 or0    a6_1_50 a6_1_51
+gate a6_1_52 and2_4 a6_2_52 a6_2_54
+gate a6_1_54 or0    a6_2_52 a6_2_54
+gate a6_1_53 and2_4 a6_2_53 a6_2_55
+gate a6_1_55 or0    a6_2_53 a6_2_55
+gate a6_0_52 and2_4 a6_1_52 a6_1_53
+gate a6_0_53 or0    a6_1_52 a6_1_53
+gate a6_0_54 and2_0 a6_1_54 a6_1_55
+gate a6_0_55 or0    a6_1_54 a6_1_55
+gate a6_2_56 and2_2 a6_3_56 a6_3_60
+gate a6_2_60 or0    a6_3_56 a6_3_60
+gate a6_2_57 and2_2 a6_3_57 a6_3_61
+gate a6_2_61 or0    a6_3_57 a6_3_61
+gate a6_2_58 and2_2 a6_3_58 a6_3_62
+gate a6_2_62 or0    a6_3_58 a6_3_62
+gate a6_2_59 and2_2 a6_3_59 a6_3_63
+gate a6_2_63 or0    a6_3_59 a6_3_63
+gate a6_1_56 and2_2 a6_2_56 a6_2_58
+gate a6_1_58 or0    a6_2_56 a6_2_58
+gate a6_1_57 and2_2 a6_2_57 a6_2_59
+gate a6_1_59 or0    a6_2_57 a6_2_59
+gate a6_0_56 and2_2 a6_1_56 a6_1_57
+gate a6_0_57 or0    a6_1_56 a6_1_57
+gate a6_0_58 and2_4 a6_1_58 a6_1_59
+gate a6_0_59 or0    a6_1_58 a6_1_59
+gate a6_1_60 and2_0 a6_2_60 a6_2_62
+gate a6_1_62 or0    a6_2_60 a6_2_62
+gate a6_1_61 and2_0 a6_2_61 a6_2_63
+gate a6_1_63 or0    a6_2_61 a6_2_63
+gate a6_0_60 and2_0 a6_1_60 a6_1_61
+gate a6_0_61 or0    a6_1_60 a6_1_61
+gate a6_0_62 and2_2 a6_1_62 a6_1_63
+gate a6_0_63 or0    a6_1_62 a6_1_63
+gate a1_0_64 and2_0 a0_0_64 a0_0_65
+gate a1_0_65 or0    a0_0_64 a0_0_65
+gate a1_0_66 and2_0 a0_0_66 a0_0_67
+gate a1_0_67 or0    a0_0_66 a0_0_67
+gate a2_1_64 and2_0 a1_0_64 a1_0_67
+gate a2_1_67 or0    a1_0_64 a1_0_67
+gate a2_1_65 and2_0 a1_0_65 a1_0_66
+gate a2_1_66 or0    a1_0_65 a1_0_66
+gate a2_0_64 and2_0 a2_1_64 a2_1_65
+gate a2_0_65 or0    a2_1_64 a2_1_65
+gate a2_0_66 and2_0 a2_1_66 a2_1_67
+gate a2_0_67 or0    a2_1_66 a2_1_67
+gate a1_0_68 and2_0 a0_0_68 a0_0_69
+gate a1_0_69 or0    a0_0_68 a0_0_69
+gate a1_0_70 and2_0 a0_0_70 a0_0_71
+gate a1_0_71 or0    a0_0_70 a0_0_71
+gate a2_1_68 and2_0 a1_0_68 a1_0_71
+gate a2_1_71 or0    a1_0_68 a1_0_71
+gate a2_1_69 and2_0 a1_0_69 a1_0_70
+gate a2_1_70 or0    a1_0_69 a1_0_70
+gate a2_0_68 and2_0 a2_1_68 a2_1_69
+gate a2_0_69 or0    a2_1_68 a2_1_69
+gate a2_0_70 and2_0 a2_1_70 a2_1_71
+gate a2_0_71 or0    a2_1_70 a2_1_71
+gate a3_2_64 and2_1 a2_0_64 a2_0_71
+gate a3_2_71 or0    a2_0_64 a2_0_71
+gate a3_2_65 and2_1 a2_0_65 a2_0_70
+gate a3_2_70 or0    a2_0_65 a2_0_70
+gate a3_2_66 and2_1 a2_0_66 a2_0_69
+gate a3_2_69 or0    a2_0_66 a2_0_69
+gate a3_2_67 and2_1 a2_0_67 a2_0_68
+gate a3_2_68 or0    a2_0_67 a2_0_68
+gate a3_1_64 and2_1 a3_2_64 a3_2_66
+gate a3_1_66 or0    a3_2_64 a3_2_66
+gate a3_1_65 and2_1 a3_2_65 a3_2_67
+gate a3_1_67 or0    a3_2_65 a3_2_67
+gate a3_0_64 and2_1 a3_1_64 a3_1_65
+gate a3_0_65 or0    a3_1_64 a3_1_65
+gate a3_0_66 and2_0 a3_1_66 a3_1_67
+gate a3_0_67 or0    a3_1_66 a3_1_67
+gate a3_1_68 and2_2 a3_2_68 a3_2_70
+gate a3_1_70 or0    a3_2_68 a3_2_70
+gate a3_1_69 and2_2 a3_2_69 a3_2_71
+gate a3_1_71 or0    a3_2_69 a3_2_71
+gate a3_0_68 and2_2 a3_1_68 a3_1_69
+gate a3_0_69 or0    a3_1_68 a3_1_69
+gate a3_0_70 and2_1 a3_1_70 a3_1_71
+gate a3_0_71 or0    a3_1_70 a3_1_71
+gate a1_0_72 and2_0 a0_0_72 a0_0_73
+gate a1_0_73 or0    a0_0_72 a0_0_73
+gate a1_0_74 and2_0 a0_0_74 a0_0_75
+gate a1_0_75 or0    a0_0_74 a0_0_75
+gate a2_1_72 and2_0 a1_0_72 a1_0_75
+gate a2_1_75 or0    a1_0_72 a1_0_75
+gate a2_1_73 and2_0 a1_0_73 a1_0_74
+gate a2_1_74 or0    a1_0_73 a1_0_74
+gate a2_0_72 and2_0 a2_1_72 a2_1_73
+gate a2_0_73 or0    a2_1_72 a2_1_73
+gate a2_0_74 and2_0 a2_1_74 a2_1_75
+gate a2_0_75 or0    a2_1_74 a2_1_75
+gate a1_0_76 and2_0 a0_0_76 a0_0_77
+gate a1_0_77 or0    a0_0_76 a0_0_77
+gate a1_0_78 and2_0 a0_0_78 a0_0_79
+gate a1_0_79 or0    a0_0_78 a0_0_79
+gate a2_1_76 and2_0 a1_0_76 a1_0_79
+gate a2_1_79 or0    a1_0_76 a1_0_79
+gate a2_1_77 and2_0 a1_0_77 a1_0_78
+gate a2_1_78 or0    a1_0_77 a1_0_78
+gate a2_0_76 and2_0 a2_1_76 a2_1_77
+gate a2_0_77 or0    a2_1_76 a2_1_77
+gate a2_0_78 and2_0 a2_1_78 a2_1_79
+gate a2_0_79 or0    a2_1_78 a2_1_79
+gate a3_2_72 and2_0 a2_0_72 a2_0_79
+gate a3_2_79 or0    a2_0_72 a2_0_79
+gate a3_2_73 and2_0 a2_0_73 a2_0_78
+gate a3_2_78 or0    a2_0_73 a2_0_78
+gate a3_2_74 and2_0 a2_0_74 a2_0_77
+gate a3_2_77 or0    a2_0_74 a2_0_77
+gate a3_2_75 and2_0 a2_0_75 a2_0_76
+gate a3_2_76 or0    a2_0_75 a2_0_76
+gate a3_1_72 and2_0 a3_2_72 a3_2_74
+gate a3_1_74 or0    a3_2_72 a3_2_74
+gate a3_1_73 and2_0 a3_2_73 a3_2_75
+gate a3_1_75 or0    a3_2_73 a3_2_75
+gate a3_0_72 and2_0 a3_1_72 a3_1_73
+gate a3_0_73 or0    a3_1_72 a3_1_73
+gate a3_0_74 and2_2 a3_1_74 a3_1_75
+gate a3_0_75 or0    a3_1_74 a3_1_75
+gate a3_1_76 and2_1 a3_2_76 a3_2_78
+gate a3_1_78 or0    a3_2_76 a3_2_78
+gate a3_1_77 and2_1 a3_2_77 a3_2_79
+gate a3_1_79 or0    a3_2_77 a3_2_79
+gate a3_0_76 and2_1 a3_1_76 a3_1_77
+gate a3_0_77 or0    a3_1_76 a3_1_77
+gate a3_0_78 and2_0 a3_1_78 a3_1_79
+gate a3_0_79 or0    a3_1_78 a3_1_79
+gate a4_3_64 and2_0 a3_0_64 a3_0_79
+gate a4_3_79 or0    a3_0_64 a3_0_79
+gate a4_3_65 and2_0 a3_0_65 a3_0_78
+gate a4_3_78 or0    a3_0_65 a3_0_78
+gate a4_3_66 and2_0 a3_0_66 a3_0_77
+gate a4_3_77 or0    a3_0_66 a3_0_77
+gate a4_3_67 and2_0 a3_0_67 a3_0_76
+gate a4_3_76 or0    a3_0_67 a3_0_76
+gate a4_3_68 and2_0 a3_0_68 a3_0_75
+gate a4_3_75 or0    a3_0_68 a3_0_75
+gate a4_3_69 and2_0 a3_0_69 a3_0_74
+gate a4_3_74 or0    a3_0_69 a3_0_74
+gate a4_3_70 and2_0 a3_0_70 a3_0_73
+gate a4_3_73 or0    a3_0_70 a3_0_73
+gate a4_3_71 and2_0 a3_0_71 a3_0_72
+gate a4_3_72 or0    a3_0_71 a3_0_72
+gate a4_2_64 and2_0 a4_3_64 a4_3_68
+gate a4_2_68 or0    a4_3_64 a4_3_68
+gate a4_2_65 and2_0 a4_3_65 a4_3_69
+gate a4_2_69 or0    a4_3_65 a4_3_69
+gate a4_2_66 and2_0 a4_3_66 a4_3_70
+gate a4_2_70 or0    a4_3_66 a4_3_70
+gate a4_2_67 and2_0 a4_3_67 a4_3_71
+gate a4_2_71 or0    a4_3_67 a4_3_71
+gate a4_1_64 and2_0 a4_2_64 a4_2_66
+gate a4_1_66 or0    a4_2_64 a4_2_66
+gate a4_1_65 and2_0 a4_2_65 a4_2_67
+gate a4_1_67 or0    a4_2_65 a4_2_67
+gate a4_0_64 and2_0 a4_1_64 a4_1_65
+gate a4_0_65 or0    a4_1_64 a4_1_65
+gate a4_0_66 and2_2 a4_1_66 a4_1_67
+gate a4_0_67 or0    a4_1_66 a4_1_67
+gate a4_1_68 and2_0 a4_2_68 a4_2_70
+gate a4_1_70 or0    a4_2_68 a4_2_70
+gate a4_1_69 and2_0 a4_2_69 a4_2_71
+gate a4_1_71 or0    a4_2_69 a4_2_71
+gate a4_0_68 and2_0 a4_1_68 a4_1_69
+gate a4_0_69 or0    a4_1_68 a4_1_69
+gate a4_0_70 and2_2 a4_1_70 a4_1_71
+gate a4_0_71 or0    a4_1_70 a4_1_71
+gate a4_2_72 and2_0 a4_3_72 a4_3_76
+gate a4_2_76 or0    a4_3_72 a4_3_76
+gate a4_2_73 and2_0 a4_3_73 a4_3_77
+gate a4_2_77 or0    a4_3_73 a4_3_77
+gate a4_2_74 and2_0 a4_3_74 a4_3_78
+gate a4_2_78 or0    a4_3_74 a4_3_78
+gate a4_2_75 and2_0 a4_3_75 a4_3_79
+gate a4_2_79 or0    a4_3_75 a4_3_79
+gate a4_1_72 and2_0 a4_2_72 a4_2_74
+gate a4_1_74 or0    a4_2_72 a4_2_74
+gate a4_1_73 and2_0 a4_2_73 a4_2_75
+gate a4_1_75 or0    a4_2_73 a4_2_75
+gate a4_0_72 and2_0 a4_1_72 a4_1_73
+gate a4_0_73 or0    a4_1_72 a4_1_73
+gate a4_0_74 and2_2 a4_1_74 a4_1_75
+gate a4_0_75 or0    a4_1_74 a4_1_75
+gate a4_1_76 and2_0 a4_2_76 a4_2_78
+gate a4_1_78 or0    a4_2_76 a4_2_78
+gate a4_1_77 and2_0 a4_2_77 a4_2_79
+gate a4_1_79 or0    a4_2_77 a4_2_79
+gate a4_0_76 and2_0 a4_1_76 a4_1_77
+gate a4_0_77 or0    a4_1_76 a4_1_77
+gate a4_0_78 and2_2 a4_1_78 a4_1_79
+gate a4_0_79 or0    a4_1_78 a4_1_79
+gate a1_0_80 and2_0 a0_0_80 a0_0_81
+gate a1_0_81 or0    a0_0_80 a0_0_81
+gate a1_0_82 and2_0 a0_0_82 a0_0_83
+gate a1_0_83 or0    a0_0_82 a0_0_83
+gate a2_1_80 and2_0 a1_0_80 a1_0_83
+gate a2_1_83 or0    a1_0_80 a1_0_83
+gate a2_1_81 and2_0 a1_0_81 a1_0_82
+gate a2_1_82 or0    a1_0_81 a1_0_82
+gate a2_0_80 and2_0 a2_1_80 a2_1_81
+gate a2_0_81 or0    a2_1_80 a2_1_81
+gate a2_0_82 and2_0 a2_1_82 a2_1_83
+gate a2_0_83 or0    a2_1_82 a2_1_83
+gate a1_0_84 and2_0 a0_0_84 a0_0_85
+gate a1_0_85 or0    a0_0_84 a0_0_85
+gate a1_0_86 and2_0 a0_0_86 a0_0_87
+gate a1_0_87 or0    a0_0_86 a0_0_87
+gate a2_1_84 and2_0 a1_0_84 a1_0_87
+gate a2_1_87 or0    a1_0_84 a1_0_87
+gate a2_1_85 and2_0 a1_0_85 a1_0_86
+gate a2_1_86 or0    a1_0_85 a1_0_86
+gate a2_0_84 and2_0 a2_1_84 a2_1_85
+gate a2_0_85 or0    a2_1_84 a2_1_85
+gate a2_0_86 and2_0 a2_1_86 a2_1_87
+gate a2_0_87 or0    a2_1_86 a2_1_87
+gate a3_2_80 and2_2 a2_0_80 a2_0_87
+gate a3_2_87 or0    a2_0_80 a2_0_87
+gate a3_2_81 and2_2 a2_0_81 a2_0_86
+gate a3_2_86 or0    a2_0_81 a2_0_86
+gate a3_2_82 and2_2 a2_0_82 a2_0_85
+gate a3_2_85 or0    a2_0_82 a2_0_85
+gate a3_2_83 and2_2 a2_0_83 a2_0_84
+gate a3_2_84 or0    a2_0_83 a2_0_84
+gate a3_1_80 and2_2 a3_2_80 a3_2_82
+gate a3_1_82 or0    a3_2_80 a3_2_82
+gate a3_1_81 and2_2 a3_2_81 a3_2_83
+gate a3_1_83 or0    a3_2_81 a3_2_83
+gate a3_0_80 and2_2 a3_1_80 a3_1_81
+gate a3_0_81 or0    a3_1_80 a3_1_81
+gate a3_0_82 and2_1 a3_1_82 a3_1_83
+gate a3_0_83 or0    a3_1_82 a3_1_83
+gate a3_1_84 and2_0 a3_2_84 a3_2_86
+gate a3_1_86 or0    a3_2_84 a3_2_86
+gate a3_1_85 and2_0 a3_2_85 a3_2_87
+gate a3_1_87 or0    a3_2_85 a3_2_87
+gate a3_0_84 and2_0 a3_1_84 a3_1_85
+gate a3_0_85 or0    a3_1_84 a3_1_85
+gate a3_0_86 and2_2 a3_1_86 a3_1_87
+gate a3_0_87 or0    a3_1_86 a3_1_87
+gate a1_0_88 and2_0 a0_0_88 a0_0_89
+gate a1_0_89 or0    a0_0_88 a0_0_89
+gate a1_0_90 and2_0 a0_0_90 a0_0_91
+gate a1_0_91 or0    a0_0_90 a0_0_91
+gate a2_1_88 and2_0 a1_0_88 a1_0_91
+gate a2_1_91 or0    a1_0_88 a1_0_91
+gate a2_1_89 and2_0 a1_0_89 a1_0_90
+gate a2_1_90 or0    a1_0_89 a1_0_90
+gate a2_0_88 and2_0 a2_1_88 a2_1_89
+gate a2_0_89 or0    a2_1_88 a2_1_89
+gate a2_0_90 and2_0 a2_1_90 a2_1_91
+gate a2_0_91 or0    a2_1_90 a2_1_91
+gate a1_0_92 and2_0 a0_0_92 a0_0_93
+gate a1_0_93 or0    a0_0_92 a0_0_93
+gate a1_0_94 and2_0 a0_0_94 a0_0_95
+gate a1_0_95 or0    a0_0_94 a0_0_95
+gate a2_1_92 and2_0 a1_0_92 a1_0_95
+gate a2_1_95 or0    a1_0_92 a1_0_95
+gate a2_1_93 and2_0 a1_0_93 a1_0_94
+gate a2_1_94 or0    a1_0_93 a1_0_94
+gate a2_0_92 and2_0 a2_1_92 a2_1_93
+gate a2_0_93 or0    a2_1_92 a2_1_93
+gate a2_0_94 and2_0 a2_1_94 a2_1_95
+gate a2_0_95 or0    a2_1_94 a2_1_95
+gate a3_2_88 and2_1 a2_0_88 a2_0_95
+gate a3_2_95 or0    a2_0_88 a2_0_95
+gate a3_2_89 and2_1 a2_0_89 a2_0_94
+gate a3_2_94 or0    a2_0_89 a2_0_94
+gate a3_2_90 and2_1 a2_0_90 a2_0_93
+gate a3_2_93 or0    a2_0_90 a2_0_93
+gate a3_2_91 and2_1 a2_0_91 a2_0_92
+gate a3_2_92 or0    a2_0_91 a2_0_92
+gate a3_1_88 and2_1 a3_2_88 a3_2_90
+gate a3_1_90 or0    a3_2_88 a3_2_90
+gate a3_1_89 and2_1 a3_2_89 a3_2_91
+gate a3_1_91 or0    a3_2_89 a3_2_91
+gate a3_0_88 and2_1 a3_1_88 a3_1_89
+gate a3_0_89 or0    a3_1_88 a3_1_89
+gate a3_0_90 and2_0 a3_1_90 a3_1_91
+gate a3_0_91 or0    a3_1_90 a3_1_91
+gate a3_1_92 and2_2 a3_2_92 a3_2_94
+gate a3_1_94 or0    a3_2_92 a3_2_94
+gate a3_1_93 and2_2 a3_2_93 a3_2_95
+gate a3_1_95 or0    a3_2_93 a3_2_95
+gate a3_0_92 and2_2 a3_1_92 a3_1_93
+gate a3_0_93 or0    a3_1_92 a3_1_93
+gate a3_0_94 and2_1 a3_1_94 a3_1_95
+gate a3_0_95 or0    a3_1_94 a3_1_95
+gate a4_3_80 and2_0 a3_0_80 a3_0_95
+gate a4_3_95 or0    a3_0_80 a3_0_95
+gate a4_3_81 and2_0 a3_0_81 a3_0_94
+gate a4_3_94 or0    a3_0_81 a3_0_94
+gate a4_3_82 and2_0 a3_0_82 a3_0_93
+gate a4_3_93 or0    a3_0_82 a3_0_93
+gate a4_3_83 and2_0 a3_0_83 a3_0_92
+gate a4_3_92 or0    a3_0_83 a3_0_92
+gate a4_3_84 and2_0 a3_0_84 a3_0_91
+gate a4_3_91 or0    a3_0_84 a3_0_91
+gate a4_3_85 and2_0 a3_0_85 a3_0_90
+gate a4_3_90 or0    a3_0_85 a3_0_90
+gate a4_3_86 and2_0 a3_0_86 a3_0_89
+gate a4_3_89 or0    a3_0_86 a3_0_89
+gate a4_3_87 and2_0 a3_0_87 a3_0_88
+gate a4_3_88 or0    a3_0_87 a3_0_88
+gate a4_2_80 and2_0 a4_3_80 a4_3_84
+gate a4_2_84 or0    a4_3_80 a4_3_84
+gate a4_2_81 and2_0 a4_3_81 a4_3_85
+gate a4_2_85 or0    a4_3_81 a4_3_85
+gate a4_2_82 and2_0 a4_3_82 a4_3_86
+gate a4_2_86 or0    a4_3_82 a4_3_86
+gate a4_2_83 and2_0 a4_3_83 a4_3_87
+gate a4_2_87 or0    a4_3_83 a4_3_87
+gate a4_1_80 and2_0 a4_2_80 a4_2_82
+gate a4_1_82 or0    a4_2_80 a4_2_82
+gate a4_1_81 and2_0 a4_2_81 a4_2_83
+gate a4_1_83 or0    a4_2_81 a4_2_83
+gate a4_0_80 and2_0 a4_1_80 a4_1_81
+gate a4_0_81 or0    a4_1_80 a4_1_81
+gate a4_0_82 and2_2 a4_1_82 a4_1_83
+gate a4_0_83 or0    a4_1_82 a4_1_83
+gate a4_1_84 and2_0 a4_2_84 a4_2_86
+gate a4_1_86 or0    a4_2_84 a4_2_86
+gate a4_1_85 and2_0 a4_2_85 a4_2_87
+gate a4_1_87 or0    a4_2_85 a4_2_87
+gate a4_0_84 and2_0 a4_1_84 a4_1_85
+gate a4_0_85 or0    a4_1_84 a4_1_85
+gate a4_0_86 and2_2 a4_1_86 a4_1_87
+gate a4_0_87 or0    a4_1_86 a4_1_87
+gate a4_2_88 and2_0 a4_3_88 a4_3_92
+gate a4_2_92 or0    a4_3_88 a4_3_92
+gate a4_2_89 and2_0 a4_3_89 a4_3_93
+gate a4_2_93 or0    a4_3_89 a4_3_93
+gate a4_2_90 and2_0 a4_3_90 a4_3_94
+gate a4_2_94 or0    a4_3_90 a4_3_94
+gate a4_2_91 and2_0 a4_3_91 a4_3_95
+gate a4_2_95 or0    a4_3_91 a4_3_95
+gate a4_1_88 and2_0 a4_2_88 a4_2_90
+gate a4_1_90 or0    a4_2_88 a4_2_90
+gate a4_1_89 and2_0 a4_2_89 a4_2_91
+gate a4_1_91 or0    a4_2_89 a4_2_91
+gate a4_0_88 and2_0 a4_1_88 a4_1_89
+gate a4_0_89 or0    a4_1_88 a4_1_89
+gate a4_0_90 and2_2 a4_1_90 a4_1_91
+gate a4_0_91 or0    a4_1_90 a4_1_91
+gate a4_1_92 and2_0 a4_2_92 a4_2_94
+gate a4_1_94 or0    a4_2_92 a4_2_94
+gate a4_1_93 and2_0 a4_2_93 a4_2_95
+gate a4_1_95 or0    a4_2_93 a4_2_95
+gate a4_0_92 and2_0 a4_1_92 a4_1_93
+gate a4_0_93 or0    a4_1_92 a4_1_93
+gate a4_0_94 and2_2 a4_1_94 a4_1_95
+gate a4_0_95 or0    a4_1_94 a4_1_95
+gate a5_4_64 and2_4 a4_0_64 a4_0_95
+gate a5_4_95 or0    a4_0_64 a4_0_95
+gate a5_4_65 and2_4 a4_0_65 a4_0_94
+gate a5_4_94 or0    a4_0_65 a4_0_94
+gate a5_4_66 and2_4 a4_0_66 a4_0_93
+gate a5_4_93 or0    a4_0_66 a4_0_93
+gate a5_4_67 and2_4 a4_0_67 a4_0_92
+gate a5_4_92 or0    a4_0_67 a4_0_92
+gate a5_4_68 and2_4 a4_0_68 a4_0_91
+gate a5_4_91 or0    a4_0_68 a4_0_91
+gate a5_4_69 and2_4 a4_0_69 a4_0_90
+gate a5_4_90 or0    a4_0_69 a4_0_90
+gate a5_4_70 and2_4 a4_0_70 a4_0_89
+gate a5_4_89 or0    a4_0_70 a4_0_89
+gate a5_4_71 and2_4 a4_0_71 a4_0_88
+gate a5_4_88 or0    a4_0_71 a4_0_88
+gate a5_4_72 and2_4 a4_0_72 a4_0_87
+gate a5_4_87 or0    a4_0_72 a4_0_87
+gate a5_4_73 and2_4 a4_0_73 a4_0_86
+gate a5_4_86 or0    a4_0_73 a4_0_86
+gate a5_4_74 and2_4 a4_0_74 a4_0_85
+gate a5_4_85 or0    a4_0_74 a4_0_85
+gate a5_4_75 and2_4 a4_0_75 a4_0_84
+gate a5_4_84 or0    a4_0_75 a4_0_84
+gate a5_4_76 and2_4 a4_0_76 a4_0_83
+gate a5_4_83 or0    a4_0_76 a4_0_83
+gate a5_4_77 and2_4 a4_0_77 a4_0_82
+gate a5_4_82 or0    a4_0_77 a4_0_82
+gate a5_4_78 and2_4 a4_0_78 a4_0_81
+gate a5_4_81 or0    a4_0_78 a4_0_81
+gate a5_4_79 and2_4 a4_0_79 a4_0_80
+gate a5_4_80 or0    a4_0_79 a4_0_80
+gate a5_3_64 and2_4 a5_4_64 a5_4_72
+gate a5_3_72 or0    a5_4_64 a5_4_72
+gate a5_3_65 and2_4 a5_4_65 a5_4_73
+gate a5_3_73 or0    a5_4_65 a5_4_73
+gate a5_3_66 and2_4 a5_4_66 a5_4_74
+gate a5_3_74 or0    a5_4_66 a5_4_74
+gate a5_3_67 and2_4 a5_4_67 a5_4_75
+gate a5_3_75 or0    a5_4_67 a5_4_75
+gate a5_3_68 and2_4 a5_4_68 a5_4_76
+gate a5_3_76 or0    a5_4_68 a5_4_76
+gate a5_3_69 and2_4 a5_4_69 a5_4_77
+gate a5_3_77 or0    a5_4_69 a5_4_77
+gate a5_3_70 and2_4 a5_4_70 a5_4_78
+gate a5_3_78 or0    a5_4_70 a5_4_78
+gate a5_3_71 and2_4 a5_4_71 a5_4_79
+gate a5_3_79 or0    a5_4_71 a5_4_79
+gate a5_2_64 and2_4 a5_3_64 a5_3_68
+gate a5_2_68 or0    a5_3_64 a5_3_68
+gate a5_2_65 and2_4 a5_3_65 a5_3_69
+gate a5_2_69 or0    a5_3_65 a5_3_69
+gate a5_2_66 and2_4 a5_3_66 a5_3_70
+gate a5_2_70 or0    a5_3_66 a5_3_70
+gate a5_2_67 and2_4 a5_3_67 a5_3_71
+gate a5_2_71 or0    a5_3_67 a5_3_71
+gate a5_1_64 and2_4 a5_2_64 a5_2_66
+gate a5_1_66 or0    a5_2_64 a5_2_66
+gate a5_1_65 and2_4 a5_2_65 a5_2_67
+gate a5_1_67 or0    a5_2_65 a5_2_67
+gate a5_0_64 and2_4 a5_1_64 a5_1_65
+gate a5_0_65 or0    a5_1_64 a5_1_65
+gate a5_0_66 and2_1 a5_1_66 a5_1_67
+gate a5_0_67 or0    a5_1_66 a5_1_67
+gate a5_1_68 and2_3 a5_2_68 a5_2_70
+gate a5_1_70 or0    a5_2_68 a5_2_70
+gate a5_1_69 and2_3 a5_2_69 a5_2_71
+gate a5_1_71 or0    a5_2_69 a5_2_71
+gate a5_0_68 and2_3 a5_1_68 a5_1_69
+gate a5_0_69 or0    a5_1_68 a5_1_69
+gate a5_0_70 and2_0 a5_1_70 a5_1_71
+gate a5_0_71 or0    a5_1_70 a5_1_71
+gate a5_2_72 and2_2 a5_3_72 a5_3_76
+gate a5_2_76 or0    a5_3_72 a5_3_76
+gate a5_2_73 and2_2 a5_3_73 a5_3_77
+gate a5_2_77 or0    a5_3_73 a5_3_77
+gate a5_2_74 and2_2 a5_3_74 a5_3_78
+gate a5_2_78 or0    a5_3_74 a5_3_78
+gate a5_2_75 and2_2 a5_3_75 a5_3_79
+gate a5_2_79 or0    a5_3_75 a5_3_79
+gate a5_1_72 and2_2 a5_2_72 a5_2_74
+gate a5_1_74 or0    a5_2_72 a5_2_74
+gate a5_1_73 and2_2 a5_2_73 a5_2_75
+gate a5_1_75 or0    a5_2_73 a5_2_75
+gate a5_0_72 and2_2 a5_1_72 a5_1_73
+gate a5_0_73 or0    a5_1_72 a5_1_73
+gate a5_0_74 and2_4 a5_1_74 a5_1_75
+gate a5_0_75 or0    a5_1_74 a5_1_75
+gate a5_1_76 and2_1 a5_2_76 a5_2_78
+gate a5_1_78 or0    a5_2_76 a5_2_78
+gate a5_1_77 and2_1 a5_2_77 a5_2_79
+gate a5_1_79 or0    a5_2_77 a5_2_79
+gate a5_0_76 and2_1 a5_1_76 a5_1_77
+gate a5_0_77 or0    a5_1_76 a5_1_77
+gate a5_0_78 and2_3 a5_1_78 a5_1_79
+gate a5_0_79 or0    a5_1_78 a5_1_79
+gate a5_3_80 and2_0 a5_4_80 a5_4_88
+gate a5_3_88 or0    a5_4_80 a5_4_88
+gate a5_3_81 and2_0 a5_4_81 a5_4_89
+gate a5_3_89 or0    a5_4_81 a5_4_89
+gate a5_3_82 and2_0 a5_4_82 a5_4_90
+gate a5_3_90 or0    a5_4_82 a5_4_90
+gate a5_3_83 and2_0 a5_4_83 a5_4_91
+gate a5_3_91 or0    a5_4_83 a5_4_91
+gate a5_3_84 and2_0 a5_4_84 a5_4_92
+gate a5_3_92 or0    a5_4_84 a5_4_92
+gate a5_3_85 and2_0 a5_4_85 a5_4_93
+gate a5_3_93 or0    a5_4_85 a5_4_93
+gate a5_3_86 and2_0 a5_4_86 a5_4_94
+gate a5_3_94 or0    a5_4_86 a5_4_94
+gate a5_3_87 and2_0 a5_4_87 a5_4_95
+gate a5_3_95 or0    a5_4_87 a5_4_95
+gate a5_2_80 and2_0 a5_3_80 a5_3_84
+gate a5_2_84 or0    a5_3_80 a5_3_84
+gate a5_2_81 and2_0 a5_3_81 a5_3_85
+gate a5_2_85 or0    a5_3_81 a5_3_85
+gate a5_2_82 and2_0 a5_3_82 a5_3_86
+gate a5_2_86 or0    a5_3_82 a5_3_86
+gate a5_2_83 and2_0 a5_3_83 a5_3_87
+gate a5_2_87 or0    a5_3_83 a5_3_87
+gate a5_1_80 and2_0 a5_2_80 a5_2_82
+gate a5_1_82 or0    a5_2_80 a5_2_82
+gate a5_1_81 and2_0 a5_2_81 a5_2_83
+gate a5_1_83 or0    a5_2_81 a5_2_83
+gate a5_0_80 and2_0 a5_1_80 a5_1_81
+gate a5_0_81 or0    a5_1_80 a5_1_81
+gate a5_0_82 and2_2 a5_1_82 a5_1_83
+gate a5_0_83 or0    a5_1_82 a5_1_83
+gate a5_1_84 and2_4 a5_2_84 a5_2_86
+gate a5_1_86 or0    a5_2_84 a5_2_86
+gate a5_1_85 and2_4 a5_2_85 a5_2_87
+gate a5_1_87 or0    a5_2_85 a5_2_87
+gate a5_0_84 and2_4 a5_1_84 a5_1_85
+gate a5_0_85 or0    a5_1_84 a5_1_85
+gate a5_0_86 and2_1 a5_1_86 a5_1_87
+gate a5_0_87 or0    a5_1_86 a5_1_87
+gate a5_2_88 and2_3 a5_3_88 a5_3_92
+gate a5_2_92 or0    a5_3_88 a5_3_92
+gate a5_2_89 and2_3 a5_3_89 a5_3_93
+gate a5_2_93 or0    a5_3_89 a5_3_93
+gate a5_2_90 and2_3 a5_3_90 a5_3_94
+gate a5_2_94 or0    a5_3_90 a5_3_94
+gate a5_2_91 and2_3 a5_3_91 a5_3_95
+gate a5_2_95 or0    a5_3_91 a5_3_95
+gate a5_1_88 and2_3 a5_2_88 a5_2_90
+gate a5_1_90 or0    a5_2_88 a5_2_90
+gate a5_1_89 and2_3 a5_2_89 a5_2_91
+gate a5_1_91 or0    a5_2_89 a5_2_91
+gate a5_0_88 and2_3 a5_1_88 a5_1_89
+gate a5_0_89 or0    a5_1_88 a5_1_89
+gate a5_0_90 and2_0 a5_1_90 a5_1_91
+gate a5_0_91 or0    a5_1_90 a5_1_91
+gate a5_1_92 and2_2 a5_2_92 a5_2_94
+gate a5_1_94 or0    a5_2_92 a5_2_94
+gate a5_1_93 and2_2 a5_2_93 a5_2_95
+gate a5_1_95 or0    a5_2_93 a5_2_95
+gate a5_0_92 and2_2 a5_1_92 a5_1_93
+gate a5_0_93 or0    a5_1_92 a5_1_93
+gate a5_0_94 and2_4 a5_1_94 a5_1_95
+gate a5_0_95 or0    a5_1_94 a5_1_95
+gate a1_0_96 and2_0 a0_0_96 a0_0_97
+gate a1_0_97 or0    a0_0_96 a0_0_97
+gate a1_0_98 and2_0 a0_0_98 a0_0_99
+gate a1_0_99 or0    a0_0_98 a0_0_99
+gate a2_1_96 and2_0 a1_0_96 a1_0_99
+gate a2_1_99 or0    a1_0_96 a1_0_99
+gate a2_1_97 and2_0 a1_0_97 a1_0_98
+gate a2_1_98 or0    a1_0_97 a1_0_98
+gate a2_0_96 and2_0 a2_1_96 a2_1_97
+gate a2_0_97 or0    a2_1_96 a2_1_97
+gate a2_0_98 and2_0 a2_1_98 a2_1_99
+gate a2_0_99 or0    a2_1_98 a2_1_99
+gate a1_0_100 and2_0 a0_0_100 a0_0_101
+gate a1_0_101 or0    a0_0_100 a0_0_101
+gate a1_0_102 and2_0 a0_0_102 a0_0_103
+gate a1_0_103 or0    a0_0_102 a0_0_103
+gate a2_1_100 and2_0 a1_0_100 a1_0_103
+gate a2_1_103 or0    a1_0_100 a1_0_103
+gate a2_1_101 and2_0 a1_0_101 a1_0_102
+gate a2_1_102 or0    a1_0_101 a1_0_102
+gate a2_0_100 and2_0 a2_1_100 a2_1_101
+gate a2_0_101 or0    a2_1_100 a2_1_101
+gate a2_0_102 and2_0 a2_1_102 a2_1_103
+gate a2_0_103 or0    a2_1_102 a2_1_103
+gate a3_2_96 and2_0 a2_0_96 a2_0_103
+gate a3_2_103 or0    a2_0_96 a2_0_103
+gate a3_2_97 and2_0 a2_0_97 a2_0_102
+gate a3_2_102 or0    a2_0_97 a2_0_102
+gate a3_2_98 and2_0 a2_0_98 a2_0_101
+gate a3_2_101 or0    a2_0_98 a2_0_101
+gate a3_2_99 and2_0 a2_0_99 a2_0_100
+gate a3_2_100 or0    a2_0_99 a2_0_100
+gate a3_1_96 and2_0 a3_2_96 a3_2_98
+gate a3_1_98 or0    a3_2_96 a3_2_98
+gate a3_1_97 and2_0 a3_2_97 a3_2_99
+gate a3_1_99 or0    a3_2_97 a3_2_99
+gate a3_0_96 and2_0 a3_1_96 a3_1_97
+gate a3_0_97 or0    a3_1_96 a3_1_97
+gate a3_0_98 and2_2 a3_1_98 a3_1_99
+gate a3_0_99 or0    a3_1_98 a3_1_99
+gate a3_1_100 and2_1 a3_2_100 a3_2_102
+gate a3_1_102 or0    a3_2_100 a3_2_102
+gate a3_1_101 and2_1 a3_2_101 a3_2_103
+gate a3_1_103 or0    a3_2_101 a3_2_103
+gate a3_0_100 and2_1 a3_1_100 a3_1_101
+gate a3_0_101 or0    a3_1_100 a3_1_101
+gate a3_0_102 and2_0 a3_1_102 a3_1_103
+gate a3_0_103 or0    a3_1_102 a3_1_103
+gate a1_0_104 and2_0 a0_0_104 a0_0_105
+gate a1_0_105 or0    a0_0_104 a0_0_105
+gate a1_0_106 and2_0 a0_0_106 a0_0_107
+gate a1_0_107 or0    a0_0_106 a0_0_107
+gate a2_1_104 and2_0 a1_0_104 a1_0_107
+gate a2_1_107 or0    a1_0_104 a1_0_107
+gate a2_1_105 and2_0 a1_0_105 a1_0_106
+gate a2_1_106 or0    a1_0_105 a1_0_106
+gate a2_0_104 and2_0 a2_1_104 a2_1_105
+gate a2_0_105 or0    a2_1_104 a2_1_105
+gate a2_0_106 and2_0 a2_1_106 a2_1_107
+gate a2_0_107 or0    a2_1_106 a2_1_107
+gate a1_0_108 and2_0 a0_0_108 a0_0_109
+gate a1_0_109 or0    a0_0_108 a0_0_109
+gate a1_0_110 and2_0 a0_0_110 a0_0_111
+gate a1_0_111 or0    a0_0_110 a0_0_111
+gate a2_1_108 and2_0 a1_0_108 a1_0_111
+gate a2_1_111 or0    a1_0_108 a1_0_111
+gate a2_1_109 and2_0 a1_0_109 a1_0_110
+gate a2_1_110 or0    a1_0_109 a1_0_110
+gate a2_0_108 and2_0 a2_1_108 a2_1_109
+gate a2_0_109 or0    a2_1_108 a2_1_109
+gate a2_0_110 and2_0 a2_1_110 a2_1_111
+gate a2_0_111 or0    a2_1_110 a2_1_111
+gate a3_2_104 and2_2 a2_0_104 a2_0_111
+gate a3_2_111 or0    a2_0_104 a2_0_111
+gate a3_2_105 and2_2 a2_0_105 a2_0_110
+gate a3_2_110 or0    a2_0_105 a2_0_110
+gate a3_2_106 and2_2 a2_0_106 a2_0_109
+gate a3_2_109 or0    a2_0_106 a2_0_109
+gate a3_2_107 and2_2 a2_0_107 a2_0_108
+gate a3_2_108 or0    a2_0_107 a2_0_108
+gate a3_1_104 and2_2 a3_2_104 a3_2_106
+gate a3_1_106 or0    a3_2_104 a3_2_106
+gate a3_1_105 and2_2 a3_2_105 a3_2_107
+gate a3_1_107 or0    a3_2_105 a3_2_107
+gate a3_0_104 and2_2 a3_1_104 a3_1_105
+gate a3_0_105 or0    a3_1_104 a3_1_105
+gate a3_0_106 and2_1 a3_1_106 a3_1_107
+gate a3_0_107 or0    a3_1_106 a3_1_107
+gate a3_1_108 and2_0 a3_2_108 a3_2_110
+gate a3_1_110 or0    a3_2_108 a3_2_110
+gate a3_1_109 and2_0 a3_2_109 a3_2_111
+gate a3_1_111 or0    a3_2_109 a3_2_111
+gate a3_0_108 and2_0 a3_1_108 a3_1_109
+gate a3_0_109 or0    a3_1_108 a3_1_109
+gate a3_0_110 and2_2 a3_1_110 a3_1_111
+gate a3_0_111 or0    a3_1_110 a3_1_111
+gate a4_3_96 and2_0 a3_0_96 a3_0_111
+gate a4_3_111 or0    a3_0_96 a3_0_111
+gate a4_3_97 and2_0 a3_0_97 a3_0_110
+gate a4_3_110 or0    a3_0_97 a3_0_110
+gate a4_3_98 and2_0 a3_0_98 a3_0_109
+gate a4_3_109 or0    a3_0_98 a3_0_109
+gate a4_3_99 and2_0 a3_0_99 a3_0_108
+gate a4_3_108 or0    a3_0_99 a3_0_108
+gate a4_3_100 and2_0 a3_0_100 a3_0_107
+gate a4_3_107 or0    a3_0_100 a3_0_107
+gate a4_3_101 and2_0 a3_0_101 a3_0_106
+gate a4_3_106 or0    a3_0_101 a3_0_106
+gate a4_3_102 and2_0 a3_0_102 a3_0_105
+gate a4_3_105 or0    a3_0_102 a3_0_105
+gate a4_3_103 and2_0 a3_0_103 a3_0_104
+gate a4_3_104 or0    a3_0_103 a3_0_104
+gate a4_2_96 and2_0 a4_3_96 a4_3_100
+gate a4_2_100 or0    a4_3_96 a4_3_100
+gate a4_2_97 and2_0 a4_3_97 a4_3_101
+gate a4_2_101 or0    a4_3_97 a4_3_101
+gate a4_2_98 and2_0 a4_3_98 a4_3_102
+gate a4_2_102 or0    a4_3_98 a4_3_102
+gate a4_2_99 and2_0 a4_3_99 a4_3_103
+gate a4_2_103 or0    a4_3_99 a4_3_103
+gate a4_1_96 and2_0 a4_2_96 a4_2_98
+gate a4_1_98 or0    a4_2_96 a4_2_98
+gate a4_1_97 and2_0 a4_2_97 a4_2_99
+gate a4_1_99 or0    a4_2_97 a4_2_99
+gate a4_0_96 and2_0 a4_1_96 a4_1_97
+gate a4_0_97 or0    a4_1_96 a4_1_97
+gate a4_0_98 and2_2 a4_1_98 a4_1_99
+gate a4_0_99 or0    a4_1_98 a4_1_99
+gate a4_1_100 and2_0 a4_2_100 a4_2_102
+gate a4_1_102 or0    a4_2_100 a4_2_102
+gate a4_1_101 and2_0 a4_2_101 a4_2_103
+gate a4_1_103 or0    a4_2_101 a4_2_103
+gate a4_0_100 and2_0 a4_1_100 a4_1_101
+gate a4_0_101 or0    a4_1_100 a4_1_101
+gate a4_0_102 and2_2 a4_1_102 a4_1_103
+gate a4_0_103 or0    a4_1_102 a4_1_103
+gate a4_2_104 and2_0 a4_3_104 a4_3_108
+gate a4_2_108 or0    a4_3_104 a4_3_108
+gate a4_2_105 and2_0 a4_3_105 a4_3_109
+gate a4_2_109 or0    a4_3_105 a4_3_109
+gate a4_2_106 and2_0 a4_3_106 a4_3_110
+gate a4_2_110 or0    a4_3_106 a4_3_110
+gate a4_2_107 and2_0 a4_3_107 a4_3_111
+gate a4_2_111 or0    a4_3_107 a4_3_111
+gate a4_1_104 and2_0 a4_2_104 a4_2_106
+gate a4_1_106 or0    a4_2_104 a4_2_106
+gate a4_1_105 and2_0 a4_2_105 a4_2_107
+gate a4_1_107 or0    a4_2_105 a4_2_107
+gate a4_0_104 and2_0 a4_1_104 a4_1_105
+gate a4_0_105 or0    a4_1_104 a4_1_105
+gate a4_0_106 and2_2 a4_1_106 a4_1_107
+gate a4_0_107 or0    a4_1_106 a4_1_107
+gate a4_1_108 and2_0 a4_2_108 a4_2_110
+gate a4_1_110 or0    a4_2_108 a4_2_110
+gate a4_1_109 and2_0 a4_2_109 a4_2_111
+gate a4_1_111 or0    a4_2_109 a4_2_111
+gate a4_0_108 and2_0 a4_1_108 a4_1_109
+gate a4_0_109 or0    a4_1_108 a4_1_109
+gate a4_0_110 and2_2 a4_1_110 a4_1_111
+gate a4_0_111 or0    a4_1_110 a4_1_111
+gate a1_0_112 and2_0 a0_0_112 a0_0_113
+gate a1_0_113 or0    a0_0_112 a0_0_113
+gate a1_0_114 and2_0 a0_0_114 a0_0_115
+gate a1_0_115 or0    a0_0_114 a0_0_115
+gate a2_1_112 and2_0 a1_0_112 a1_0_115
+gate a2_1_115 or0    a1_0_112 a1_0_115
+gate a2_1_113 and2_0 a1_0_113 a1_0_114
+gate a2_1_114 or0    a1_0_113 a1_0_114
+gate a2_0_112 and2_0 a2_1_112 a2_1_113
+gate a2_0_113 or0    a2_1_112 a2_1_113
+gate a2_0_114 and2_0 a2_1_114 a2_1_115
+gate a2_0_115 or0    a2_1_114 a2_1_115
+gate a1_0_116 and2_0 a0_0_116 a0_0_117
+gate a1_0_117 or0    a0_0_116 a0_0_117
+gate a1_0_118 and2_0 a0_0_118 a0_0_119
+gate a1_0_119 or0    a0_0_118 a0_0_119
+gate a2_1_116 and2_0 a1_0_116 a1_0_119
+gate a2_1_119 or0    a1_0_116 a1_0_119
+gate a2_1_117 and2_0 a1_0_117 a1_0_118
+gate a2_1_118 or0    a1_0_117 a1_0_118
+gate a2_0_116 and2_0 a2_1_116 a2_1_117
+gate a2_0_117 or0    a2_1_116 a2_1_117
+gate a2_0_118 and2_0 a2_1_118 a2_1_119
+gate a2_0_119 or0    a2_1_118 a2_1_119
+gate a3_2_112 and2_1 a2_0_112 a2_0_119
+gate a3_2_119 or0    a2_0_112 a2_0_119
+gate a3_2_113 and2_1 a2_0_113 a2_0_118
+gate a3_2_118 or0    a2_0_113 a2_0_118
+gate a3_2_114 and2_1 a2_0_114 a2_0_117
+gate a3_2_117 or0    a2_0_114 a2_0_117
+gate a3_2_115 and2_1 a2_0_115 a2_0_116
+gate a3_2_116 or0    a2_0_115 a2_0_116
+gate a3_1_112 and2_1 a3_2_112 a3_2_114
+gate a3_1_114 or0    a3_2_112 a3_2_114
+gate a3_1_113 and2_1 a3_2_113 a3_2_115
+gate a3_1_115 or0    a3_2_113 a3_2_115
+gate a3_0_112 and2_1 a3_1_112 a3_1_113
+gate a3_0_113 or0    a3_1_112 a3_1_113
+gate a3_0_114 and2_0 a3_1_114 a3_1_115
+gate a3_0_115 or0    a3_1_114 a3_1_115
+gate a3_1_116 and2_2 a3_2_116 a3_2_118
+gate a3_1_118 or0    a3_2_116 a3_2_118
+gate a3_1_117 and2_2 a3_2_117 a3_2_119
+gate a3_1_119 or0    a3_2_117 a3_2_119
+gate a3_0_116 and2_2 a3_1_116 a3_1_117
+gate a3_0_117 or0    a3_1_116 a3_1_117
+gate a3_0_118 and2_1 a3_1_118 a3_1_119
+gate a3_0_119 or0    a3_1_118 a3_1_119
+gate a1_0_120 and2_0 a0_0_120 a0_0_121
+gate a1_0_121 or0    a0_0_120 a0_0_121
+gate a1_0_122 and2_0 a0_0_122 a0_0_123
+gate a1_0_123 or0    a0_0_122 a0_0_123
+gate a2_1_120 and2_0 a1_0_120 a1_0_123
+gate a2_1_123 or0    a1_0_120 a1_0_123
+gate a2_1_121 and2_0 a1_0_121 a1_0_122
+gate a2_1_122 or0    a1_0_121 a1_0_122
+gate a2_0_120 and2_0 a2_1_120 a2_1_121
+gate a2_0_121 or0    a2_1_120 a2_1_121
+gate a2_0_122 and2_0 a2_1_122 a2_1_123
+gate a2_0_123 or0    a2_1_122 a2_1_123
+gate a1_0_124 and2_0 a0_0_124 a0_0_125
+gate a1_0_125 or0    a0_0_124 a0_0_125
+gate a1_0_126 and2_0 a0_0_126 a0_0_127
+gate a1_0_127 or0    a0_0_126 a0_0_127
+gate a2_1_124 and2_0 a1_0_124 a1_0_127
+gate a2_1_127 or0    a1_0_124 a1_0_127
+gate a2_1_125 and2_0 a1_0_125 a1_0_126
+gate a2_1_126 or0    a1_0_125 a1_0_126
+gate a2_0_124 and2_0 a2_1_124 a2_1_125
+gate a2_0_125 or0    a2_1_124 a2_1_125
+gate a2_0_126 and2_0 a2_1_126 a2_1_127
+gate a2_0_127 or0    a2_1_126 a2_1_127
+gate a3_2_120 and2_0 a2_0_120 a2_0_127
+gate a3_2_127 or0    a2_0_120 a2_0_127
+gate a3_2_121 and2_0 a2_0_121 a2_0_126
+gate a3_2_126 or0    a2_0_121 a2_0_126
+gate a3_2_122 and2_0 a2_0_122 a2_0_125
+gate a3_2_125 or0    a2_0_122 a2_0_125
+gate a3_2_123 and2_0 a2_0_123 a2_0_124
+gate a3_2_124 or0    a2_0_123 a2_0_124
+gate a3_1_120 and2_0 a3_2_120 a3_2_122
+gate a3_1_122 or0    a3_2_120 a3_2_122
+gate a3_1_121 and2_0 a3_2_121 a3_2_123
+gate a3_1_123 or0    a3_2_121 a3_2_123
+gate a3_0_120 and2_0 a3_1_120 a3_1_121
+gate a3_0_121 or0    a3_1_120 a3_1_121
+gate a3_0_122 and2_2 a3_1_122 a3_1_123
+gate a3_0_123 or0    a3_1_122 a3_1_123
+gate a3_1_124 and2_1 a3_2_124 a3_2_126
+gate a3_1_126 or0    a3_2_124 a3_2_126
+gate a3_1_125 and2_1 a3_2_125 a3_2_127
+gate a3_1_127 or0    a3_2_125 a3_2_127
+gate a3_0_124 and2_1 a3_1_124 a3_1_125
+gate a3_0_125 or0    a3_1_124 a3_1_125
+gate a3_0_126 and2_0 a3_1_126 a3_1_127
+gate a3_0_127 or0    a3_1_126 a3_1_127
+gate a4_3_112 and2_0 a3_0_112 a3_0_127
+gate a4_3_127 or0    a3_0_112 a3_0_127
+gate a4_3_113 and2_0 a3_0_113 a3_0_126
+gate a4_3_126 or0    a3_0_113 a3_0_126
+gate a4_3_114 and2_0 a3_0_114 a3_0_125
+gate a4_3_125 or0    a3_0_114 a3_0_125
+gate a4_3_115 and2_0 a3_0_115 a3_0_124
+gate a4_3_124 or0    a3_0_115 a3_0_124
+gate a4_3_116 and2_0 a3_0_116 a3_0_123
+gate a4_3_123 or0    a3_0_116 a3_0_123
+gate a4_3_117 and2_0 a3_0_117 a3_0_122
+gate a4_3_122 or0    a3_0_117 a3_0_122
+gate a4_3_118 and2_0 a3_0_118 a3_0_121
+gate a4_3_121 or0    a3_0_118 a3_0_121
+gate a4_3_119 and2_0 a3_0_119 a3_0_120
+gate a4_3_120 or0    a3_0_119 a3_0_120
+gate a4_2_112 and2_0 a4_3_112 a4_3_116
+gate a4_2_116 or0    a4_3_112 a4_3_116
+gate a4_2_113 and2_0 a4_3_113 a4_3_117
+gate a4_2_117 or0    a4_3_113 a4_3_117
+gate a4_2_114 and2_0 a4_3_114 a4_3_118
+gate a4_2_118 or0    a4_3_114 a4_3_118
+gate a4_2_115 and2_0 a4_3_115 a4_3_119
+gate a4_2_119 or0    a4_3_115 a4_3_119
+gate a4_1_112 and2_0 a4_2_112 a4_2_114
+gate a4_1_114 or0    a4_2_112 a4_2_114
+gate a4_1_113 and2_0 a4_2_113 a4_2_115
+gate a4_1_115 or0    a4_2_113 a4_2_115
+gate a4_0_112 and2_0 a4_1_112 a4_1_113
+gate a4_0_113 or0    a4_1_112 a4_1_113
+gate a4_0_114 and2_2 a4_1_114 a4_1_115
+gate a4_0_115 or0    a4_1_114 a4_1_115
+gate a4_1_116 and2_0 a4_2_116 a4_2_118
+gate a4_1_118 or0    a4_2_116 a4_2_118
+gate a4_1_117 and2_0 a4_2_117 a4_2_119
+gate a4_1_119 or0    a4_2_117 a4_2_119
+gate a4_0_116 and2_0 a4_1_116 a4_1_117
+gate a4_0_117 or0    a4_1_116 a4_1_117
+gate a4_0_118 and2_2 a4_1_118 a4_1_119
+gate a4_0_119 or0    a4_1_118 a4_1_119
+gate a4_2_120 and2_0 a4_3_120 a4_3_124
+gate a4_2_124 or0    a4_3_120 a4_3_124
+gate a4_2_121 and2_0 a4_3_121 a4_3_125
+gate a4_2_125 or0    a4_3_121 a4_3_125
+gate a4_2_122 and2_0 a4_3_122 a4_3_126
+gate a4_2_126 or0    a4_3_122 a4_3_126
+gate a4_2_123 and2_0 a4_3_123 a4_3_127
+gate a4_2_127 or0    a4_3_123 a4_3_127
+gate a4_1_120 and2_0 a4_2_120 a4_2_122
+gate a4_1_122 or0    a4_2_120 a4_2_122
+gate a4_1_121 and2_0 a4_2_121 a4_2_123
+gate a4_1_123 or0    a4_2_121 a4_2_123
+gate a4_0_120 and2_0 a4_1_120 a4_1_121
+gate a4_0_121 or0    a4_1_120 a4_1_121
+gate a4_0_122 and2_2 a4_1_122 a4_1_123
+gate a4_0_123 or0    a4_1_122 a4_1_123
+gate a4_1_124 and2_0 a4_2_124 a4_2_126
+gate a4_1_126 or0    a4_2_124 a4_2_126
+gate a4_1_125 and2_0 a4_2_125 a4_2_127
+gate a4_1_127 or0    a4_2_125 a4_2_127
+gate a4_0_124 and2_0 a4_1_124 a4_1_125
+gate a4_0_125 or0    a4_1_124 a4_1_125
+gate a4_0_126 and2_2 a4_1_126 a4_1_127
+gate a4_0_127 or0    a4_1_126 a4_1_127
+gate a5_4_96 and2_1 a4_0_96 a4_0_127
+gate a5_4_127 or0    a4_0_96 a4_0_127
+gate a5_4_97 and2_1 a4_0_97 a4_0_126
+gate a5_4_126 or0    a4_0_97 a4_0_126
+gate a5_4_98 and2_1 a4_0_98 a4_0_125
+gate a5_4_125 or0    a4_0_98 a4_0_125
+gate a5_4_99 and2_1 a4_0_99 a4_0_124
+gate a5_4_124 or0    a4_0_99 a4_0_124
+gate a5_4_100 and2_1 a4_0_100 a4_0_123
+gate a5_4_123 or0    a4_0_100 a4_0_123
+gate a5_4_101 and2_1 a4_0_101 a4_0_122
+gate a5_4_122 or0    a4_0_101 a4_0_122
+gate a5_4_102 and2_1 a4_0_102 a4_0_121
+gate a5_4_121 or0    a4_0_102 a4_0_121
+gate a5_4_103 and2_1 a4_0_103 a4_0_120
+gate a5_4_120 or0    a4_0_103 a4_0_120
+gate a5_4_104 and2_1 a4_0_104 a4_0_119
+gate a5_4_119 or0    a4_0_104 a4_0_119
+gate a5_4_105 and2_1 a4_0_105 a4_0_118
+gate a5_4_118 or0    a4_0_105 a4_0_118
+gate a5_4_106 and2_1 a4_0_106 a4_0_117
+gate a5_4_117 or0    a4_0_106 a4_0_117
+gate a5_4_107 and2_1 a4_0_107 a4_0_116
+gate a5_4_116 or0    a4_0_107 a4_0_116
+gate a5_4_108 and2_1 a4_0_108 a4_0_115
+gate a5_4_115 or0    a4_0_108 a4_0_115
+gate a5_4_109 and2_1 a4_0_109 a4_0_114
+gate a5_4_114 or0    a4_0_109 a4_0_114
+gate a5_4_110 and2_1 a4_0_110 a4_0_113
+gate a5_4_113 or0    a4_0_110 a4_0_113
+gate a5_4_111 and2_1 a4_0_111 a4_0_112
+gate a5_4_112 or0    a4_0_111 a4_0_112
+gate a5_3_96 and2_1 a5_4_96 a5_4_104
+gate a5_3_104 or0    a5_4_96 a5_4_104
+gate a5_3_97 and2_1 a5_4_97 a5_4_105
+gate a5_3_105 or0    a5_4_97 a5_4_105
+gate a5_3_98 and2_1 a5_4_98 a5_4_106
+gate a5_3_106 or0    a5_4_98 a5_4_106
+gate a5_3_99 and2_1 a5_4_99 a5_4_107
+gate a5_3_107 or0    a5_4_99 a5_4_107
+gate a5_3_100 and2_1 a5_4_100 a5_4_108
+gate a5_3_108 or0    a5_4_100 a5_4_108
+gate a5_3_101 and2_1 a5_4_101 a5_4_109
+gate a5_3_109 or0    a5_4_101 a5_4_109
+gate a5_3_102 and2_1 a5_4_102 a5_4_110
+gate a5_3_110 or0    a5_4_102 a5_4_110
+gate a5_3_103 and2_1 a5_4_103 a5_4_111
+gate a5_3_111 or0    a5_4_103 a5_4_111
+gate a5_2_96 and2_1 a5_3_96 a5_3_100
+gate a5_2_100 or0    a5_3_96 a5_3_100
+gate a5_2_97 and2_1 a5_3_97 a5_3_101
+gate a5_2_101 or0    a5_3_97 a5_3_101
+gate a5_2_98 and2_1 a5_3_98 a5_3_102
+gate a5_2_102 or0    a5_3_98 a5_3_102
+gate a5_2_99 and2_1 a5_3_99 a5_3_103
+gate a5_2_103 or0    a5_3_99 a5_3_103
+gate a5_1_96 and2_1 a5_2_96 a5_2_98
+gate a5_1_98 or0    a5_2_96 a5_2_98
+gate a5_1_97 and2_1 a5_2_97 a5_2_99
+gate a5_1_99 or0    a5_2_97 a5_2_99
+gate a5_0_96 and2_1 a5_1_96 a5_1_97
+gate a5_0_97 or0    a5_1_96 a5_1_97
+gate a5_0_98 and2_3 a5_1_98 a5_1_99
+gate a5_0_99 or0    a5_1_98 a5_1_99
+gate a5_1_100 and2_0 a5_2_100 a5_2_102
+gate a5_1_102 or0    a5_2_100 a5_2_102
+gate a5_1_101 and2_0 a5_2_101 a5_2_103
+gate a5_1_103 or0    a5_2_101 a5_2_103
+gate a5_0_100 and2_0 a5_1_100 a5_1_101
+gate a5_0_101 or0    a5_1_100 a5_1_101
+gate a5_0_102 and2_2 a5_1_102 a5_1_103
+gate a5_0_103 or0    a5_1_102 a5_1_103
+gate a5_2_104 and2_4 a5_3_104 a5_3_108
+gate a5_2_108 or0    a5_3_104 a5_3_108
+gate a5_2_105 and2_4 a5_3_105 a5_3_109
+gate a5_2_109 or0    a5_3_105 a5_3_109
+gate a5_2_106 and2_4 a5_3_106 a5_3_110
+gate a5_2_110 or0    a5_3_106 a5_3_110
+gate a5_2_107 and2_4 a5_3_107 a5_3_111
+gate a5_2_111 or0    a5_3_107 a5_3_111
+gate a5_1_104 and2_4 a5_2_104 a5_2_106
+gate a5_1_106 or0    a5_2_104 a5_2_106
+gate a5_1_105 and2_4 a5_2_105 a5_2_107
+gate a5_1_107 or0    a5_2_105 a5_2_107
+gate a5_0_104 and2_4 a5_1_104 a5_1_105
+gate a5_0_105 or0    a5_1_104 a5_1_105
+gate a5_0_106 and2_1 a5_1_106 a5_1_107
+gate a5_0_107 or0    a5_1_106 a5_1_107
+gate a5_1_108 and2_3 a5_2_108 a5_2_110
+gate a5_1_110 or0    a5_2_108 a5_2_110
+gate a5_1_109 and2_3 a5_2_109 a5_2_111
+gate a5_1_111 or0    a5_2_109 a5_2_111
+gate a5_0_108 and2_3 a5_1_108 a5_1_109
+gate a5_0_109 or0    a5_1_108 a5_1_109
+gate a5_0_110 and2_0 a5_1_110 a5_1_111
+gate a5_0_111 or0    a5_1_110 a5_1_111
+gate a5_3_112 and2_2 a5_4_112 a5_4_120
+gate a5_3_120 or0    a5_4_112 a5_4_120
+gate a5_3_113 and2_2 a5_4_113 a5_4_121
+gate a5_3_121 or0    a5_4_113 a5_4_121
+gate a5_3_114 and2_2 a5_4_114 a5_4_122
+gate a5_3_122 or0    a5_4_114 a5_4_122
+gate a5_3_115 and2_2 a5_4_115 a5_4_123
+gate a5_3_123 or0    a5_4_115 a5_4_123
+gate a5_3_116 and2_2 a5_4_116 a5_4_124
+gate a5_3_124 or0    a5_4_116 a5_4_124
+gate a5_3_117 and2_2 a5_4_117 a5_4_125
+gate a5_3_125 or0    a5_4_117 a5_4_125
+gate a5_3_118 and2_2 a5_4_118 a5_4_126
+gate a5_3_126 or0    a5_4_118 a5_4_126
+gate a5_3_119 and2_2 a5_4_119 a5_4_127
+gate a5_3_127 or0    a5_4_119 a5_4_127
+gate a5_2_112 and2_2 a5_3_112 a5_3_116
+gate a5_2_116 or0    a5_3_112 a5_3_116
+gate a5_2_113 and2_2 a5_3_113 a5_3_117
+gate a5_2_117 or0    a5_3_113 a5_3_117
+gate a5_2_114 and2_2 a5_3_114 a5_3_118
+gate a5_2_118 or0    a5_3_114 a5_3_118
+gate a5_2_115 and2_2 a5_3_115 a5_3_119
+gate a5_2_119 or0    a5_3_115 a5_3_119
+gate a5_1_112 and2_2 a5_2_112 a5_2_114
+gate a5_1_114 or0    a5_2_112 a5_2_114
+gate a5_1_113 and2_2 a5_2_113 a5_2_115
+gate a5_1_115 or0    a5_2_113 a5_2_115
+gate a5_0_112 and2_2 a5_1_112 a5_1_113
+gate a5_0_113 or0    a5_1_112 a5_1_113
+gate a5_0_114 and2_4 a5_1_114 a5_1_115
+gate a5_0_115 or0    a5_1_114 a5_1_115
+gate a5_1_116 and2_1 a5_2_116 a5_2_118
+gate a5_1_118 or0    a5_2_116 a5_2_118
+gate a5_1_117 and2_1 a5_2_117 a5_2_119
+gate a5_1_119 or0    a5_2_117 a5_2_119
+gate a5_0_116 and2_1 a5_1_116 a5_1_117
+gate a5_0_117 or0    a5_1_116 a5_1_117
+gate a5_0_118 and2_3 a5_1_118 a5_1_119
+gate a5_0_119 or0    a5_1_118 a5_1_119
+gate a5_2_120 and2_0 a5_3_120 a5_3_124
+gate a5_2_124 or0    a5_3_120 a5_3_124
+gate a5_2_121 and2_0 a5_3_121 a5_3_125
+gate a5_2_125 or0    a5_3_121 a5_3_125
+gate a5_2_122 and2_0 a5_3_122 a5_3_126
+gate a5_2_126 or0    a5_3_122 a5_3_126
+gate a5_2_123 and2_0 a5_3_123 a5_3_127
+gate a5_2_127 or0    a5_3_123 a5_3_127
+gate a5_1_120 and2_0 a5_2_120 a5_2_122
+gate a5_1_122 or0    a5_2_120 a5_2_122
+gate a5_1_121 and2_0 a5_2_121 a5_2_123
+gate a5_1_123 or0    a5_2_121 a5_2_123
+gate a5_0_120 and2_0 a5_1_120 a5_1_121
+gate a5_0_121 or0    a5_1_120 a5_1_121
+gate a5_0_122 and2_2 a5_1_122 a5_1_123
+gate a5_0_123 or0    a5_1_122 a5_1_123
+gate a5_1_124 and2_4 a5_2_124 a5_2_126
+gate a5_1_126 or0    a5_2_124 a5_2_126
+gate a5_1_125 and2_4 a5_2_125 a5_2_127
+gate a5_1_127 or0    a5_2_125 a5_2_127
+gate a5_0_124 and2_4 a5_1_124 a5_1_125
+gate a5_0_125 or0    a5_1_124 a5_1_125
+gate a5_0_126 and2_1 a5_1_126 a5_1_127
+gate a5_0_127 or0    a5_1_126 a5_1_127
+gate a6_5_64 and2_4 a5_0_64 a5_0_127
+gate a6_5_127 or0    a5_0_64 a5_0_127
+gate a6_5_65 and2_4 a5_0_65 a5_0_126
+gate a6_5_126 or0    a5_0_65 a5_0_126
+gate a6_5_66 and2_4 a5_0_66 a5_0_125
+gate a6_5_125 or0    a5_0_66 a5_0_125
+gate a6_5_67 and2_4 a5_0_67 a5_0_124
+gate a6_5_124 or0    a5_0_67 a5_0_124
+gate a6_5_68 and2_4 a5_0_68 a5_0_123
+gate a6_5_123 or0    a5_0_68 a5_0_123
+gate a6_5_69 and2_4 a5_0_69 a5_0_122
+gate a6_5_122 or0    a5_0_69 a5_0_122
+gate a6_5_70 and2_4 a5_0_70 a5_0_121
+gate a6_5_121 or0    a5_0_70 a5_0_121
+gate a6_5_71 and2_4 a5_0_71 a5_0_120
+gate a6_5_120 or0    a5_0_71 a5_0_120
+gate a6_5_72 and2_4 a5_0_72 a5_0_119
+gate a6_5_119 or0    a5_0_72 a5_0_119
+gate a6_5_73 and2_4 a5_0_73 a5_0_118
+gate a6_5_118 or0    a5_0_73 a5_0_118
+gate a6_5_74 and2_4 a5_0_74 a5_0_117
+gate a6_5_117 or0    a5_0_74 a5_0_117
+gate a6_5_75 and2_4 a5_0_75 a5_0_116
+gate a6_5_116 or0    a5_0_75 a5_0_116
+gate a6_5_76 and2_4 a5_0_76 a5_0_115
+gate a6_5_115 or0    a5_0_76 a5_0_115
+gate a6_5_77 and2_4 a5_0_77 a5_0_114
+gate a6_5_114 or0    a5_0_77 a5_0_114
+gate a6_5_78 and2_4 a5_0_78 a5_0_113
+gate a6_5_113 or0    a5_0_78 a5_0_113
+gate a6_5_79 and2_4 a5_0_79 a5_0_112
+gate a6_5_112 or0    a5_0_79 a5_0_112
+gate a6_5_80 and2_4 a5_0_80 a5_0_111
+gate a6_5_111 or0    a5_0_80 a5_0_111
+gate a6_5_81 and2_4 a5_0_81 a5_0_110
+gate a6_5_110 or0    a5_0_81 a5_0_110
+gate a6_5_82 and2_4 a5_0_82 a5_0_109
+gate a6_5_109 or0    a5_0_82 a5_0_109
+gate a6_5_83 and2_4 a5_0_83 a5_0_108
+gate a6_5_108 or0    a5_0_83 a5_0_108
+gate a6_5_84 and2_4 a5_0_84 a5_0_107
+gate a6_5_107 or0    a5_0_84 a5_0_107
+gate a6_5_85 and2_4 a5_0_85 a5_0_106
+gate a6_5_106 or0    a5_0_85 a5_0_106
+gate a6_5_86 and2_4 a5_0_86 a5_0_105
+gate a6_5_105 or0    a5_0_86 a5_0_105
+gate a6_5_87 and2_4 a5_0_87 a5_0_104
+gate a6_5_104 or0    a5_0_87 a5_0_104
+gate a6_5_88 and2_4 a5_0_88 a5_0_103
+gate a6_5_103 or0    a5_0_88 a5_0_103
+gate a6_5_89 and2_4 a5_0_89 a5_0_102
+gate a6_5_102 or0    a5_0_89 a5_0_102
+gate a6_5_90 and2_4 a5_0_90 a5_0_101
+gate a6_5_101 or0    a5_0_90 a5_0_101
+gate a6_5_91 and2_4 a5_0_91 a5_0_100
+gate a6_5_100 or0    a5_0_91 a5_0_100
+gate a6_5_92 and2_4 a5_0_92 a5_0_99
+gate a6_5_99 or0    a5_0_92 a5_0_99
+gate a6_5_93 and2_4 a5_0_93 a5_0_98
+gate a6_5_98 or0    a5_0_93 a5_0_98
+gate a6_5_94 and2_4 a5_0_94 a5_0_97
+gate a6_5_97 or0    a5_0_94 a5_0_97
+gate a6_5_95 and2_4 a5_0_95 a5_0_96
+gate a6_5_96 or0    a5_0_95 a5_0_96
+gate a6_4_64 and2_4 a6_5_64 a6_5_80
+gate a6_4_80 or0    a6_5_64 a6_5_80
+gate a6_4_65 and2_4 a6_5_65 a6_5_81
+gate a6_4_81 or0    a6_5_65 a6_5_81
+gate a6_4_66 and2_4 a6_5_66 a6_5_82
+gate a6_4_82 or0    a6_5_66 a6_5_82
+gate a6_4_67 and2_4 a6_5_67 a6_5_83
+gate a6_4_83 or0    a6_5_67 a6_5_83
+gate a6_4_68 and2_4 a6_5_68 a6_5_84
+gate a6_4_84 or0    a6_5_68 a6_5_84
+gate a6_4_69 and2_4 a6_5_69 a6_5_85
+gate a6_4_85 or0    a6_5_69 a6_5_85
+gate a6_4_70 and2_4 a6_5_70 a6_5_86
+gate a6_4_86 or0    a6_5_70 a6_5_86
+gate a6_4_71 and2_4 a6_5_71 a6_5_87
+gate a6_4_87 or0    a6_5_71 a6_5_87
+gate a6_4_72 and2_4 a6_5_72 a6_5_88
+gate a6_4_88 or0    a6_5_72 a6_5_88
+gate a6_4_73 and2_4 a6_5_73 a6_5_89
+gate a6_4_89 or0    a6_5_73 a6_5_89
+gate a6_4_74 and2_4 a6_5_74 a6_5_90
+gate a6_4_90 or0    a6_5_74 a6_5_90
+gate a6_4_75 and2_4 a6_5_75 a6_5_91
+gate a6_4_91 or0    a6_5_75 a6_5_91
+gate a6_4_76 and2_4 a6_5_76 a6_5_92
+gate a6_4_92 or0    a6_5_76 a6_5_92
+gate a6_4_77 and2_4 a6_5_77 a6_5_93
+gate a6_4_93 or0    a6_5_77 a6_5_93
+gate a6_4_78 and2_4 a6_5_78 a6_5_94
+gate a6_4_94 or0    a6_5_78 a6_5_94
+gate a6_4_79 and2_4 a6_5_79 a6_5_95
+gate a6_4_95 or0    a6_5_79 a6_5_95
+gate a6_3_64 and2_4 a6_4_64 a6_4_72
+gate a6_3_72 or0    a6_4_64 a6_4_72
+gate a6_3_65 and2_4 a6_4_65 a6_4_73
+gate a6_3_73 or0    a6_4_65 a6_4_73
+gate a6_3_66 and2_4 a6_4_66 a6_4_74
+gate a6_3_74 or0    a6_4_66 a6_4_74
+gate a6_3_67 and2_4 a6_4_67 a6_4_75
+gate a6_3_75 or0    a6_4_67 a6_4_75
+gate a6_3_68 and2_4 a6_4_68 a6_4_76
+gate a6_3_76 or0    a6_4_68 a6_4_76
+gate a6_3_69 and2_4 a6_4_69 a6_4_77
+gate a6_3_77 or0    a6_4_69 a6_4_77
+gate a6_3_70 and2_4 a6_4_70 a6_4_78
+gate a6_3_78 or0    a6_4_70 a6_4_78
+gate a6_3_71 and2_4 a6_4_71 a6_4_79
+gate a6_3_79 or0    a6_4_71 a6_4_79
+gate a6_2_64 and2_4 a6_3_64 a6_3_68
+gate a6_2_68 or0    a6_3_64 a6_3_68
+gate a6_2_65 and2_4 a6_3_65 a6_3_69
+gate a6_2_69 or0    a6_3_65 a6_3_69
+gate a6_2_66 and2_4 a6_3_66 a6_3_70
+gate a6_2_70 or0    a6_3_66 a6_3_70
+gate a6_2_67 and2_4 a6_3_67 a6_3_71
+gate a6_2_71 or0    a6_3_67 a6_3_71
+gate a6_1_64 and2_4 a6_2_64 a6_2_66
+gate a6_1_66 or0    a6_2_64 a6_2_66
+gate a6_1_65 and2_4 a6_2_65 a6_2_67
+gate a6_1_67 or0    a6_2_65 a6_2_67
+gate a6_0_64 and2_4 a6_1_64 a6_1_65
+gate a6_0_65 or0    a6_1_64 a6_1_65
+gate a6_0_66 and2_0 a6_1_66 a6_1_67
+gate a6_0_67 or0    a6_1_66 a6_1_67
+gate a6_1_68 and2_2 a6_2_68 a6_2_70
+gate a6_1_70 or0    a6_2_68 a6_2_70
+gate a6_1_69 and2_2 a6_2_69 a6_2_71
+gate a6_1_71 or0    a6_2_69 a6_2_71
+gate a6_0_68 and2_2 a6_1_68 a6_1_69
+gate a6_0_69 or0    a6_1_68 a6_1_69
+gate a6_0_70 and2_4 a6_1_70 a6_1_71
+gate a6_0_71 or0    a6_1_70 a6_1_71
+gate a6_2_72 and2_0 a6_3_72 a6_3_76
+gate a6_2_76 or0    a6_3_72 a6_3_76
+gate a6_2_73 and2_0 a6_3_73 a6_3_77
+gate a6_2_77 or0    a6_3_73 a6_3_77
+gate a6_2_74 and2_0 a6_3_74 a6_3_78
+gate a6_2_78 or0    a6_3_74 a6_3_78
+gate a6_2_75 and2_0 a6_3_75 a6_3_79
+gate a6_2_79 or0    a6_3_75 a6_3_79
+gate a6_1_72 and2_0 a6_2_72 a6_2_74
+gate a6_1_74 or0    a6_2_72 a6_2_74
+gate a6_1_73 and2_0 a6_2_73 a6_2_75
+gate a6_1_75 or0    a6_2_73 a6_2_75
+gate a6_0_72 and2_0 a6_1_72 a6_1_73
+gate a6_0_73 or0    a6_1_72 a6_1_73
+gate a6_0_74 and2_2 a6_1_74 a6_1_75
+gate a6_0_75 or0    a6_1_74 a6_1_75
+gate a6_1_76 and2_4 a6_2_76 a6_2_78
+gate a6_1_78 or0    a6_2_76 a6_2_78
+gate a6_1_77 and2_4 a6_2_77 a6_2_79
+gate a6_1_79 or0    a6_2_77 a6_2_79
+gate a6_0_76 and2_4 a6_1_76 a6_1_77
+gate a6_0_77 or0    a6_1_76 a6_1_77
+gate a6_0_78 and2_0 a6_1_78 a6_1_79
+gate a6_0_79 or0    a6_1_78 a6_1_79
+gate a6_3_80 and2_2 a6_4_80 a6_4_88
+gate a6_3_88 or0    a6_4_80 a6_4_88
+gate a6_3_81 and2_2 a6_4_81 a6_4_89
+gate a6_3_89 or0    a6_4_81 a6_4_89
+gate a6_3_82 and2_2 a6_4_82 a6_4_90
+gate a6_3_90 or0    a6_4_82 a6_4_90
+gate a6_3_83 and2_2 a6_4_83 a6_4_91
+gate a6_3_91 or0    a6_4_83 a6_4_91
+gate a6_3_84 and2_2 a6_4_84 a6_4_92
+gate a6_3_92 or0    a6_4_84 a6_4_92
+gate a6_3_85 and2_2 a6_4_85 a6_4_93
+gate a6_3_93 or0    a6_4_85 a6_4_93
+gate a6_3_86 and2_2 a6_4_86 a6_4_94
+gate a6_3_94 or0    a6_4_86 a6_4_94
+gate a6_3_87 and2_2 a6_4_87 a6_4_95
+gate a6_3_95 or0    a6_4_87 a6_4_95
+gate a6_2_80 and2_2 a6_3_80 a6_3_84
+gate a6_2_84 or0    a6_3_80 a6_3_84
+gate a6_2_81 and2_2 a6_3_81 a6_3_85
+gate a6_2_85 or0    a6_3_81 a6_3_85
+gate a6_2_82 and2_2 a6_3_82 a6_3_86
+gate a6_2_86 or0    a6_3_82 a6_3_86
+gate a6_2_83 and2_2 a6_3_83 a6_3_87
+gate a6_2_87 or0    a6_3_83 a6_3_87
+gate a6_1_80 and2_2 a6_2_80 a6_2_82
+gate a6_1_82 or0    a6_2_80 a6_2_82
+gate a6_1_81 and2_2 a6_2_81 a6_2_83
+gate a6_1_83 or0    a6_2_81 a6_2_83
+gate a6_0_80 and2_2 a6_1_80 a6_1_81
+gate a6_0_81 or0    a6_1_80 a6_1_81
+gate a6_0_82 and2_4 a6_1_82 a6_1_83
+gate a6_0_83 or0    a6_1_82 a6_1_83
+gate a6_1_84 and2_0 a6_2_84 a6_2_86
+gate a6_1_86 or0    a6_2_84 a6_2_86
+gate a6_1_85 and2_0 a6_2_85 a6_2_87
+gate a6_1_87 or0    a6_2_85 a6_2_87
+gate a6_0_84 and2_0 a6_1_84 a6_1_85
+gate a6_0_85 or0    a6_1_84 a6_1_85
+gate a6_0_86 and2_2 a6_1_86 a6_1_87
+gate a6_0_87 or0    a6_1_86 a6_1_87
+gate a6_2_88 and2_4 a6_3_88 a6_3_92
+gate a6_2_92 or0    a6_3_88 a6_3_92
+gate a6_2_89 and2_4 a6_3_89 a6_3_93
+gate a6_2_93 or0    a6_3_89 a6_3_93
+gate a6_2_90 and2_4 a6_3_90 a6_3_94
+gate a6_2_94 or0    a6_3_90 a6_3_94
+gate a6_2_91 and2_4 a6_3_91 a6_3_95
+gate a6_2_95 or0    a6_3_91 a6_3_95
+gate a6_1_88 and2_4 a6_2_88 a6_2_90
+gate a6_1_90 or0    a6_2_88 a6_2_90
+gate a6_1_89 and2_4 a6_2_89 a6_2_91
+gate a6_1_91 or0    a6_2_89 a6_2_91
+gate a6_0_88 and2_4 a6_1_88 a6_1_89
+gate a6_0_89 or0    a6_1_88 a6_1_89
+gate a6_0_90 and2_0 a6_1_90 a6_1_91
+gate a6_0_91 or0    a6_1_90 a6_1_91
+gate a6_1_92 and2_2 a6_2_92 a6_2_94
+gate a6_1_94 or0    a6_2_92 a6_2_94
+gate a6_1_93 and2_2 a6_2_93 a6_2_95
+gate a6_1_95 or0    a6_2_93 a6_2_95
+gate a6_0_92 and2_2 a6_1_92 a6_1_93
+gate a6_0_93 or0    a6_1_92 a6_1_93
+gate a6_0_94 and2_4 a6_1_94 a6_1_95
+gate a6_0_95 or0    a6_1_94 a6_1_95
+gate a6_4_96 and2_0 a6_5_96 a6_5_112
+gate a6_4_112 or0    a6_5_96 a6_5_112
+gate a6_4_97 and2_0 a6_5_97 a6_5_113
+gate a6_4_113 or0    a6_5_97 a6_5_113
+gate a6_4_98 and2_0 a6_5_98 a6_5_114
+gate a6_4_114 or0    a6_5_98 a6_5_114
+gate a6_4_99 and2_0 a6_5_99 a6_5_115
+gate a6_4_115 or0    a6_5_99 a6_5_115
+gate a6_4_100 and2_0 a6_5_100 a6_5_116
+gate a6_4_116 or0    a6_5_100 a6_5_116
+gate a6_4_101 and2_0 a6_5_101 a6_5_117
+gate a6_4_117 or0    a6_5_101 a6_5_117
+gate a6_4_102 and2_0 a6_5_102 a6_5_118
+gate a6_4_118 or0    a6_5_102 a6_5_118
+gate a6_4_103 and2_0 a6_5_103 a6_5_119
+gate a6_4_119 or0    a6_5_103 a6_5_119
+gate a6_4_104 and2_0 a6_5_104 a6_5_120
+gate a6_4_120 or0    a6_5_104 a6_5_120
+gate a6_4_105 and2_0 a6_5_105 a6_5_121
+gate a6_4_121 or0    a6_5_105 a6_5_121
+gate a6_4_106 and2_0 a6_5_106 a6_5_122
+gate a6_4_122 or0    a6_5_106 a6_5_122
+gate a6_4_107 and2_0 a6_5_107 a6_5_123
+gate a6_4_123 or0    a6_5_107 a6_5_123
+gate a6_4_108 and2_0 a6_5_108 a6_5_124
+gate a6_4_124 or0    a6_5_108 a6_5_124
+gate a6_4_109 and2_0 a6_5_109 a6_5_125
+gate a6_4_125 or0    a6_5_109 a6_5_125
+gate a6_4_110 and2_0 a6_5_110 a6_5_126
+gate a6_4_126 or0    a6_5_110 a6_5_126
+gate a6_4_111 and2_0 a6_5_111 a6_5_127
+gate a6_4_127 or0    a6_5_111 a6_5_127
+gate a6_3_96 and2_0 a6_4_96 a6_4_104
+gate a6_3_104 or0    a6_4_96 a6_4_104
+gate a6_3_97 and2_0 a6_4_97 a6_4_105
+gate a6_3_105 or0    a6_4_97 a6_4_105
+gate a6_3_98 and2_0 a6_4_98 a6_4_106
+gate a6_3_106 or0    a6_4_98 a6_4_106
+gate a6_3_99 and2_0 a6_4_99 a6_4_107
+gate a6_3_107 or0    a6_4_99 a6_4_107
+gate a6_3_100 and2_0 a6_4_100 a6_4_108
+gate a6_3_108 or0    a6_4_100 a6_4_108
+gate a6_3_101 and2_0 a6_4_101 a6_4_109
+gate a6_3_109 or0    a6_4_101 a6_4_109
+gate a6_3_102 and2_0 a6_4_102 a6_4_110
+gate a6_3_110 or0    a6_4_102 a6_4_110
+gate a6_3_103 and2_0 a6_4_103 a6_4_111
+gate a6_3_111 or0    a6_4_103 a6_4_111
+gate a6_2_96 and2_0 a6_3_96 a6_3_100
+gate a6_2_100 or0    a6_3_96 a6_3_100
+gate a6_2_97 and2_0 a6_3_97 a6_3_101
+gate a6_2_101 or0    a6_3_97 a6_3_101
+gate a6_2_98 and2_0 a6_3_98 a6_3_102
+gate a6_2_102 or0    a6_3_98 a6_3_102
+gate a6_2_99 and2_0 a6_3_99 a6_3_103
+gate a6_2_103 or0    a6_3_99 a6_3_103
+gate a6_1_96 and2_0 a6_2_96 a6_2_98
+gate a6_1_98 or0    a6_2_96 a6_2_98
+gate a6_1_97 and2_0 a6_2_97 a6_2_99
+gate a6_1_99 or0    a6_2_97 a6_2_99
+gate a6_0_96 and2_0 a6_1_96 a6_1_97
+gate a6_0_97 or0    a6_1_96 a6_1_97
+gate a6_0_98 and2_2 a6_1_98 a6_1_99
+gate a6_0_99 or0    a6_1_98 a6_1_99
+gate a6_1_100 and2_4 a6_2_100 a6_2_102
+gate a6_1_102 or0    a6_2_100 a6_2_102
+gate a6_1_101 and2_4 a6_2_101 a6_2_103
+gate a6_1_103 or0    a6_2_101 a6_2_103
+gate a6_0_100 and2_4 a6_1_100 a6_1_101
+gate a6_0_101 or0    a6_1_100 a6_1_101
+gate a6_0_102 and2_0 a6_1_102 a6_1_103
+gate a6_0_103 or0    a6_1_102 a6_1_103
+gate a6_2_104 and2_2 a6_3_104 a6_3_108
+gate a6_2_108 or0    a6_3_104 a6_3_108
+gate a6_2_105 and2_2 a6_3_105 a6_3_109
+gate a6_2_109 or0    a6_3_105 a6_3_109
+gate a6_2_106 and2_2 a6_3_106 a6_3_110
+gate a6_2_110 or0    a6_3_106 a6_3_110
+gate a6_2_107 and2_2 a6_3_107 a6_3_111
+gate a6_2_111 or0    a6_3_107 a6_3_111
+gate a6_1_104 and2_2 a6_2_104 a6_2_106
+gate a6_1_106 or0    a6_2_104 a6_2_106
+gate a6_1_105 and2_2 a6_2_105 a6_2_107
+gate a6_1_107 or0    a6_2_105 a6_2_107
+gate a6_0_104 and2_2 a6_1_104 a6_1_105
+gate a6_0_105 or0    a6_1_104 a6_1_105
+gate a6_0_106 and2_4 a6_1_106 a6_1_107
+gate a6_0_107 or0    a6_1_106 a6_1_107
+gate a6_1_108 and2_0 a6_2_108 a6_2_110
+gate a6_1_110 or0    a6_2_108 a6_2_110
+gate a6_1_109 and2_0 a6_2_109 a6_2_111
+gate a6_1_111 or0    a6_2_109 a6_2_111
+gate a6_0_108 and2_0 a6_1_108 a6_1_109
+gate a6_0_109 or0    a6_1_108 a6_1_109
+gate a6_0_110 and2_2 a6_1_110 a6_1_111
+gate a6_0_111 or0    a6_1_110 a6_1_111
+gate a6_3_112 and2_4 a6_4_112 a6_4_120
+gate a6_3_120 or0    a6_4_112 a6_4_120
+gate a6_3_113 and2_4 a6_4_113 a6_4_121
+gate a6_3_121 or0    a6_4_113 a6_4_121
+gate a6_3_114 and2_4 a6_4_114 a6_4_122
+gate a6_3_122 or0    a6_4_114 a6_4_122
+gate a6_3_115 and2_4 a6_4_115 a6_4_123
+gate a6_3_123 or0    a6_4_115 a6_4_123
+gate a6_3_116 and2_4 a6_4_116 a6_4_124
+gate a6_3_124 or0    a6_4_116 a6_4_124
+gate a6_3_117 and2_4 a6_4_117 a6_4_125
+gate a6_3_125 or0    a6_4_117 a6_4_125
+gate a6_3_118 and2_4 a6_4_118 a6_4_126
+gate a6_3_126 or0    a6_4_118 a6_4_126
+gate a6_3_119 and2_4 a6_4_119 a6_4_127
+gate a6_3_127 or0    a6_4_119 a6_4_127
+gate a6_2_112 and2_4 a6_3_112 a6_3_116
+gate a6_2_116 or0    a6_3_112 a6_3_116
+gate a6_2_113 and2_4 a6_3_113 a6_3_117
+gate a6_2_117 or0    a6_3_113 a6_3_117
+gate a6_2_114 and2_4 a6_3_114 a6_3_118
+gate a6_2_118 or0    a6_3_114 a6_3_118
+gate a6_2_115 and2_4 a6_3_115 a6_3_119
+gate a6_2_119 or0    a6_3_115 a6_3_119
+gate a6_1_112 and2_4 a6_2_112 a6_2_114
+gate a6_1_114 or0    a6_2_112 a6_2_114
+gate a6_1_113 and2_4 a6_2_113 a6_2_115
+gate a6_1_115 or0    a6_2_113 a6_2_115
+gate a6_0_112 and2_4 a6_1_112 a6_1_113
+gate a6_0_113 or0    a6_1_112 a6_1_113
+gate a6_0_114 and2_0 a6_1_114 a6_1_115
+gate a6_0_115 or0    a6_1_114 a6_1_115
+gate a6_1_116 and2_2 a6_2_116 a6_2_118
+gate a6_1_118 or0    a6_2_116 a6_2_118
+gate a6_1_117 and2_2 a6_2_117 a6_2_119
+gate a6_1_119 or0    a6_2_117 a6_2_119
+gate a6_0_116 and2_2 a6_1_116 a6_1_117
+gate a6_0_117 or0    a6_1_116 a6_1_117
+gate a6_0_118 and2_4 a6_1_118 a6_1_119
+gate a6_0_119 or0    a6_1_118 a6_1_119
+gate a6_2_120 and2_0 a6_3_120 a6_3_124
+gate a6_2_124 or0    a6_3_120 a6_3_124
+gate a6_2_121 and2_0 a6_3_121 a6_3_125
+gate a6_2_125 or0    a6_3_121 a6_3_125
+gate a6_2_122 and2_0 a6_3_122 a6_3_126
+gate a6_2_126 or0    a6_3_122 a6_3_126
+gate a6_2_123 and2_0 a6_3_123 a6_3_127
+gate a6_2_127 or0    a6_3_123 a6_3_127
+gate a6_1_120 and2_0 a6_2_120 a6_2_122
+gate a6_1_122 or0    a6_2_120 a6_2_122
+gate a6_1_121 and2_0 a6_2_121 a6_2_123
+gate a6_1_123 or0    a6_2_121 a6_2_123
+gate a6_0_120 and2_0 a6_1_120 a6_1_121
+gate a6_0_121 or0    a6_1_120 a6_1_121
+gate a6_0_122 and2_2 a6_1_122 a6_1_123
+gate a6_0_123 or0    a6_1_122 a6_1_123
+gate a6_1_124 and2_4 a6_2_124 a6_2_126
+gate a6_1_126 or0    a6_2_124 a6_2_126
+gate a6_1_125 and2_4 a6_2_125 a6_2_127
+gate a6_1_127 or0    a6_2_125 a6_2_127
+gate a6_0_124 and2_4 a6_1_124 a6_1_125
+gate a6_0_125 or0    a6_1_124 a6_1_125
+gate a6_0_126 and2_0 a6_1_126 a6_1_127
+gate a6_0_127 or0    a6_1_126 a6_1_127
+gate a7_6_00 and2_0 a6_0_00 a6_0_127
+gate a7_6_127 or0    a6_0_00 a6_0_127
+gate a7_6_01 and2_0 a6_0_01 a6_0_126
+gate a7_6_126 or0    a6_0_01 a6_0_126
+gate a7_6_02 and2_0 a6_0_02 a6_0_125
+gate a7_6_125 or0    a6_0_02 a6_0_125
+gate a7_6_03 and2_0 a6_0_03 a6_0_124
+gate a7_6_124 or0    a6_0_03 a6_0_124
+gate a7_6_04 and2_0 a6_0_04 a6_0_123
+gate a7_6_123 or0    a6_0_04 a6_0_123
+gate a7_6_05 and2_0 a6_0_05 a6_0_122
+gate a7_6_122 or0    a6_0_05 a6_0_122
+gate a7_6_06 and2_0 a6_0_06 a6_0_121
+gate a7_6_121 or0    a6_0_06 a6_0_121
+gate a7_6_07 and2_0 a6_0_07 a6_0_120
+gate a7_6_120 or0    a6_0_07 a6_0_120
+gate a7_6_08 and2_0 a6_0_08 a6_0_119
+gate a7_6_119 or0    a6_0_08 a6_0_119
+gate a7_6_09 and2_0 a6_0_09 a6_0_118
+gate a7_6_118 or0    a6_0_09 a6_0_118
+gate a7_6_10 and2_0 a6_0_10 a6_0_117
+gate a7_6_117 or0    a6_0_10 a6_0_117
+gate a7_6_11 and2_0 a6_0_11 a6_0_116
+gate a7_6_116 or0    a6_0_11 a6_0_116
+gate a7_6_12 and2_0 a6_0_12 a6_0_115
+gate a7_6_115 or0    a6_0_12 a6_0_115
+gate a7_6_13 and2_0 a6_0_13 a6_0_114
+gate a7_6_114 or0    a6_0_13 a6_0_114
+gate a7_6_14 and2_0 a6_0_14 a6_0_113
+gate a7_6_113 or0    a6_0_14 a6_0_113
+gate a7_6_15 and2_0 a6_0_15 a6_0_112
+gate a7_6_112 or0    a6_0_15 a6_0_112
+gate a7_6_16 and2_0 a6_0_16 a6_0_111
+gate a7_6_111 or0    a6_0_16 a6_0_111
+gate a7_6_17 and2_0 a6_0_17 a6_0_110
+gate a7_6_110 or0    a6_0_17 a6_0_110
+gate a7_6_18 and2_0 a6_0_18 a6_0_109
+gate a7_6_109 or0    a6_0_18 a6_0_109
+gate a7_6_19 and2_0 a6_0_19 a6_0_108
+gate a7_6_108 or0    a6_0_19 a6_0_108
+gate a7_6_20 and2_0 a6_0_20 a6_0_107
+gate a7_6_107 or0    a6_0_20 a6_0_107
+gate a7_6_21 and2_0 a6_0_21 a6_0_106
+gate a7_6_106 or0    a6_0_21 a6_0_106
+gate a7_6_22 and2_0 a6_0_22 a6_0_105
+gate a7_6_105 or0    a6_0_22 a6_0_105
+gate a7_6_23 and2_0 a6_0_23 a6_0_104
+gate a7_6_104 or0    a6_0_23 a6_0_104
+gate a7_6_24 and2_0 a6_0_24 a6_0_103
+gate a7_6_103 or0    a6_0_24 a6_0_103
+gate a7_6_25 and2_0 a6_0_25 a6_0_102
+gate a7_6_102 or0    a6_0_25 a6_0_102
+gate a7_6_26 and2_0 a6_0_26 a6_0_101
+gate a7_6_101 or0    a6_0_26 a6_0_101
+gate a7_6_27 and2_0 a6_0_27 a6_0_100
+gate a7_6_100 or0    a6_0_27 a6_0_100
+gate a7_6_28 and2_0 a6_0_28 a6_0_99
+gate a7_6_99 or0    a6_0_28 a6_0_99
+gate a7_6_29 and2_0 a6_0_29 a6_0_98
+gate a7_6_98 or0    a6_0_29 a6_0_98
+gate a7_6_30 and2_0 a6_0_30 a6_0_97
+gate a7_6_97 or0    a6_0_30 a6_0_97
+gate a7_6_31 and2_0 a6_0_31 a6_0_96
+gate a7_6_96 or0    a6_0_31 a6_0_96
+gate a7_6_32 and2_0 a6_0_32 a6_0_95
+gate a7_6_95 or0    a6_0_32 a6_0_95
+gate a7_6_33 and2_0 a6_0_33 a6_0_94
+gate a7_6_94 or0    a6_0_33 a6_0_94
+gate a7_6_34 and2_0 a6_0_34 a6_0_93
+gate a7_6_93 or0    a6_0_34 a6_0_93
+gate a7_6_35 and2_0 a6_0_35 a6_0_92
+gate a7_6_92 or0    a6_0_35 a6_0_92
+gate a7_6_36 and2_0 a6_0_36 a6_0_91
+gate a7_6_91 or0    a6_0_36 a6_0_91
+gate a7_6_37 and2_0 a6_0_37 a6_0_90
+gate a7_6_90 or0    a6_0_37 a6_0_90
+gate a7_6_38 and2_0 a6_0_38 a6_0_89
+gate a7_6_89 or0    a6_0_38 a6_0_89
+gate a7_6_39 and2_0 a6_0_39 a6_0_88
+gate a7_6_88 or0    a6_0_39 a6_0_88
+gate a7_6_40 and2_0 a6_0_40 a6_0_87
+gate a7_6_87 or0    a6_0_40 a6_0_87
+gate a7_6_41 and2_0 a6_0_41 a6_0_86
+gate a7_6_86 or0    a6_0_41 a6_0_86
+gate a7_6_42 and2_0 a6_0_42 a6_0_85
+gate a7_6_85 or0    a6_0_42 a6_0_85
+gate a7_6_43 and2_0 a6_0_43 a6_0_84
+gate a7_6_84 or0    a6_0_43 a6_0_84
+gate a7_6_44 and2_0 a6_0_44 a6_0_83
+gate a7_6_83 or0    a6_0_44 a6_0_83
+gate a7_6_45 and2_0 a6_0_45 a6_0_82
+gate a7_6_82 or0    a6_0_45 a6_0_82
+gate a7_6_46 and2_0 a6_0_46 a6_0_81
+gate a7_6_81 or0    a6_0_46 a6_0_81
+gate a7_6_47 and2_0 a6_0_47 a6_0_80
+gate a7_6_80 or0    a6_0_47 a6_0_80
+gate a7_6_48 and2_0 a6_0_48 a6_0_79
+gate a7_6_79 or0    a6_0_48 a6_0_79
+gate a7_6_49 and2_0 a6_0_49 a6_0_78
+gate a7_6_78 or0    a6_0_49 a6_0_78
+gate a7_6_50 and2_0 a6_0_50 a6_0_77
+gate a7_6_77 or0    a6_0_50 a6_0_77
+gate a7_6_51 and2_0 a6_0_51 a6_0_76
+gate a7_6_76 or0    a6_0_51 a6_0_76
+gate a7_6_52 and2_0 a6_0_52 a6_0_75
+gate a7_6_75 or0    a6_0_52 a6_0_75
+gate a7_6_53 and2_0 a6_0_53 a6_0_74
+gate a7_6_74 or0    a6_0_53 a6_0_74
+gate a7_6_54 and2_0 a6_0_54 a6_0_73
+gate a7_6_73 or0    a6_0_54 a6_0_73
+gate a7_6_55 and2_0 a6_0_55 a6_0_72
+gate a7_6_72 or0    a6_0_55 a6_0_72
+gate a7_6_56 and2_0 a6_0_56 a6_0_71
+gate a7_6_71 or0    a6_0_56 a6_0_71
+gate a7_6_57 and2_0 a6_0_57 a6_0_70
+gate a7_6_70 or0    a6_0_57 a6_0_70
+gate a7_6_58 and2_0 a6_0_58 a6_0_69
+gate a7_6_69 or0    a6_0_58 a6_0_69
+gate a7_6_59 and2_0 a6_0_59 a6_0_68
+gate a7_6_68 or0    a6_0_59 a6_0_68
+gate a7_6_60 and2_0 a6_0_60 a6_0_67
+gate a7_6_67 or0    a6_0_60 a6_0_67
+gate a7_6_61 and2_0 a6_0_61 a6_0_66
+gate a7_6_66 or0    a6_0_61 a6_0_66
+gate a7_6_62 and2_0 a6_0_62 a6_0_65
+gate a7_6_65 or0    a6_0_62 a6_0_65
+gate a7_6_63 and2_0 a6_0_63 a6_0_64
+gate a7_6_64 or0    a6_0_63 a6_0_64
+gate a7_5_00 and2_0 a7_6_00 a7_6_32
+gate a7_5_32 or0    a7_6_00 a7_6_32
+gate a7_5_01 and2_0 a7_6_01 a7_6_33
+gate a7_5_33 or0    a7_6_01 a7_6_33
+gate a7_5_02 and2_0 a7_6_02 a7_6_34
+gate a7_5_34 or0    a7_6_02 a7_6_34
+gate a7_5_03 and2_0 a7_6_03 a7_6_35
+gate a7_5_35 or0    a7_6_03 a7_6_35
+gate a7_5_04 and2_0 a7_6_04 a7_6_36
+gate a7_5_36 or0    a7_6_04 a7_6_36
+gate a7_5_05 and2_0 a7_6_05 a7_6_37
+gate a7_5_37 or0    a7_6_05 a7_6_37
+gate a7_5_06 and2_0 a7_6_06 a7_6_38
+gate a7_5_38 or0    a7_6_06 a7_6_38
+gate a7_5_07 and2_0 a7_6_07 a7_6_39
+gate a7_5_39 or0    a7_6_07 a7_6_39
+gate a7_5_08 and2_0 a7_6_08 a7_6_40
+gate a7_5_40 or0    a7_6_08 a7_6_40
+gate a7_5_09 and2_0 a7_6_09 a7_6_41
+gate a7_5_41 or0    a7_6_09 a7_6_41
+gate a7_5_10 and2_0 a7_6_10 a7_6_42
+gate a7_5_42 or0    a7_6_10 a7_6_42
+gate a7_5_11 and2_0 a7_6_11 a7_6_43
+gate a7_5_43 or0    a7_6_11 a7_6_43
+gate a7_5_12 and2_0 a7_6_12 a7_6_44
+gate a7_5_44 or0    a7_6_12 a7_6_44
+gate a7_5_13 and2_0 a7_6_13 a7_6_45
+gate a7_5_45 or0    a7_6_13 a7_6_45
+gate a7_5_14 and2_0 a7_6_14 a7_6_46
+gate a7_5_46 or0    a7_6_14 a7_6_46
+gate a7_5_15 and2_0 a7_6_15 a7_6_47
+gate a7_5_47 or0    a7_6_15 a7_6_47
+gate a7_5_16 and2_0 a7_6_16 a7_6_48
+gate a7_5_48 or0    a7_6_16 a7_6_48
+gate a7_5_17 and2_0 a7_6_17 a7_6_49
+gate a7_5_49 or0    a7_6_17 a7_6_49
+gate a7_5_18 and2_0 a7_6_18 a7_6_50
+gate a7_5_50 or0    a7_6_18 a7_6_50
+gate a7_5_19 and2_0 a7_6_19 a7_6_51
+gate a7_5_51 or0    a7_6_19 a7_6_51
+gate a7_5_20 and2_0 a7_6_20 a7_6_52
+gate a7_5_52 or0    a7_6_20 a7_6_52
+gate a7_5_21 and2_0 a7_6_21 a7_6_53
+gate a7_5_53 or0    a7_6_21 a7_6_53
+gate a7_5_22 and2_0 a7_6_22 a7_6_54
+gate a7_5_54 or0    a7_6_22 a7_6_54
+gate a7_5_23 and2_0 a7_6_23 a7_6_55
+gate a7_5_55 or0    a7_6_23 a7_6_55
+gate a7_5_24 and2_0 a7_6_24 a7_6_56
+gate a7_5_56 or0    a7_6_24 a7_6_56
+gate a7_5_25 and2_0 a7_6_25 a7_6_57
+gate a7_5_57 or0    a7_6_25 a7_6_57
+gate a7_5_26 and2_0 a7_6_26 a7_6_58
+gate a7_5_58 or0    a7_6_26 a7_6_58
+gate a7_5_27 and2_0 a7_6_27 a7_6_59
+gate a7_5_59 or0    a7_6_27 a7_6_59
+gate a7_5_28 and2_0 a7_6_28 a7_6_60
+gate a7_5_60 or0    a7_6_28 a7_6_60
+gate a7_5_29 and2_0 a7_6_29 a7_6_61
+gate a7_5_61 or0    a7_6_29 a7_6_61
+gate a7_5_30 and2_0 a7_6_30 a7_6_62
+gate a7_5_62 or0    a7_6_30 a7_6_62
+gate a7_5_31 and2_0 a7_6_31 a7_6_63
+gate a7_5_63 or0    a7_6_31 a7_6_63
+gate a7_4_00 and2_0 a7_5_00 a7_5_16
+gate a7_4_16 or0    a7_5_00 a7_5_16
+gate a7_4_01 and2_0 a7_5_01 a7_5_17
+gate a7_4_17 or0    a7_5_01 a7_5_17
+gate a7_4_02 and2_0 a7_5_02 a7_5_18
+gate a7_4_18 or0    a7_5_02 a7_5_18
+gate a7_4_03 and2_0 a7_5_03 a7_5_19
+gate a7_4_19 or0    a7_5_03 a7_5_19
+gate a7_4_04 and2_0 a7_5_04 a7_5_20
+gate a7_4_20 or0    a7_5_04 a7_5_20
+gate a7_4_05 and2_0 a7_5_05 a7_5_21
+gate a7_4_21 or0    a7_5_05 a7_5_21
+gate a7_4_06 and2_0 a7_5_06 a7_5_22
+gate a7_4_22 or0    a7_5_06 a7_5_22
+gate a7_4_07 and2_0 a7_5_07 a7_5_23
+gate a7_4_23 or0    a7_5_07 a7_5_23
+gate a7_4_08 and2_0 a7_5_08 a7_5_24
+gate a7_4_24 or0    a7_5_08 a7_5_24
+gate a7_4_09 and2_0 a7_5_09 a7_5_25
+gate a7_4_25 or0    a7_5_09 a7_5_25
+gate a7_4_10 and2_0 a7_5_10 a7_5_26
+gate a7_4_26 or0    a7_5_10 a7_5_26
+gate a7_4_11 and2_0 a7_5_11 a7_5_27
+gate a7_4_27 or0    a7_5_11 a7_5_27
+gate a7_4_12 and2_0 a7_5_12 a7_5_28
+gate a7_4_28 or0    a7_5_12 a7_5_28
+gate a7_4_13 and2_0 a7_5_13 a7_5_29
+gate a7_4_29 or0    a7_5_13 a7_5_29
+gate a7_4_14 and2_0 a7_5_14 a7_5_30
+gate a7_4_30 or0    a7_5_14 a7_5_30
+gate a7_4_15 and2_0 a7_5_15 a7_5_31
+gate a7_4_31 or0    a7_5_15 a7_5_31
+gate a7_3_00 and2_0 a7_4_00 a7_4_08
+gate a7_3_08 or0    a7_4_00 a7_4_08
+gate a7_3_01 and2_0 a7_4_01 a7_4_09
+gate a7_3_09 or0    a7_4_01 a7_4_09
+gate a7_3_02 and2_0 a7_4_02 a7_4_10
+gate a7_3_10 or0    a7_4_02 a7_4_10
+gate a7_3_03 and2_0 a7_4_03 a7_4_11
+gate a7_3_11 or0    a7_4_03 a7_4_11
+gate a7_3_04 and2_0 a7_4_04 a7_4_12
+gate a7_3_12 or0    a7_4_04 a7_4_12
+gate a7_3_05 and2_0 a7_4_05 a7_4_13
+gate a7_3_13 or0    a7_4_05 a7_4_13
+gate a7_3_06 and2_0 a7_4_06 a7_4_14
+gate a7_3_14 or0    a7_4_06 a7_4_14
+gate a7_3_07 and2_0 a7_4_07 a7_4_15
+gate a7_3_15 or0    a7_4_07 a7_4_15
+gate a7_2_00 and2_0 a7_3_00 a7_3_04
+gate a7_2_04 or0    a7_3_00 a7_3_04
+gate a7_2_01 and2_0 a7_3_01 a7_3_05
+gate a7_2_05 or0    a7_3_01 a7_3_05
+gate a7_2_02 and2_0 a7_3_02 a7_3_06
+gate a7_2_06 or0    a7_3_02 a7_3_06
+gate a7_2_03 and2_0 a7_3_03 a7_3_07
+gate a7_2_07 or0    a7_3_03 a7_3_07
+gate a7_1_00 and2_0 a7_2_00 a7_2_02
+gate a7_1_02 or0    a7_2_00 a7_2_02
+gate a7_1_01 and2_0 a7_2_01 a7_2_03
+gate a7_1_03 or0    a7_2_01 a7_2_03
+gate a7_0_00 and2_0 a7_1_00 a7_1_01
+gate a7_0_01 or0    a7_1_00 a7_1_01
+gate a7_0_02 and2_2 a7_1_02 a7_1_03
+gate a7_0_03 or0    a7_1_02 a7_1_03
+gate a7_1_04 and2_4 a7_2_04 a7_2_06
+gate a7_1_06 or0    a7_2_04 a7_2_06
+gate a7_1_05 and2_4 a7_2_05 a7_2_07
+gate a7_1_07 or0    a7_2_05 a7_2_07
+gate a7_0_04 and2_4 a7_1_04 a7_1_05
+gate a7_0_05 or0    a7_1_04 a7_1_05
+gate a7_0_06 and2_6 a7_1_06 a7_1_07
+gate a7_0_07 or0    a7_1_06 a7_1_07
+gate a7_2_08 and2_1 a7_3_08 a7_3_12
+gate a7_2_12 or0    a7_3_08 a7_3_12
+gate a7_2_09 and2_1 a7_3_09 a7_3_13
+gate a7_2_13 or0    a7_3_09 a7_3_13
+gate a7_2_10 and2_1 a7_3_10 a7_3_14
+gate a7_2_14 or0    a7_3_10 a7_3_14
+gate a7_2_11 and2_1 a7_3_11 a7_3_15
+gate a7_2_15 or0    a7_3_11 a7_3_15
+gate a7_1_08 and2_1 a7_2_08 a7_2_10
+gate a7_1_10 or0    a7_2_08 a7_2_10
+gate a7_1_09 and2_1 a7_2_09 a7_2_11
+gate a7_1_11 or0    a7_2_09 a7_2_11
+gate a7_0_08 and2_1 a7_1_08 a7_1_09
+gate a7_0_09 or0    a7_1_08 a7_1_09
+gate a7_0_10 and2_3 a7_1_10 a7_1_11
+gate a7_0_11 or0    a7_1_10 a7_1_11
+gate a7_1_12 and2_5 a7_2_12 a7_2_14
+gate a7_1_14 or0    a7_2_12 a7_2_14
+gate a7_1_13 and2_5 a7_2_13 a7_2_15
+gate a7_1_15 or0    a7_2_13 a7_2_15
+gate a7_0_12 and2_5 a7_1_12 a7_1_13
+gate a7_0_13 or0    a7_1_12 a7_1_13
+gate a7_0_14 and2_0 a7_1_14 a7_1_15
+gate a7_0_15 or0    a7_1_14 a7_1_15
+gate a7_3_16 and2_2 a7_4_16 a7_4_24
+gate a7_3_24 or0    a7_4_16 a7_4_24
+gate a7_3_17 and2_2 a7_4_17 a7_4_25
+gate a7_3_25 or0    a7_4_17 a7_4_25
+gate a7_3_18 and2_2 a7_4_18 a7_4_26
+gate a7_3_26 or0    a7_4_18 a7_4_26
+gate a7_3_19 and2_2 a7_4_19 a7_4_27
+gate a7_3_27 or0    a7_4_19 a7_4_27
+gate a7_3_20 and2_2 a7_4_20 a7_4_28
+gate a7_3_28 or0    a7_4_20 a7_4_28
+gate a7_3_21 and2_2 a7_4_21 a7_4_29
+gate a7_3_29 or0    a7_4_21 a7_4_29
+gate a7_3_22 and2_2 a7_4_22 a7_4_30
+gate a7_3_30 or0    a7_4_22 a7_4_30
+gate a7_3_23 and2_2 a7_4_23 a7_4_31
+gate a7_3_31 or0    a7_4_23 a7_4_31
+gate a7_2_16 and2_2 a7_3_16 a7_3_20
+gate a7_2_20 or0    a7_3_16 a7_3_20
+gate a7_2_17 and2_2 a7_3_17 a7_3_21
+gate a7_2_21 or0    a7_3_17 a7_3_21
+gate a7_2_18 and2_2 a7_3_18 a7_3_22
+gate a7_2_22 or0    a7_3_18 a7_3_22
+gate a7_2_19 and2_2 a7_3_19 a7_3_23
+gate a7_2_23 or0    a7_3_19 a7_3_23
+gate a7_1_16 and2_2 a7_2_16 a7_2_18
+gate a7_1_18 or0    a7_2_16 a7_2_18
+gate a7_1_17 and2_2 a7_2_17 a7_2_19
+gate a7_1_19 or0    a7_2_17 a7_2_19
+gate a7_0_16 and2_2 a7_1_16 a7_1_17
+gate a7_0_17 or0    a7_1_16 a7_1_17
+gate a7_0_18 and2_4 a7_1_18 a7_1_19
+gate a7_0_19 or0    a7_1_18 a7_1_19
+gate a7_1_20 and2_6 a7_2_20 a7_2_22
+gate a7_1_22 or0    a7_2_20 a7_2_22
+gate a7_1_21 and2_6 a7_2_21 a7_2_23
+gate a7_1_23 or0    a7_2_21 a7_2_23
+gate a7_0_20 and2_6 a7_1_20 a7_1_21
+gate a7_0_21 or0    a7_1_20 a7_1_21
+gate a7_0_22 and2_1 a7_1_22 a7_1_23
+gate a7_0_23 or0    a7_1_22 a7_1_23
+gate a7_2_24 and2_3 a7_3_24 a7_3_28
+gate a7_2_28 or0    a7_3_24 a7_3_28
+gate a7_2_25 and2_3 a7_3_25 a7_3_29
+gate a7_2_29 or0    a7_3_25 a7_3_29
+gate a7_2_26 and2_3 a7_3_26 a7_3_30
+gate a7_2_30 or0    a7_3_26 a7_3_30
+gate a7_2_27 and2_3 a7_3_27 a7_3_31
+gate a7_2_31 or0    a7_3_27 a7_3_31
+gate a7_1_24 and2_3 a7_2_24 a7_2_26
+gate a7_1_26 or0    a7_2_24 a7_2_26
+gate a7_1_25 and2_3 a7_2_25 a7_2_27
+gate a7_1_27 or0    a7_2_25 a7_2_27
+gate a7_0_24 and2_3 a7_1_24 a7_1_25
+gate a7_0_25 or0    a7_1_24 a7_1_25
+gate a7_0_26 and2_5 a7_1_26 a7_1_27
+gate a7_0_27 or0    a7_1_26 a7_1_27
+gate a7_1_28 and2_0 a7_2_28 a7_2_30
+gate a7_1_30 or0    a7_2_28 a7_2_30
+gate a7_1_29 and2_0 a7_2_29 a7_2_31
+gate a7_1_31 or0    a7_2_29 a7_2_31
+gate a7_0_28 and2_0 a7_1_28 a7_1_29
+gate a7_0_29 or0    a7_1_28 a7_1_29
+gate a7_0_30 and2_2 a7_1_30 a7_1_31
+gate a7_0_31 or0    a7_1_30 a7_1_31
+gate a7_4_32 and2_4 a7_5_32 a7_5_48
+gate a7_4_48 or0    a7_5_32 a7_5_48
+gate a7_4_33 and2_4 a7_5_33 a7_5_49
+gate a7_4_49 or0    a7_5_33 a7_5_49
+gate a7_4_34 and2_4 a7_5_34 a7_5_50
+gate a7_4_50 or0    a7_5_34 a7_5_50
+gate a7_4_35 and2_4 a7_5_35 a7_5_51
+gate a7_4_51 or0    a7_5_35 a7_5_51
+gate a7_4_36 and2_4 a7_5_36 a7_5_52
+gate a7_4_52 or0    a7_5_36 a7_5_52
+gate a7_4_37 and2_4 a7_5_37 a7_5_53
+gate a7_4_53 or0    a7_5_37 a7_5_53
+gate a7_4_38 and2_4 a7_5_38 a7_5_54
+gate a7_4_54 or0    a7_5_38 a7_5_54
+gate a7_4_39 and2_4 a7_5_39 a7_5_55
+gate a7_4_55 or0    a7_5_39 a7_5_55
+gate a7_4_40 and2_4 a7_5_40 a7_5_56
+gate a7_4_56 or0    a7_5_40 a7_5_56
+gate a7_4_41 and2_4 a7_5_41 a7_5_57
+gate a7_4_57 or0    a7_5_41 a7_5_57
+gate a7_4_42 and2_4 a7_5_42 a7_5_58
+gate a7_4_58 or0    a7_5_42 a7_5_58
+gate a7_4_43 and2_4 a7_5_43 a7_5_59
+gate a7_4_59 or0    a7_5_43 a7_5_59
+gate a7_4_44 and2_4 a7_5_44 a7_5_60
+gate a7_4_60 or0    a7_5_44 a7_5_60
+gate a7_4_45 and2_4 a7_5_45 a7_5_61
+gate a7_4_61 or0    a7_5_45 a7_5_61
+gate a7_4_46 and2_4 a7_5_46 a7_5_62
+gate a7_4_62 or0    a7_5_46 a7_5_62
+gate a7_4_47 and2_4 a7_5_47 a7_5_63
+gate a7_4_63 or0    a7_5_47 a7_5_63
+gate a7_3_32 and2_4 a7_4_32 a7_4_40
+gate a7_3_40 or0    a7_4_32 a7_4_40
+gate a7_3_33 and2_4 a7_4_33 a7_4_41
+gate a7_3_41 or0    a7_4_33 a7_4_41
+gate a7_3_34 and2_4 a7_4_34 a7_4_42
+gate a7_3_42 or0    a7_4_34 a7_4_42
+gate a7_3_35 and2_4 a7_4_35 a7_4_43
+gate a7_3_43 or0    a7_4_35 a7_4_43
+gate a7_3_36 and2_4 a7_4_36 a7_4_44
+gate a7_3_44 or0    a7_4_36 a7_4_44
+gate a7_3_37 and2_4 a7_4_37 a7_4_45
+gate a7_3_45 or0    a7_4_37 a7_4_45
+gate a7_3_38 and2_4 a7_4_38 a7_4_46
+gate a7_3_46 or0    a7_4_38 a7_4_46
+gate a7_3_39 and2_4 a7_4_39 a7_4_47
+gate a7_3_47 or0    a7_4_39 a7_4_47
+gate a7_2_32 and2_4 a7_3_32 a7_3_36
+gate a7_2_36 or0    a7_3_32 a7_3_36
+gate a7_2_33 and2_4 a7_3_33 a7_3_37
+gate a7_2_37 or0    a7_3_33 a7_3_37
+gate a7_2_34 and2_4 a7_3_34 a7_3_38
+gate a7_2_38 or0    a7_3_34 a7_3_38
+gate a7_2_35 and2_4 a7_3_35 a7_3_39
+gate a7_2_39 or0    a7_3_35 a7_3_39
+gate a7_1_32 and2_4 a7_2_32 a7_2_34
+gate a7_1_34 or0    a7_2_32 a7_2_34
+gate a7_1_33 and2_4 a7_2_33 a7_2_35
+gate a7_1_35 or0    a7_2_33 a7_2_35
+gate a7_0_32 and2_4 a7_1_32 a7_1_33
+gate a7_0_33 or0    a7_1_32 a7_1_33
+gate a7_0_34 and2_6 a7_1_34 a7_1_35
+gate a7_0_35 or0    a7_1_34 a7_1_35
+gate a7_1_36 and2_1 a7_2_36 a7_2_38
+gate a7_1_38 or0    a7_2_36 a7_2_38
+gate a7_1_37 and2_1 a7_2_37 a7_2_39
+gate a7_1_39 or0    a7_2_37 a7_2_39
+gate a7_0_36 and2_1 a7_1_36 a7_1_37
+gate a7_0_37 or0    a7_1_36 a7_1_37
+gate a7_0_38 and2_3 a7_1_38 a7_1_39
+gate a7_0_39 or0    a7_1_38 a7_1_39
+gate a7_2_40 and2_5 a7_3_40 a7_3_44
+gate a7_2_44 or0    a7_3_40 a7_3_44
+gate a7_2_41 and2_5 a7_3_41 a7_3_45
+gate a7_2_45 or0    a7_3_41 a7_3_45
+gate a7_2_42 and2_5 a7_3_42 a7_3_46
+gate a7_2_46 or0    a7_3_42 a7_3_46
+gate a7_2_43 and2_5 a7_3_43 a7_3_47
+gate a7_2_47 or0    a7_3_43 a7_3_47
+gate a7_1_40 and2_5 a7_2_40 a7_2_42
+gate a7_1_42 or0    a7_2_40 a7_2_42
+gate a7_1_41 and2_5 a7_2_41 a7_2_43
+gate a7_1_43 or0    a7_2_41 a7_2_43
+gate a7_0_40 and2_5 a7_1_40 a7_1_41
+gate a7_0_41 or0    a7_1_40 a7_1_41
+gate a7_0_42 and2_0 a7_1_42 a7_1_43
+gate a7_0_43 or0    a7_1_42 a7_1_43
+gate a7_1_44 and2_2 a7_2_44 a7_2_46
+gate a7_1_46 or0    a7_2_44 a7_2_46
+gate a7_1_45 and2_2 a7_2_45 a7_2_47
+gate a7_1_47 or0    a7_2_45 a7_2_47
+gate a7_0_44 and2_2 a7_1_44 a7_1_45
+gate a7_0_45 or0    a7_1_44 a7_1_45
+gate a7_0_46 and2_4 a7_1_46 a7_1_47
+gate a7_0_47 or0    a7_1_46 a7_1_47
+gate a7_3_48 and2_6 a7_4_48 a7_4_56
+gate a7_3_56 or0    a7_4_48 a7_4_56
+gate a7_3_49 and2_6 a7_4_49 a7_4_57
+gate a7_3_57 or0    a7_4_49 a7_4_57
+gate a7_3_50 and2_6 a7_4_50 a7_4_58
+gate a7_3_58 or0    a7_4_50 a7_4_58
+gate a7_3_51 and2_6 a7_4_51 a7_4_59
+gate a7_3_59 or0    a7_4_51 a7_4_59
+gate a7_3_52 and2_6 a7_4_52 a7_4_60
+gate a7_3_60 or0    a7_4_52 a7_4_60
+gate a7_3_53 and2_6 a7_4_53 a7_4_61
+gate a7_3_61 or0    a7_4_53 a7_4_61
+gate a7_3_54 and2_6 a7_4_54 a7_4_62
+gate a7_3_62 or0    a7_4_54 a7_4_62
+gate a7_3_55 and2_6 a7_4_55 a7_4_63
+gate a7_3_63 or0    a7_4_55 a7_4_63
+gate a7_2_48 and2_6 a7_3_48 a7_3_52
+gate a7_2_52 or0    a7_3_48 a7_3_52
+gate a7_2_49 and2_6 a7_3_49 a7_3_53
+gate a7_2_53 or0    a7_3_49 a7_3_53
+gate a7_2_50 and2_6 a7_3_50 a7_3_54
+gate a7_2_54 or0    a7_3_50 a7_3_54
+gate a7_2_51 and2_6 a7_3_51 a7_3_55
+gate a7_2_55 or0    a7_3_51 a7_3_55
+gate a7_1_48 and2_6 a7_2_48 a7_2_50
+gate a7_1_50 or0    a7_2_48 a7_2_50
+gate a7_1_49 and2_6 a7_2_49 a7_2_51
+gate a7_1_51 or0    a7_2_49 a7_2_51
+gate a7_0_48 and2_6 a7_1_48 a7_1_49
+gate a7_0_49 or0    a7_1_48 a7_1_49
+gate a7_0_50 and2_1 a7_1_50 a7_1_51
+gate a7_0_51 or0    a7_1_50 a7_1_51
+gate a7_1_52 and2_3 a7_2_52 a7_2_54
+gate a7_1_54 or0    a7_2_52 a7_2_54
+gate a7_1_53 and2_3 a7_2_53 a7_2_55
+gate a7_1_55 or0    a7_2_53 a7_2_55
+gate a7_0_52 and2_3 a7_1_52 a7_1_53
+gate a7_0_53 or0    a7_1_52 a7_1_53
+gate a7_0_54 and2_5 a7_1_54 a7_1_55
+gate a7_0_55 or0    a7_1_54 a7_1_55
+gate a7_2_56 and2_0 a7_3_56 a7_3_60
+gate a7_2_60 or0    a7_3_56 a7_3_60
+gate a7_2_57 and2_0 a7_3_57 a7_3_61
+gate a7_2_61 or0    a7_3_57 a7_3_61
+gate a7_2_58 and2_0 a7_3_58 a7_3_62
+gate a7_2_62 or0    a7_3_58 a7_3_62
+gate a7_2_59 and2_0 a7_3_59 a7_3_63
+gate a7_2_63 or0    a7_3_59 a7_3_63
+gate a7_1_56 and2_0 a7_2_56 a7_2_58
+gate a7_1_58 or0    a7_2_56 a7_2_58
+gate a7_1_57 and2_0 a7_2_57 a7_2_59
+gate a7_1_59 or0    a7_2_57 a7_2_59
+gate a7_0_56 and2_0 a7_1_56 a7_1_57
+gate a7_0_57 or0    a7_1_56 a7_1_57
+gate a7_0_58 and2_2 a7_1_58 a7_1_59
+gate a7_0_59 or0    a7_1_58 a7_1_59
+gate a7_1_60 and2_4 a7_2_60 a7_2_62
+gate a7_1_62 or0    a7_2_60 a7_2_62
+gate a7_1_61 and2_4 a7_2_61 a7_2_63
+gate a7_1_63 or0    a7_2_61 a7_2_63
+gate a7_0_60 and2_4 a7_1_60 a7_1_61
+gate a7_0_61 or0    a7_1_60 a7_1_61
+gate a7_0_62 and2_6 a7_1_62 a7_1_63
+gate a7_0_63 or0    a7_1_62 a7_1_63
+gate a7_5_64 and2_1 a7_6_64 a7_6_96
+gate a7_5_96 or0    a7_6_64 a7_6_96
+gate a7_5_65 and2_1 a7_6_65 a7_6_97
+gate a7_5_97 or0    a7_6_65 a7_6_97
+gate a7_5_66 and2_1 a7_6_66 a7_6_98
+gate a7_5_98 or0    a7_6_66 a7_6_98
+gate a7_5_67 and2_1 a7_6_67 a7_6_99
+gate a7_5_99 or0    a7_6_67 a7_6_99
+gate a7_5_68 and2_1 a7_6_68 a7_6_100
+gate a7_5_100 or0    a7_6_68 a7_6_100
+gate a7_5_69 and2_1 a7_6_69 a7_6_101
+gate a7_5_101 or0    a7_6_69 a7_6_101
+gate a7_5_70 and2_1 a7_6_70 a7_6_102
+gate a7_5_102 or0    a7_6_70 a7_6_102
+gate a7_5_71 and2_1 a7_6_71 a7_6_103
+gate a7_5_103 or0    a7_6_71 a7_6_103
+gate a7_5_72 and2_1 a7_6_72 a7_6_104
+gate a7_5_104 or0    a7_6_72 a7_6_104
+gate a7_5_73 and2_1 a7_6_73 a7_6_105
+gate a7_5_105 or0    a7_6_73 a7_6_105
+gate a7_5_74 and2_1 a7_6_74 a7_6_106
+gate a7_5_106 or0    a7_6_74 a7_6_106
+gate a7_5_75 and2_1 a7_6_75 a7_6_107
+gate a7_5_107 or0    a7_6_75 a7_6_107
+gate a7_5_76 and2_1 a7_6_76 a7_6_108
+gate a7_5_108 or0    a7_6_76 a7_6_108
+gate a7_5_77 and2_1 a7_6_77 a7_6_109
+gate a7_5_109 or0    a7_6_77 a7_6_109
+gate a7_5_78 and2_1 a7_6_78 a7_6_110
+gate a7_5_110 or0    a7_6_78 a7_6_110
+gate a7_5_79 and2_1 a7_6_79 a7_6_111
+gate a7_5_111 or0    a7_6_79 a7_6_111
+gate a7_5_80 and2_1 a7_6_80 a7_6_112
+gate a7_5_112 or0    a7_6_80 a7_6_112
+gate a7_5_81 and2_1 a7_6_81 a7_6_113
+gate a7_5_113 or0    a7_6_81 a7_6_113
+gate a7_5_82 and2_1 a7_6_82 a7_6_114
+gate a7_5_114 or0    a7_6_82 a7_6_114
+gate a7_5_83 and2_1 a7_6_83 a7_6_115
+gate a7_5_115 or0    a7_6_83 a7_6_115
+gate a7_5_84 and2_1 a7_6_84 a7_6_116
+gate a7_5_116 or0    a7_6_84 a7_6_116
+gate a7_5_85 and2_1 a7_6_85 a7_6_117
+gate a7_5_117 or0    a7_6_85 a7_6_117
+gate a7_5_86 and2_1 a7_6_86 a7_6_118
+gate a7_5_118 or0    a7_6_86 a7_6_118
+gate a7_5_87 and2_1 a7_6_87 a7_6_119
+gate a7_5_119 or0    a7_6_87 a7_6_119
+gate a7_5_88 and2_1 a7_6_88 a7_6_120
+gate a7_5_120 or0    a7_6_88 a7_6_120
+gate a7_5_89 and2_1 a7_6_89 a7_6_121
+gate a7_5_121 or0    a7_6_89 a7_6_121
+gate a7_5_90 and2_1 a7_6_90 a7_6_122
+gate a7_5_122 or0    a7_6_90 a7_6_122
+gate a7_5_91 and2_1 a7_6_91 a7_6_123
+gate a7_5_123 or0    a7_6_91 a7_6_123
+gate a7_5_92 and2_1 a7_6_92 a7_6_124
+gate a7_5_124 or0    a7_6_92 a7_6_124
+gate a7_5_93 and2_1 a7_6_93 a7_6_125
+gate a7_5_125 or0    a7_6_93 a7_6_125
+gate a7_5_94 and2_1 a7_6_94 a7_6_126
+gate a7_5_126 or0    a7_6_94 a7_6_126
+gate a7_5_95 and2_1 a7_6_95 a7_6_127
+gate a7_5_127 or0    a7_6_95 a7_6_127
+gate a7_4_64 and2_1 a7_5_64 a7_5_80
+gate a7_4_80 or0    a7_5_64 a7_5_80
+gate a7_4_65 and2_1 a7_5_65 a7_5_81
+gate a7_4_81 or0    a7_5_65 a7_5_81
+gate a7_4_66 and2_1 a7_5_66 a7_5_82
+gate a7_4_82 or0    a7_5_66 a7_5_82
+gate a7_4_67 and2_1 a7_5_67 a7_5_83
+gate a7_4_83 or0    a7_5_67 a7_5_83
+gate a7_4_68 and2_1 a7_5_68 a7_5_84
+gate a7_4_84 or0    a7_5_68 a7_5_84
+gate a7_4_69 and2_1 a7_5_69 a7_5_85
+gate a7_4_85 or0    a7_5_69 a7_5_85
+gate a7_4_70 and2_1 a7_5_70 a7_5_86
+gate a7_4_86 or0    a7_5_70 a7_5_86
+gate a7_4_71 and2_1 a7_5_71 a7_5_87
+gate a7_4_87 or0    a7_5_71 a7_5_87
+gate a7_4_72 and2_1 a7_5_72 a7_5_88
+gate a7_4_88 or0    a7_5_72 a7_5_88
+gate a7_4_73 and2_1 a7_5_73 a7_5_89
+gate a7_4_89 or0    a7_5_73 a7_5_89
+gate a7_4_74 and2_1 a7_5_74 a7_5_90
+gate a7_4_90 or0    a7_5_74 a7_5_90
+gate a7_4_75 and2_1 a7_5_75 a7_5_91
+gate a7_4_91 or0    a7_5_75 a7_5_91
+gate a7_4_76 and2_1 a7_5_76 a7_5_92
+gate a7_4_92 or0    a7_5_76 a7_5_92
+gate a7_4_77 and2_1 a7_5_77 a7_5_93
+gate a7_4_93 or0    a7_5_77 a7_5_93
+gate a7_4_78 and2_1 a7_5_78 a7_5_94
+gate a7_4_94 or0    a7_5_78 a7_5_94
+gate a7_4_79 and2_1 a7_5_79 a7_5_95
+gate a7_4_95 or0    a7_5_79 a7_5_95
+gate a7_3_64 and2_1 a7_4_64 a7_4_72
+gate a7_3_72 or0    a7_4_64 a7_4_72
+gate a7_3_65 and2_1 a7_4_65 a7_4_73
+gate a7_3_73 or0    a7_4_65 a7_4_73
+gate a7_3_66 and2_1 a7_4_66 a7_4_74
+gate a7_3_74 or0    a7_4_66 a7_4_74
+gate a7_3_67 and2_1 a7_4_67 a7_4_75
+gate a7_3_75 or0    a7_4_67 a7_4_75
+gate a7_3_68 and2_1 a7_4_68 a7_4_76
+gate a7_3_76 or0    a7_4_68 a7_4_76
+gate a7_3_69 and2_1 a7_4_69 a7_4_77
+gate a7_3_77 or0    a7_4_69 a7_4_77
+gate a7_3_70 and2_1 a7_4_70 a7_4_78
+gate a7_3_78 or0    a7_4_70 a7_4_78
+gate a7_3_71 and2_1 a7_4_71 a7_4_79
+gate a7_3_79 or0    a7_4_71 a7_4_79
+gate a7_2_64 and2_1 a7_3_64 a7_3_68
+gate a7_2_68 or0    a7_3_64 a7_3_68
+gate a7_2_65 and2_1 a7_3_65 a7_3_69
+gate a7_2_69 or0    a7_3_65 a7_3_69
+gate a7_2_66 and2_1 a7_3_66 a7_3_70
+gate a7_2_70 or0    a7_3_66 a7_3_70
+gate a7_2_67 and2_1 a7_3_67 a7_3_71
+gate a7_2_71 or0    a7_3_67 a7_3_71
+gate a7_1_64 and2_1 a7_2_64 a7_2_66
+gate a7_1_66 or0    a7_2_64 a7_2_66
+gate a7_1_65 and2_1 a7_2_65 a7_2_67
+gate a7_1_67 or0    a7_2_65 a7_2_67
+gate a7_0_64 and2_1 a7_1_64 a7_1_65
+gate a7_0_65 or0    a7_1_64 a7_1_65
+gate a7_0_66 and2_3 a7_1_66 a7_1_67
+gate a7_0_67 or0    a7_1_66 a7_1_67
+gate a7_1_68 and2_5 a7_2_68 a7_2_70
+gate a7_1_70 or0    a7_2_68 a7_2_70
+gate a7_1_69 and2_5 a7_2_69 a7_2_71
+gate a7_1_71 or0    a7_2_69 a7_2_71
+gate a7_0_68 and2_5 a7_1_68 a7_1_69
+gate a7_0_69 or0    a7_1_68 a7_1_69
+gate a7_0_70 and2_0 a7_1_70 a7_1_71
+gate a7_0_71 or0    a7_1_70 a7_1_71
+gate a7_2_72 and2_2 a7_3_72 a7_3_76
+gate a7_2_76 or0    a7_3_72 a7_3_76
+gate a7_2_73 and2_2 a7_3_73 a7_3_77
+gate a7_2_77 or0    a7_3_73 a7_3_77
+gate a7_2_74 and2_2 a7_3_74 a7_3_78
+gate a7_2_78 or0    a7_3_74 a7_3_78
+gate a7_2_75 and2_2 a7_3_75 a7_3_79
+gate a7_2_79 or0    a7_3_75 a7_3_79
+gate a7_1_72 and2_2 a7_2_72 a7_2_74
+gate a7_1_74 or0    a7_2_72 a7_2_74
+gate a7_1_73 and2_2 a7_2_73 a7_2_75
+gate a7_1_75 or0    a7_2_73 a7_2_75
+gate a7_0_72 and2_2 a7_1_72 a7_1_73
+gate a7_0_73 or0    a7_1_72 a7_1_73
+gate a7_0_74 and2_4 a7_1_74 a7_1_75
+gate a7_0_75 or0    a7_1_74 a7_1_75
+gate a7_1_76 and2_6 a7_2_76 a7_2_78
+gate a7_1_78 or0    a7_2_76 a7_2_78
+gate a7_1_77 and2_6 a7_2_77 a7_2_79
+gate a7_1_79 or0    a7_2_77 a7_2_79
+gate a7_0_76 and2_6 a7_1_76 a7_1_77
+gate a7_0_77 or0    a7_1_76 a7_1_77
+gate a7_0_78 and2_1 a7_1_78 a7_1_79
+gate a7_0_79 or0    a7_1_78 a7_1_79
+gate a7_3_80 and2_3 a7_4_80 a7_4_88
+gate a7_3_88 or0    a7_4_80 a7_4_88
+gate a7_3_81 and2_3 a7_4_81 a7_4_89
+gate a7_3_89 or0    a7_4_81 a7_4_89
+gate a7_3_82 and2_3 a7_4_82 a7_4_90
+gate a7_3_90 or0    a7_4_82 a7_4_90
+gate a7_3_83 and2_3 a7_4_83 a7_4_91
+gate a7_3_91 or0    a7_4_83 a7_4_91
+gate a7_3_84 and2_3 a7_4_84 a7_4_92
+gate a7_3_92 or0    a7_4_84 a7_4_92
+gate a7_3_85 and2_3 a7_4_85 a7_4_93
+gate a7_3_93 or0    a7_4_85 a7_4_93
+gate a7_3_86 and2_3 a7_4_86 a7_4_94
+gate a7_3_94 or0    a7_4_86 a7_4_94
+gate a7_3_87 and2_3 a7_4_87 a7_4_95
+gate a7_3_95 or0    a7_4_87 a7_4_95
+gate a7_2_80 and2_3 a7_3_80 a7_3_84
+gate a7_2_84 or0    a7_3_80 a7_3_84
+gate a7_2_81 and2_3 a7_3_81 a7_3_85
+gate a7_2_85 or0    a7_3_81 a7_3_85
+gate a7_2_82 and2_3 a7_3_82 a7_3_86
+gate a7_2_86 or0    a7_3_82 a7_3_86
+gate a7_2_83 and2_3 a7_3_83 a7_3_87
+gate a7_2_87 or0    a7_3_83 a7_3_87
+gate a7_1_80 and2_3 a7_2_80 a7_2_82
+gate a7_1_82 or0    a7_2_80 a7_2_82
+gate a7_1_81 and2_3 a7_2_81 a7_2_83
+gate a7_1_83 or0    a7_2_81 a7_2_83
+gate a7_0_80 and2_3 a7_1_80 a7_1_81
+gate a7_0_81 or0    a7_1_80 a7_1_81
+gate a7_0_82 and2_5 a7_1_82 a7_1_83
+gate a7_0_83 or0    a7_1_82 a7_1_83
+gate a7_1_84 and2_0 a7_2_84 a7_2_86
+gate a7_1_86 or0    a7_2_84 a7_2_86
+gate a7_1_85 and2_0 a7_2_85 a7_2_87
+gate a7_1_87 or0    a7_2_85 a7_2_87
+gate a7_0_84 and2_0 a7_1_84 a7_1_85
+gate a7_0_85 or0    a7_1_84 a7_1_85
+gate a7_0_86 and2_2 a7_1_86 a7_1_87
+gate a7_0_87 or0    a7_1_86 a7_1_87
+gate a7_2_88 and2_4 a7_3_88 a7_3_92
+gate a7_2_92 or0    a7_3_88 a7_3_92
+gate a7_2_89 and2_4 a7_3_89 a7_3_93
+gate a7_2_93 or0    a7_3_89 a7_3_93
+gate a7_2_90 and2_4 a7_3_90 a7_3_94
+gate a7_2_94 or0    a7_3_90 a7_3_94
+gate a7_2_91 and2_4 a7_3_91 a7_3_95
+gate a7_2_95 or0    a7_3_91 a7_3_95
+gate a7_1_88 and2_4 a7_2_88 a7_2_90
+gate a7_1_90 or0    a7_2_88 a7_2_90
+gate a7_1_89 and2_4 a7_2_89 a7_2_91
+gate a7_1_91 or0    a7_2_89 a7_2_91
+gate a7_0_88 and2_4 a7_1_88 a7_1_89
+gate a7_0_89 or0    a7_1_88 a7_1_89
+gate a7_0_90 and2_6 a7_1_90 a7_1_91
+gate a7_0_91 or0    a7_1_90 a7_1_91
+gate a7_1_92 and2_1 a7_2_92 a7_2_94
+gate a7_1_94 or0    a7_2_92 a7_2_94
+gate a7_1_93 and2_1 a7_2_93 a7_2_95
+gate a7_1_95 or0    a7_2_93 a7_2_95
+gate a7_0_92 and2_1 a7_1_92 a7_1_93
+gate a7_0_93 or0    a7_1_92 a7_1_93
+gate a7_0_94 and2_3 a7_1_94 a7_1_95
+gate a7_0_95 or0    a7_1_94 a7_1_95
+gate a7_4_96 and2_5 a7_5_96 a7_5_112
+gate a7_4_112 or0    a7_5_96 a7_5_112
+gate a7_4_97 and2_5 a7_5_97 a7_5_113
+gate a7_4_113 or0    a7_5_97 a7_5_113
+gate a7_4_98 and2_5 a7_5_98 a7_5_114
+gate a7_4_114 or0    a7_5_98 a7_5_114
+gate a7_4_99 and2_5 a7_5_99 a7_5_115
+gate a7_4_115 or0    a7_5_99 a7_5_115
+gate a7_4_100 and2_5 a7_5_100 a7_5_116
+gate a7_4_116 or0    a7_5_100 a7_5_116
+gate a7_4_101 and2_5 a7_5_101 a7_5_117
+gate a7_4_117 or0    a7_5_101 a7_5_117
+gate a7_4_102 and2_5 a7_5_102 a7_5_118
+gate a7_4_118 or0    a7_5_102 a7_5_118
+gate a7_4_103 and2_5 a7_5_103 a7_5_119
+gate a7_4_119 or0    a7_5_103 a7_5_119
+gate a7_4_104 and2_5 a7_5_104 a7_5_120
+gate a7_4_120 or0    a7_5_104 a7_5_120
+gate a7_4_105 and2_5 a7_5_105 a7_5_121
+gate a7_4_121 or0    a7_5_105 a7_5_121
+gate a7_4_106 and2_5 a7_5_106 a7_5_122
+gate a7_4_122 or0    a7_5_106 a7_5_122
+gate a7_4_107 and2_5 a7_5_107 a7_5_123
+gate a7_4_123 or0    a7_5_107 a7_5_123
+gate a7_4_108 and2_5 a7_5_108 a7_5_124
+gate a7_4_124 or0    a7_5_108 a7_5_124
+gate a7_4_109 and2_5 a7_5_109 a7_5_125
+gate a7_4_125 or0    a7_5_109 a7_5_125
+gate a7_4_110 and2_5 a7_5_110 a7_5_126
+gate a7_4_126 or0    a7_5_110 a7_5_126
+gate a7_4_111 and2_5 a7_5_111 a7_5_127
+gate a7_4_127 or0    a7_5_111 a7_5_127
+gate a7_3_96 and2_5 a7_4_96 a7_4_104
+gate a7_3_104 or0    a7_4_96 a7_4_104
+gate a7_3_97 and2_5 a7_4_97 a7_4_105
+gate a7_3_105 or0    a7_4_97 a7_4_105
+gate a7_3_98 and2_5 a7_4_98 a7_4_106
+gate a7_3_106 or0    a7_4_98 a7_4_106
+gate a7_3_99 and2_5 a7_4_99 a7_4_107
+gate a7_3_107 or0    a7_4_99 a7_4_107
+gate a7_3_100 and2_5 a7_4_100 a7_4_108
+gate a7_3_108 or0    a7_4_100 a7_4_108
+gate a7_3_101 and2_5 a7_4_101 a7_4_109
+gate a7_3_109 or0    a7_4_101 a7_4_109
+gate a7_3_102 and2_5 a7_4_102 a7_4_110
+gate a7_3_110 or0    a7_4_102 a7_4_110
+gate a7_3_103 and2_5 a7_4_103 a7_4_111
+gate a7_3_111 or0    a7_4_103 a7_4_111
+gate a7_2_96 and2_5 a7_3_96 a7_3_100
+gate a7_2_100 or0    a7_3_96 a7_3_100
+gate a7_2_97 and2_5 a7_3_97 a7_3_101
+gate a7_2_101 or0    a7_3_97 a7_3_101
+gate a7_2_98 and2_5 a7_3_98 a7_3_102
+gate a7_2_102 or0    a7_3_98 a7_3_102
+gate a7_2_99 and2_5 a7_3_99 a7_3_103
+gate a7_2_103 or0    a7_3_99 a7_3_103
+gate a7_1_96 and2_5 a7_2_96 a7_2_98
+gate a7_1_98 or0    a7_2_96 a7_2_98
+gate a7_1_97 and2_5 a7_2_97 a7_2_99
+gate a7_1_99 or0    a7_2_97 a7_2_99
+gate a7_0_96 and2_5 a7_1_96 a7_1_97
+gate a7_0_97 or0    a7_1_96 a7_1_97
+gate a7_0_98 and2_0 a7_1_98 a7_1_99
+gate a7_0_99 or0    a7_1_98 a7_1_99
+gate a7_1_100 and2_2 a7_2_100 a7_2_102
+gate a7_1_102 or0    a7_2_100 a7_2_102
+gate a7_1_101 and2_2 a7_2_101 a7_2_103
+gate a7_1_103 or0    a7_2_101 a7_2_103
+gate a7_0_100 and2_2 a7_1_100 a7_1_101
+gate a7_0_101 or0    a7_1_100 a7_1_101
+gate a7_0_102 and2_4 a7_1_102 a7_1_103
+gate a7_0_103 or0    a7_1_102 a7_1_103
+gate a7_2_104 and2_6 a7_3_104 a7_3_108
+gate a7_2_108 or0    a7_3_104 a7_3_108
+gate a7_2_105 and2_6 a7_3_105 a7_3_109
+gate a7_2_109 or0    a7_3_105 a7_3_109
+gate a7_2_106 and2_6 a7_3_106 a7_3_110
+gate a7_2_110 or0    a7_3_106 a7_3_110
+gate a7_2_107 and2_6 a7_3_107 a7_3_111
+gate a7_2_111 or0    a7_3_107 a7_3_111
+gate a7_1_104 and2_6 a7_2_104 a7_2_106
+gate a7_1_106 or0    a7_2_104 a7_2_106
+gate a7_1_105 and2_6 a7_2_105 a7_2_107
+gate a7_1_107 or0    a7_2_105 a7_2_107
+gate a7_0_104 and2_6 a7_1_104 a7_1_105
+gate a7_0_105 or0    a7_1_104 a7_1_105
+gate a7_0_106 and2_1 a7_1_106 a7_1_107
+gate a7_0_107 or0    a7_1_106 a7_1_107
+gate a7_1_108 and2_3 a7_2_108 a7_2_110
+gate a7_1_110 or0    a7_2_108 a7_2_110
+gate a7_1_109 and2_3 a7_2_109 a7_2_111
+gate a7_1_111 or0    a7_2_109 a7_2_111
+gate a7_0_108 and2_3 a7_1_108 a7_1_109
+gate a7_0_109 or0    a7_1_108 a7_1_109
+gate a7_0_110 and2_5 a7_1_110 a7_1_111
+gate a7_0_111 or0    a7_1_110 a7_1_111
+gate a7_3_112 and2_0 a7_4_112 a7_4_120
+gate a7_3_120 or0    a7_4_112 a7_4_120
+gate a7_3_113 and2_0 a7_4_113 a7_4_121
+gate a7_3_121 or0    a7_4_113 a7_4_121
+gate a7_3_114 and2_0 a7_4_114 a7_4_122
+gate a7_3_122 or0    a7_4_114 a7_4_122
+gate a7_3_115 and2_0 a7_4_115 a7_4_123
+gate a7_3_123 or0    a7_4_115 a7_4_123
+gate a7_3_116 and2_0 a7_4_116 a7_4_124
+gate a7_3_124 or0    a7_4_116 a7_4_124
+gate a7_3_117 and2_0 a7_4_117 a7_4_125
+gate a7_3_125 or0    a7_4_117 a7_4_125
+gate a7_3_118 and2_0 a7_4_118 a7_4_126
+gate a7_3_126 or0    a7_4_118 a7_4_126
+gate a7_3_119 and2_0 a7_4_119 a7_4_127
+gate a7_3_127 or0    a7_4_119 a7_4_127
+gate a7_2_112 and2_0 a7_3_112 a7_3_116
+gate a7_2_116 or0    a7_3_112 a7_3_116
+gate a7_2_113 and2_0 a7_3_113 a7_3_117
+gate a7_2_117 or0    a7_3_113 a7_3_117
+gate a7_2_114 and2_0 a7_3_114 a7_3_118
+gate a7_2_118 or0    a7_3_114 a7_3_118
+gate a7_2_115 and2_0 a7_3_115 a7_3_119
+gate a7_2_119 or0    a7_3_115 a7_3_119
+gate a7_1_112 and2_0 a7_2_112 a7_2_114
+gate a7_1_114 or0    a7_2_112 a7_2_114
+gate a7_1_113 and2_0 a7_2_113 a7_2_115
+gate a7_1_115 or0    a7_2_113 a7_2_115
+gate a7_0_112 and2_0 a7_1_112 a7_1_113
+gate a7_0_113 or0    a7_1_112 a7_1_113
+gate a7_0_114 and2_2 a7_1_114 a7_1_115
+gate a7_0_115 or0    a7_1_114 a7_1_115
+gate a7_1_116 and2_4 a7_2_116 a7_2_118
+gate a7_1_118 or0    a7_2_116 a7_2_118
+gate a7_1_117 and2_4 a7_2_117 a7_2_119
+gate a7_1_119 or0    a7_2_117 a7_2_119
+gate a7_0_116 and2_4 a7_1_116 a7_1_117
+gate a7_0_117 or0    a7_1_116 a7_1_117
+gate a7_0_118 and2_6 a7_1_118 a7_1_119
+gate a7_0_119 or0    a7_1_118 a7_1_119
+gate a7_2_120 and2_1 a7_3_120 a7_3_124
+gate a7_2_124 or0    a7_3_120 a7_3_124
+gate a7_2_121 and2_1 a7_3_121 a7_3_125
+gate a7_2_125 or0    a7_3_121 a7_3_125
+gate a7_2_122 and2_1 a7_3_122 a7_3_126
+gate a7_2_126 or0    a7_3_122 a7_3_126
+gate a7_2_123 and2_1 a7_3_123 a7_3_127
+gate a7_2_127 or0    a7_3_123 a7_3_127
+gate a7_1_120 and2_1 a7_2_120 a7_2_122
+gate a7_1_122 or0    a7_2_120 a7_2_122
+gate a7_1_121 and2_1 a7_2_121 a7_2_123
+gate a7_1_123 or0    a7_2_121 a7_2_123
+gate a7_0_120 and2_1 a7_1_120 a7_1_121
+gate a7_0_121 or0    a7_1_120 a7_1_121
+gate a7_0_122 and2_3 a7_1_122 a7_1_123
+gate a7_0_123 or0    a7_1_122 a7_1_123
+gate a7_1_124 and2_5 a7_2_124 a7_2_126
+gate a7_1_126 or0    a7_2_124 a7_2_126
+gate a7_1_125 and2_5 a7_2_125 a7_2_127
+gate a7_1_127 or0    a7_2_125 a7_2_127
+gate a7_0_124 and2_5 a7_1_124 a7_1_125
+gate a7_0_125 or0    a7_1_124 a7_1_125
+gate a7_0_126 and2_0 a7_1_126 a7_1_127
+gate a7_0_127 or0    a7_1_126 a7_1_127
+
+probe a7_0_00
+probe a7_0_01
+probe a7_0_02
+probe a7_0_03
+probe a7_0_04
+probe a7_0_05
+probe a7_0_06
+probe a7_0_07
+probe a7_0_08
+probe a7_0_09
+probe a7_0_10
+probe a7_0_11
+probe a7_0_12
+probe a7_0_13
+probe a7_0_14
+probe a7_0_15
+probe a7_0_16
+probe a7_0_17
+probe a7_0_18
+probe a7_0_19
+probe a7_0_20
+probe a7_0_21
+probe a7_0_22
+probe a7_0_23
+probe a7_0_24
+probe a7_0_25
+probe a7_0_26
+probe a7_0_27
+probe a7_0_28
+probe a7_0_29
+probe a7_0_30
+probe a7_0_31
+probe a7_0_32
+probe a7_0_33
+probe a7_0_34
+probe a7_0_35
+probe a7_0_36
+probe a7_0_37
+probe a7_0_38
+probe a7_0_39
+probe a7_0_40
+probe a7_0_41
+probe a7_0_42
+probe a7_0_43
+probe a7_0_44
+probe a7_0_45
+probe a7_0_46
+probe a7_0_47
+probe a7_0_48
+probe a7_0_49
+probe a7_0_50
+probe a7_0_51
+probe a7_0_52
+probe a7_0_53
+probe a7_0_54
+probe a7_0_55
+probe a7_0_56
+probe a7_0_57
+probe a7_0_58
+probe a7_0_59
+probe a7_0_60
+probe a7_0_61
+probe a7_0_62
+probe a7_0_63
+probe a7_0_64
+probe a7_0_65
+probe a7_0_66
+probe a7_0_67
+probe a7_0_68
+probe a7_0_69
+probe a7_0_70
+probe a7_0_71
+probe a7_0_72
+probe a7_0_73
+probe a7_0_74
+probe a7_0_75
+probe a7_0_76
+probe a7_0_77
+probe a7_0_78
+probe a7_0_79
+probe a7_0_80
+probe a7_0_81
+probe a7_0_82
+probe a7_0_83
+probe a7_0_84
+probe a7_0_85
+probe a7_0_86
+probe a7_0_87
+probe a7_0_88
+probe a7_0_89
+probe a7_0_90
+probe a7_0_91
+probe a7_0_92
+probe a7_0_93
+probe a7_0_94
+probe a7_0_95
+probe a7_0_96
+probe a7_0_97
+probe a7_0_98
+probe a7_0_99
+probe a7_0_100
+probe a7_0_101
+probe a7_0_102
+probe a7_0_103
+probe a7_0_104
+probe a7_0_105
+probe a7_0_106
+probe a7_0_107
+probe a7_0_108
+probe a7_0_109
+probe a7_0_110
+probe a7_0_111
+probe a7_0_112
+probe a7_0_113
+probe a7_0_114
+probe a7_0_115
+probe a7_0_116
+probe a7_0_117
+probe a7_0_118
+probe a7_0_119
+probe a7_0_120
+probe a7_0_121
+probe a7_0_122
+probe a7_0_123
+probe a7_0_124
+probe a7_0_125
+probe a7_0_126
+probe a7_0_127
+
+flip a0_0_00 0 0
+flip a0_0_01 0 0
+flip a0_0_02 0 0
+flip a0_0_03 0 0
+flip a0_0_04 0 0
+flip a0_0_05 0 0
+flip a0_0_06 0 0
+flip a0_0_07 0 0
+flip a0_0_08 0 0
+flip a0_0_09 0 0
+flip a0_0_10 0 0
+flip a0_0_11 0 0
+flip a0_0_12 0 0
+flip a0_0_13 0 0
+flip a0_0_14 0 0
+flip a0_0_15 0 0
+flip a0_0_16 0 0
+flip a0_0_17 0 0
+flip a0_0_18 0 0
+flip a0_0_19 0 0
+flip a0_0_20 0 0
+flip a0_0_21 0 0
+flip a0_0_22 0 0
+flip a0_0_23 0 0
+flip a0_0_24 0 0
+flip a0_0_25 0 0
+flip a0_0_26 0 0
+flip a0_0_27 0 0
+flip a0_0_28 0 0
+flip a0_0_29 0 0
+flip a0_0_30 0 0
+flip a0_0_31 0 0
+flip a0_0_32 0 0
+flip a0_0_33 0 0
+flip a0_0_34 0 0
+flip a0_0_35 0 0
+flip a0_0_36 0 0
+flip a0_0_37 0 0
+flip a0_0_38 0 0
+flip a0_0_39 0 0
+flip a0_0_40 0 0
+flip a0_0_41 0 0
+flip a0_0_42 0 0
+flip a0_0_43 0 0
+flip a0_0_44 0 0
+flip a0_0_45 0 0
+flip a0_0_46 0 0
+flip a0_0_47 0 0
+flip a0_0_48 0 0
+flip a0_0_49 0 0
+flip a0_0_50 0 0
+flip a0_0_51 0 0
+flip a0_0_52 0 0
+flip a0_0_53 0 0
+flip a0_0_54 0 0
+flip a0_0_55 0 0
+flip a0_0_56 0 0
+flip a0_0_57 0 0
+flip a0_0_58 0 0
+flip a0_0_59 0 0
+flip a0_0_60 0 0
+flip a0_0_61 0 0
+flip a0_0_62 0 0
+flip a0_0_63 0 0
+flip a0_0_64 0 0
+flip a0_0_65 0 0
+flip a0_0_66 0 0
+flip a0_0_67 0 0
+flip a0_0_68 0 0
+flip a0_0_69 0 0
+flip a0_0_70 0 0
+flip a0_0_71 0 0
+flip a0_0_72 0 0
+flip a0_0_73 0 0
+flip a0_0_74 0 0
+flip a0_0_75 0 0
+flip a0_0_76 0 0
+flip a0_0_77 0 0
+flip a0_0_78 0 0
+flip a0_0_79 0 0
+flip a0_0_80 0 0
+flip a0_0_81 0 0
+flip a0_0_82 0 0
+flip a0_0_83 0 0
+flip a0_0_84 0 0
+flip a0_0_85 0 0
+flip a0_0_86 0 0
+flip a0_0_87 0 0
+flip a0_0_88 0 0
+flip a0_0_89 0 0
+flip a0_0_90 0 0
+flip a0_0_91 0 0
+flip a0_0_92 0 0
+flip a0_0_93 0 0
+flip a0_0_94 0 0
+flip a0_0_95 0 0
+flip a0_0_96 0 0
+flip a0_0_97 0 0
+flip a0_0_98 0 0
+flip a0_0_99 0 0
+flip a0_0_100 0 0
+flip a0_0_101 0 0
+flip a0_0_102 0 0
+flip a0_0_103 0 0
+flip a0_0_104 0 0
+flip a0_0_105 0 0
+flip a0_0_106 0 0
+flip a0_0_107 0 0
+flip a0_0_108 0 0
+flip a0_0_109 0 0
+flip a0_0_110 0 0
+flip a0_0_111 0 0
+flip a0_0_112 0 0
+flip a0_0_113 0 0
+flip a0_0_114 0 0
+flip a0_0_115 0 0
+flip a0_0_116 0 0
+flip a0_0_117 0 0
+flip a0_0_118 0 0
+flip a0_0_119 0 0
+flip a0_0_120 0 0
+flip a0_0_121 0 0
+flip a0_0_122 0 0
+flip a0_0_123 0 0
+flip a0_0_124 0 0
+flip a0_0_125 0 0
+flip a0_0_126 0 0
+flip a0_0_127 0 0
+flip a0_0_00 1 1000
+flip a0_0_01 1 1000
+flip a0_0_02 1 1000
+flip a0_0_03 1 1000
+flip a0_0_04 1 1000
+flip a0_0_05 1 1000
+flip a0_0_06 1 1000
+flip a0_0_07 1 1000
+flip a0_0_08 1 1000
+flip a0_0_09 1 1000
+flip a0_0_10 1 1000
+flip a0_0_11 1 1000
+flip a0_0_12 1 1000
+flip a0_0_13 1 1000
+flip a0_0_14 1 1000
+flip a0_0_15 1 1000
+flip a0_0_16 1 1000
+flip a0_0_17 1 1000
+flip a0_0_18 1 1000
+flip a0_0_19 1 1000
+flip a0_0_20 1 1000
+flip a0_0_21 1 1000
+flip a0_0_22 1 1000
+flip a0_0_23 1 1000
+flip a0_0_24 1 1000
+flip a0_0_25 1 1000
+flip a0_0_26 1 1000
+flip a0_0_27 1 1000
+flip a0_0_28 1 1000
+flip a0_0_29 1 1000
+flip a0_0_30 1 1000
+flip a0_0_31 1 1000
+flip a0_0_32 1 1000
+flip a0_0_33 1 1000
+flip a0_0_34 1 1000
+flip a0_0_35 1 1000
+flip a0_0_36 1 1000
+flip a0_0_37 1 1000
+flip a0_0_38 1 1000
+flip a0_0_39 1 1000
+flip a0_0_40 1 1000
+flip a0_0_41 1 1000
+flip a0_0_42 1 1000
+flip a0_0_43 1 1000
+flip a0_0_44 1 1000
+flip a0_0_45 1 1000
+flip a0_0_46 1 1000
+flip a0_0_47 1 1000
+flip a0_0_48 1 1000
+flip a0_0_49 1 1000
+flip a0_0_50 1 1000
+flip a0_0_51 1 1000
+flip a0_0_52 1 1000
+flip a0_0_53 1 1000
+flip a0_0_54 1 1000
+flip a0_0_55 1 1000
+flip a0_0_56 1 1000
+flip a0_0_57 1 1000
+flip a0_0_58 1 1000
+flip a0_0_59 1 1000
+flip a0_0_60 1 1000
+flip a0_0_61 1 1000
+flip a0_0_62 1 1000
+flip a0_0_63 1 1000
+flip a0_0_64 1 1000
+flip a0_0_65 1 1000
+flip a0_0_66 1 1000
+flip a0_0_67 1 1000
+flip a0_0_68 1 1000
+flip a0_0_69 1 1000
+flip a0_0_70 1 1000
+flip a0_0_71 1 1000
+flip a0_0_72 1 1000
+flip a0_0_73 1 1000
+flip a0_0_74 1 1000
+flip a0_0_75 1 1000
+flip a0_0_76 1 1000
+flip a0_0_77 1 1000
+flip a0_0_78 1 1000
+flip a0_0_79 1 1000
+flip a0_0_80 1 1000
+flip a0_0_81 1 1000
+flip a0_0_82 1 1000
+flip a0_0_83 1 1000
+flip a0_0_84 1 1000
+flip a0_0_85 1 1000
+flip a0_0_86 1 1000
+flip a0_0_87 1 1000
+flip a0_0_88 1 1000
+flip a0_0_89 1 1000
+flip a0_0_90 1 1000
+flip a0_0_91 1 1000
+flip a0_0_92 1 1000
+flip a0_0_93 1 1000
+flip a0_0_94 1 1000
+flip a0_0_95 1 1000
+flip a0_0_96 1 1000
+flip a0_0_97 1 1000
+flip a0_0_98 1 1000
+flip a0_0_99 1 1000
+flip a0_0_100 1 1000
+flip a0_0_101 1 1000
+flip a0_0_102 1 1000
+flip a0_0_103 1 1000
+flip a0_0_104 1 1000
+flip a0_0_105 1 1000
+flip a0_0_106 1 1000
+flip a0_0_107 1 1000
+flip a0_0_108 1 1000
+flip a0_0_109 1 1000
+flip a0_0_110 1 1000
+flip a0_0_111 1 1000
+flip a0_0_112 1 1000
+flip a0_0_113 1 1000
+flip a0_0_114 1 1000
+flip a0_0_115 1 1000
+flip a0_0_116 1 1000
+flip a0_0_117 1 1000
+flip a0_0_118 1 1000
+flip a0_0_119 1 1000
+flip a0_0_120 1 1000
+flip a0_0_121 1 1000
+flip a0_0_122 1 1000
+flip a0_0_123 1 1000
+flip a0_0_124 1 1000
+flip a0_0_125 1 1000
+flip a0_0_126 1 1000
+flip a0_0_127 1 1000
+flip a0_0_00 1 2000
+flip a0_0_01 0 3000
+flip a0_0_02 1 4000
+flip a0_0_03 0 5000
+flip a0_0_04 1 6000
+flip a0_0_05 0 7000
+flip a0_0_06 1 8000
+flip a0_0_07 0 9000
+flip a0_0_08 1 10000
+flip a0_0_09 0 11000
+flip a0_0_10 1 12000
+flip a0_0_11 0 13000
+flip a0_0_12 1 14000
+flip a0_0_13 0 15000
+flip a0_0_14 1 16000
+flip a0_0_15 0 17000
+flip a0_0_16 1 18000
+flip a0_0_17 0 19000
+flip a0_0_18 1 20000
+flip a0_0_19 0 21000
+flip a0_0_20 1 22000
+flip a0_0_21 0 23000
+flip a0_0_22 1 24000
+flip a0_0_23 0 25000
+flip a0_0_24 1 26000
+flip a0_0_25 0 27000
+flip a0_0_26 1 28000
+flip a0_0_27 0 29000
+flip a0_0_28 1 30000
+flip a0_0_29 0 31000
+flip a0_0_30 1 32000
+flip a0_0_31 0 33000
+flip a0_0_32 1 34000
+flip a0_0_33 0 35000
+flip a0_0_34 1 36000
+flip a0_0_35 0 37000
+flip a0_0_36 1 38000
+flip a0_0_37 0 39000
+flip a0_0_38 1 40000
+flip a0_0_39 0 41000
+flip a0_0_40 1 42000
+flip a0_0_41 0 43000
+flip a0_0_42 1 44000
+flip a0_0_43 0 45000
+flip a0_0_44 1 46000
+flip a0_0_45 0 47000
+flip a0_0_46 1 48000
+flip a0_0_47 0 49000
+flip a0_0_48 1 50000
+flip a0_0_49 0 51000
+flip a0_0_50 1 52000
+flip a0_0_51 0 53000
+flip a0_0_52 1 54000
+flip a0_0_53 0 55000
+flip a0_0_54 1 56000
+flip a0_0_55 0 57000
+flip a0_0_56 1 58000
+flip a0_0_57 0 59000
+flip a0_0_58 1 60000
+flip a0_0_59 0 61000
+flip a0_0_60 1 62000
+flip a0_0_61 0 63000
+flip a0_0_62 1 64000
+flip a0_0_63 0 65000
+flip a0_0_64 1 66000
+flip a0_0_65 0 67000
+flip a0_0_66 1 68000
+flip a0_0_67 0 69000
+flip a0_0_68 1 70000
+flip a0_0_69 0 71000
+flip a0_0_70 1 72000
+flip a0_0_71 0 73000
+flip a0_0_72 1 74000
+flip a0_0_73 0 75000
+flip a0_0_74 1 76000
+flip a0_0_75 0 77000
+flip a0_0_76 1 78000
+flip a0_0_77 0 79000
+flip a0_0_78 1 80000
+flip a0_0_79 0 81000
+flip a0_0_80 1 82000
+flip a0_0_81 0 83000
+flip a0_0_82 1 84000
+flip a0_0_83 0 85000
+flip a0_0_84 1 86000
+flip a0_0_85 0 87000
+flip a0_0_86 1 88000
+flip a0_0_87 0 89000
+flip a0_0_88 1 90000
+flip a0_0_89 0 91000
+flip a0_0_90 1 92000
+flip a0_0_91 0 93000
+flip a0_0_92 1 94000
+flip a0_0_93 0 95000
+flip a0_0_94 1 96000
+flip a0_0_95 0 97000
+flip a0_0_96 1 98000
+flip a0_0_97 0 99000
+flip a0_0_98 1 100000
+flip a0_0_99 0 101000
+flip a0_0_100 1 102000
+flip a0_0_101 0 103000
+flip a0_0_102 1 104000
+flip a0_0_103 0 105000
+flip a0_0_104 1 106000
+flip a0_0_105 0 107000
+flip a0_0_106 1 108000
+flip a0_0_107 0 109000
+flip a0_0_108 1 110000
+flip a0_0_109 0 111000
+flip a0_0_110 1 112000
+flip a0_0_111 0 113000
+flip a0_0_112 1 114000
+flip a0_0_113 0 115000
+flip a0_0_114 1 116000
+flip a0_0_115 0 117000
+flip a0_0_116 1 118000
+flip a0_0_117 0 119000
+flip a0_0_118 1 120000
+flip a0_0_119 0 121000
+flip a0_0_120 1 122000
+flip a0_0_121 0 123000
+flip a0_0_122 1 124000
+flip a0_0_123 0 125000
+flip a0_0_124 1 126000
+flip a0_0_125 0 127000
+flip a0_0_126 1 128000
+flip a0_0_127 0 129000
+flip a0_0_00 0 4000
+flip a0_0_01 1 5000
+flip a0_0_02 0 6000
+flip a0_0_03 1 7000
+flip a0_0_04 0 8000
+flip a0_0_05 1 9000
+flip a0_0_06 0 10000
+flip a0_0_07 1 11000
+flip a0_0_08 0 12000
+flip a0_0_09 1 13000
+flip a0_0_10 0 14000
+flip a0_0_11 1 15000
+flip a0_0_12 0 16000
+flip a0_0_13 1 17000
+flip a0_0_14 0 18000
+flip a0_0_15 1 19000
+flip a0_0_16 0 20000
+flip a0_0_17 1 21000
+flip a0_0_18 0 22000
+flip a0_0_19 1 23000
+flip a0_0_20 0 24000
+flip a0_0_21 1 25000
+flip a0_0_22 0 26000
+flip a0_0_23 1 27000
+flip a0_0_24 0 28000
+flip a0_0_25 1 29000
+flip a0_0_26 0 30000
+flip a0_0_27 1 31000
+flip a0_0_28 0 32000
+flip a0_0_29 1 33000
+flip a0_0_30 0 34000
+flip a0_0_31 1 35000
+flip a0_0_32 0 36000
+flip a0_0_33 1 37000
+flip a0_0_34 0 38000
+flip a0_0_35 1 39000
+flip a0_0_36 0 40000
+flip a0_0_37 1 41000
+flip a0_0_38 0 42000
+flip a0_0_39 1 43000
+flip a0_0_40 0 44000
+flip a0_0_41 1 45000
+flip a0_0_42 0 46000
+flip a0_0_43 1 47000
+flip a0_0_44 0 48000
+flip a0_0_45 1 49000
+flip a0_0_46 0 50000
+flip a0_0_47 1 51000
+flip a0_0_48 0 52000
+flip a0_0_49 1 53000
+flip a0_0_50 0 54000
+flip a0_0_51 1 55000
+flip a0_0_52 0 56000
+flip a0_0_53 1 57000
+flip a0_0_54 0 58000
+flip a0_0_55 1 59000
+flip a0_0_56 0 60000
+flip a0_0_57 1 61000
+flip a0_0_58 0 62000
+flip a0_0_59 1 63000
+flip a0_0_60 0 64000
+flip a0_0_61 1 65000
+flip a0_0_62 0 66000
+flip a0_0_63 1 67000
+flip a0_0_64 0 68000
+flip a0_0_65 1 69000
+flip a0_0_66 0 70000
+flip a0_0_67 1 71000
+flip a0_0_68 0 72000
+flip a0_0_69 1 73000
+flip a0_0_70 0 74000
+flip a0_0_71 1 75000
+flip a0_0_72 0 76000
+flip a0_0_73 1 77000
+flip a0_0_74 0 78000
+flip a0_0_75 1 79000
+flip a0_0_76 0 80000
+flip a0_0_77 1 81000
+flip a0_0_78 0 82000
+flip a0_0_79 1 83000
+flip a0_0_80 0 84000
+flip a0_0_81 1 85000
+flip a0_0_82 0 86000
+flip a0_0_83 1 87000
+flip a0_0_84 0 88000
+flip a0_0_85 1 89000
+flip a0_0_86 0 90000
+flip a0_0_87 1 91000
+flip a0_0_88 0 92000
+flip a0_0_89 1 93000
+flip a0_0_90 0 94000
+flip a0_0_91 1 95000
+flip a0_0_92 0 96000
+flip a0_0_93 1 97000
+flip a0_0_94 0 98000
+flip a0_0_95 1 99000
+flip a0_0_96 0 100000
+flip a0_0_97 1 101000
+flip a0_0_98 0 102000
+flip a0_0_99 1 103000
+flip a0_0_100 0 104000
+flip a0_0_101 1 105000
+flip a0_0_102 0 106000
+flip a0_0_103 1 107000
+flip a0_0_104 0 108000
+flip a0_0_105 1 109000
+flip a0_0_106 0 110000
+flip a0_0_107 1 111000
+flip a0_0_108 0 112000
+flip a0_0_109 1 113000
+flip a0_0_110 0 114000
+flip a0_0_111 1 115000
+flip a0_0_112 0 116000
+flip a0_0_113 1 117000
+flip a0_0_114 0 118000
+flip a0_0_115 1 119000
+flip a0_0_116 0 120000
+flip a0_0_117 1 121000
+flip a0_0_118 0 122000
+flip a0_0_119 1 123000
+flip a0_0_120 0 124000
+flip a0_0_121 1 125000
+flip a0_0_122 0 126000
+flip a0_0_123 1 127000
+flip a0_0_124 0 128000
+flip a0_0_125 1 129000
+flip a0_0_126 0 130000
+flip a0_0_127 1 131000
+done

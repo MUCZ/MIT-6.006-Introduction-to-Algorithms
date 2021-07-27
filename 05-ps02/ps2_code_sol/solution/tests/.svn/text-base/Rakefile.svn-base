@@ -1,0 +1,15 @@
+#!/usr/bin/rake
+
+# This Rakefile generates layouts for the input files and embeds them into the
+# files.
+
+layout = File.expand_path '../layout.rb', File.dirname(__FILE__)
+Dir['*.in'].each do |input|
+  svg = input.sub(/\.in$/, '.svg')
+  file svg => [input, layout] do
+    puts "#{input} -> #{svg}"
+    Kernel.system "ruby #{layout} < #{input} > #{svg}"
+    Kernel.system "ruby #{layout} #{input} < #{svg}"
+  end
+  task :default => svg
+end

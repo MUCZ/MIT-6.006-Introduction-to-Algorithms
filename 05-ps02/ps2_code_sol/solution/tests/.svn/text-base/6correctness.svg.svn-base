@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="242pt" height="98pt" viewBox="0.00 0.00 242.00 98.00"><symbol preserveAspectRatio="none" id="svgsym-gate-type-eq" height="100%" width="100%" viewBox="0 0 52.809 60.576">
+ <g transform="translate(-4.7683716e-8,-991.78611)">
+  <path stroke-linejoin="round" d="M51.509,1022.1,1.3,1051.1v-57.976l50.209,28.988z" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.5999999" fill="#FFF"/>
+ </g>
+</symbol><symbol preserveAspectRatio="none" id="svgsym-gate-type-xor" height="100%" width="100%" viewBox="0 0 81.585 67.617">
+ <g transform="translate(-4.7683716e-8,-984.74556)" stroke="#000" stroke-miterlimit="4" stroke-width="2.5999999">
+  <path stroke-width="0" fill="#FFF" d="m9.8205,986.05c7.258,12.571,9.044,22.083,9.044,32.486,0,12.555-3.1508,22.307-9.044,32.514l-8.52,0.1c5.8932-10.207,9.044-19.959,9.044-32.514,0-10.403-1.786-19.915-9.044-32.486z" fill="none"/>
+  <path stroke-linejoin="miter" d="m9.8205,986.05c7.258,12.571,9.044,22.083,9.044,32.486,0,12.555-3.1508,22.307-9.044,32.514,22.786,0,57.7-10.868,70.465-31.835-12.892-19.49-48.044-33.15-70.464-33.15z" stroke-linecap="butt" fill="#FFF"/>
+  <path stroke-linejoin="round" stroke-linecap="round" d="m1.3,986.06c7.258,12.571,9.044,22.083,9.044,32.486,0,12.555-3.1508,22.307-9.044,32.514" fill="none"/>
+ </g>
+</symbol><symbol preserveAspectRatio="none" id="svgsym-gate-type-and" height="100%" width="100%" viewBox="0 0 75.807 62.927">
+ <g transform="translate(1.3277939e-4,-989.44832)">
+  <path stroke-linejoin="round" d="m1.2986,990.77c16.673,0.12822,33.379-0.407,50.026,0.67997,7.1812,1.1682,10.187,3.1235,14.456,7.1119,6.8877,6.6955,9.3789,17.106,8.5697,26.306-0.47506,7.1398-3.9127,14.998-10.062,19.718-3.6092,2.738-7.7422,4.4443-13.111,5.3838-10.042,1.3275-20.203,0.7515-30.304,0.9364-6.5251,0.01-13.051,0.01-19.575,0.1539v-60.29z" stroke-dashoffset="0" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.59711337" fill="#FFF"/>
+ </g>
+</symbol><symbol preserveAspectRatio="none" id="svgsym-gate-type-or" height="100%" width="100%" viewBox="0 0 73.065 67.6">
+ <g transform="translate(-8.2707214e-8,-984.76218)">
+  <path stroke-linejoin="miter" d="m1.3,986.06c7.2581,12.571,9.044,22.083,9.044,32.486,0,12.555-3.1509,22.307-9.044,32.514,22.786,0,57.701-10.868,70.465-31.835-12.893-19.47-48.045-33.14-70.465-33.14z" stroke="#000" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.60000443" fill="#FFF"/>
+ </g>
+</symbol>
+<g id="graph1" class="graph" transform="scale(1 1) rotate(0) translate(4 94)">
+<title>G</title>
+<polygon fill="white" stroke="white" points="-4,5 -4,-94 239,-94 239,5 -4,5"/>
+<g id="wire__a__c" class="edge"><title>gate__a-gate__c</title>
+<path fill="none" stroke="black" d="M27,-72C27,-72 117,-72 117,-72"/>
+</g>
+<g id="wire__a__d" class="edge"><title>gate__a-gate__d</title>
+<path fill="none" stroke="black" d="M27,-72C27,-72 117,-18 117,-18"/>
+</g>
+<g id="wire__b__c" class="edge"><title>gate__b-gate__c</title>
+<path fill="none" stroke="black" d="M27,-18C27,-18 117,-72 117,-72"/>
+</g>
+<g id="wire__b__d" class="edge"><title>gate__b-gate__d</title>
+<path fill="none" stroke="black" d="M27,-18C27,-18 117,-18 117,-18"/>
+</g>
+<g id="wire__c__out" class="edge"><title>gate__c-gate__out</title>
+<path fill="none" stroke="black" d="M117,-72C117,-72 207,-45 207,-45"/>
+</g>
+<g id="wire__d__out" class="edge"><title>gate__d-gate__out</title>
+<path fill="none" stroke="black" d="M117,-18C117,-18 207,-45 207,-45"/>
+</g>
+<g id="gate__a" class="node"><title>gate__a</title>
+<use xlink:href="#svgsym-gate-type-eq" x="0.0" width="54.0" y="-90.0" height="36.0"/>
+<text text-anchor="middle" x="27" y="-68.4" font-family="Times Roman,serif" font-size="14.00">a</text>
+</g><g id="gate__b" class="node"><title>gate__b</title>
+<use xlink:href="#svgsym-gate-type-eq" x="0.0" width="54.0" y="-36.0" height="36.0"/>
+<text text-anchor="middle" x="27" y="-14.4" font-family="Times Roman,serif" font-size="14.00">b</text>
+</g><g id="gate__out" class="node"><title>gate__out</title>
+<use xlink:href="#svgsym-gate-type-xor" x="180.0" width="54.0" y="-63.0" height="36.0"/>
+<text text-anchor="middle" x="207" y="-41.4" font-family="Times Roman,serif" font-size="14.00">out</text>
+</g><g id="gate__c" class="node"><title>gate__c</title>
+<use xlink:href="#svgsym-gate-type-and" x="90.0" width="54.0" y="-90.0" height="36.0"/>
+<text text-anchor="middle" x="117" y="-68.4" font-family="Times Roman,serif" font-size="14.00">c</text>
+</g><g id="gate__d" class="node"><title>gate__d</title>
+<use xlink:href="#svgsym-gate-type-or" x="90.0" width="54.0" y="-36.0" height="36.0"/>
+<text text-anchor="middle" x="117" y="-14.4" font-family="Times Roman,serif" font-size="14.00">d</text>
+</g></g>
+</svg>
