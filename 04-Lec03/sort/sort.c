@@ -266,6 +266,45 @@ void heap_sort_i(int *heap,int len)  //堆排序 递归
     }
 }
 
+/* 计数排序 */
+void counting_sort(int* arr, int len)
+{
+    int range = RAND_MAX; // 严格来讲，range应当作为参数被传入，但此处为了接口与check一致，改成在函数内定义
+    int* tmpp = (int*)calloc(range,sizeof(int)); // positive nums
+    int* tmpn = (int*)calloc(range,sizeof(int)); // negative nums
+    for(int i = 0, num = 0; i < len; i++)        // read arr
+    {
+        num = arr[i];
+        num>=0? tmpp[num]++:tmpn[-num]++ ;
+    }
+
+    // 写回 arr
+    int count = 0;          
+    for(int i = range-1; i >= 0 && count < len; i--)
+    {
+        int k = tmpn[i];
+        if( k == 0)
+            continue;
+        for(int j = 0; j < k ; j++)
+        {
+            arr[count++] = -i;
+        }
+    }
+    for(int i = 0; i < range && count < len; i++)
+    {
+        int k = tmpp[i];
+        if( k == 0)
+            continue;
+        for(int j = 0; j < k ; j++)
+        {
+            arr[count++] = i;
+        }
+    }
+    free(tmpp);
+    free(tmpn);
+
+}
+
 /* 测试用 */
 long GetSysTime() // 用于计算算法运行时间
 {
@@ -284,9 +323,8 @@ void printA(int arr[],int len) // 显示数组用于调试
     printf("}\n");
 }
 
-#define checkround 2    // 测试轮数，多次测试取平均值，减少随机因素影响
-#define len 10000000      // 单论测试中的待排序数组长度，数组数据随机生成 
-#define range_of_array len*2  // 待排序数组的数据的随机生成的范围 
+#define checkround 5    // 测试轮数，多次测试取平均值，减少随机因素影响
+#define len 2000000      // 单论测试中的待排序数组长度，数组数据随机生成 
 typedef void (*sort_fun_p)(int* ,int); // 指向排序算法的函数指针 注意参数列表 
 
 void check(sort_fun_p sort_fun_p) // 检查排序算法正确性，同时输出排序计算时间
@@ -305,7 +343,7 @@ void check(sort_fun_p sort_fun_p) // 检查排序算法正确性，同时输出�
         //initialization 
         for (int j = 0; j < len; j++)
         {
-            arr[j]=rand()%range_of_array;
+            arr[j]=rand()-RAND_MAX/2;
             arr_copy[j]=arr[j]; //to show when error happens
             sum_before+=arr[j]; //checksum
         }
@@ -314,7 +352,6 @@ void check(sort_fun_p sort_fun_p) // 检查排序算法正确性，同时输出�
         long start = GetSysTime();
         sort_fun_p(arr,len);
         long end = GetSysTime();
-
         //order check
         for (int i = 0; i < len-1; i++)
         {
@@ -361,23 +398,26 @@ int main(){
     printf("  Batch:  %d \
               Length of array : %d\n",checkround,len);
 
-    printf("m_r: ");
-    check(&merge_sort);  
+    // printf("m_r: ");
+    // check(&merge_sort);  
 
     printf("m_i: ");
     check(&merge_sort_i);  
 
-    printf("q: ");
-    check(&quick_sort);  
+    // printf("q: ");
+    // check(&quick_sort);  
 
-    printf("qO1: ");
-    check(&quick_sort_O1);  
+    // printf("qO1: ");
+    // check(&quick_sort_O1);  
 
-    printf("h_r: "); 
-    check(&heap_sort_r);  
+    // printf("h_r: "); 
+    // check(&heap_sort_r);  
 
-    printf("h_i: "); 
-    check(&heap_sort_i);  
+    // printf("h_i: "); 
+    // check(&heap_sort_i);  
+
+    printf("c: "); 
+    check(&counting_sort); 
 
     // printf("i: ");  // 一般情况下需要很久很久，所以不测试
     // check(&insertion_sort);  

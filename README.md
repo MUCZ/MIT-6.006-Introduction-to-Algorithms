@@ -1,4 +1,4 @@
-# MIT-6.006-Introduction-to-Algorithms
+# MIT-6.006-Introduction-to-Algorithms 算法导论
 课程地址：
 
 - 正课[【MIT公开课】6.006 算法导论（完结·中英字幕·机翻）_哔哩哔哩_bilibili](https://www.bilibili.com/video/av84549127?spm_id_from=333.788.b_636f6d6d656e74.7)
@@ -12,9 +12,10 @@
 - 可以把6.006（2011）理解为 6.046（2005）的 *升级版+精简版*  
   - 相当于ps4 slim之于老版ps4
 
-笔记：
+我的笔记：
 
-- 我的笔记：[MIT-6.006算法导论 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-7ba56159116541959f1a0eecf5e4eae2)
+- [MIT-6.006算法导论 Lec01-07 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec01-07-7ba56159116541959f1a0eecf5e4eae2)
+- [MIT-6.006算法导论 Lec08-10 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec08-10-e198039d11c54555a10c445eed67a5df)
 
 文件：
 
@@ -31,11 +32,11 @@
 | 1                               | Algorithmic thinking, peak finding                           | Problem set 1 out                   | Asymptotic Practice & 2D Peek-Finding |
 | 2                               | Models of computation, Python cost model, document distance  |                                     |                                       |
 | **Unit 2: Sorting and Trees**   |                                                              |                                     |                                       |
-| 3                               | Insertion sort, merge sort                                   | Problem set 1 due Problem set 2 out | Fractal Rendering & Heap              |
+| 3                               | Insertion sort, merge sort                                   | Problem set 1 due Problem set 2 out | Asymptotic Practice of Tree& Heap     |
 | 4                               | Heaps and heap sort                                          |                                     |                                       |
 | 5                               | Binary search trees, BST sort                                |                                     |                                       |
 | 6                               | AVL trees, AVL sort                                          | Problem set 2 due                   |                                       |
-| 7                               | Counting sort, radix sort, lower bounds for sorting and searching | Problem set 3 out                   |                                       |
+| 7                               | Counting sort, radix sort, lower bounds for sorting and searching | Problem set 3 out                   | Augmented AVL Trees&                  |
 | **Unit 3: Hashing**             |                                                              |                                     |                                       |
 | 8                               | Hashing with chaining                                        |                                     |                                       |
 | 9                               | Table doubling, Karp-Rabin                                   | Problem set 3 due Problem set 4 out |                                       |
