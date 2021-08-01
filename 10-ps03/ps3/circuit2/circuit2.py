@@ -154,10 +154,12 @@ class RangeIndex(object):
     """Removes a key from the range index."""
     self.data.remove(key)
   
+  # ineffective
   def list(self, first_key, last_key):
     """List of values for the keys that fall within [first_key, last_key]."""
     return [key for key in self.data if first_key <= key <= last_key]
   
+  # ineffective
   def count(self, first_key, last_key):
     """Number of keys that fall within [first_key, last_key]."""
     result = 0
@@ -165,6 +167,9 @@ class RangeIndex(object):
       if first_key <= key <= last_key:
         result += 1
     return result
+
+class RangeIndex_AVL(object):
+  
   
 class TracedRangeIndex(RangeIndex):
   """Augments RangeIndex to build a trace for the visualizer."""

@@ -3,7 +3,8 @@
 import json   # Used when TRACE=jsonp
 import os     # Used to get the TRACE environment variable
 import re     # Used when TRACE=jsonp
-import sys    # Used to smooth over the range / xrange issue.
+import sys
+from typing_extensions import ParamSpec    # Used to smooth over the range / xrange issue.
 
 # Python 3 doesn't have xrange, and range behaves like xrange.
 if sys.version_info >= (3,):
@@ -401,6 +402,87 @@ class PriorityQueue:
             self.heap[i], self.heap[child] = child_key, key
             i = child
         return popped_key
+
+
+class PriorityQueue:
+    def __init__(self):
+        self.heap = [None]
+
+    def __len__(self):
+        return len(self.heap) - 1
+
+    def append(self,key):
+# 1
+        # self.heap.append(key)
+        # i = len(self.heap)-1
+        # while(i>0):
+        #     self.min_heapify(i)
+        #     i = i // 2
+# 1 
+# 2
+        # self.heap.append(key)
+        # i = len(self.heap)-1
+        # while(i > 1):
+        #     parent = i // 2
+        #     if(self.heap[parent] > self.heap[i]):
+        #         self.heap[parent],self.heap[i] = self.heap[i],self.heap[parent]
+        #         i = parent
+        #     else:
+        #         break
+# 2
+# 3
+        self.heap.append(key)
+        i = len(self.heap)-1
+        while(i>1):
+            parent = i // 2
+            if(self.heap[parent] >= key):
+                self.heap[i] = self.heap[parent]
+                i = parent
+            else:
+                break
+        self.heap[i]= key
+
+    def min(self):
+        return self.heap[1]
+
+    def pop(self):
+# 1 
+        self.heap[1],self.heap[len(self.heap)-1] = self.heap[len(self.heap)-1],self.heap[1]
+        self.heap.pop(-1)
+        self.min_heapify(1)
+# 1
+# 2
+
+# 2 
+    def min_heapify(self,n):
+# recursion
+        heap = self.heap
+        l = n*2
+        r = n*2+1
+        min = n
+        if l<len(heap) and heap[l] < heap[min]:
+            min = l
+        if  r<len(heap) and heap[r] < heap[min]:
+            min = r
+        if (min!=n):
+            heap[n],heap[min] = heap[min],heap[n]
+            self.min_heapify(min)   
+# iteration
+        heap = self.heap
+        while(n<len(self.heap)-1):
+            l = n*2
+            r = n*2+1
+            min = n
+            if l<len(heap) and heap[l] < heap[min]:
+                min = l
+            if  r<len(heap) and heap[r] < heap[min]:
+                min = r
+            if(min == n):
+                break
+            else:
+                heap[n],heap[min] = heap[min],heap[n]
+                n = min
+
 
 
 class Simulation:
