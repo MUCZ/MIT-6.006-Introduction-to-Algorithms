@@ -14,7 +14,7 @@
 | 7                               | Counting sort, radix sort, lower bounds for sorting and searching<br />`CountingSort.c` | Problem set 3 out                   | **Augmented AVL Trees** **&** **BBST**    |
 | **Unit 3: Hashing**             |                                                              |                                     |                                           |
 | 8                               | Hashing with chaining                                        |                                     |                                           |
-| 9                               | Table doubling, Karp-Rabin<br />`StringMatching.cpp`<br />`HashTable.cpp` `Easy_HashTable.cpp` | Problem set 3 due Problem set 4 out |                                           |
+| 9                               | Table doubling, Karp-Rabin<br />`StringMatching.cpp`<br />`HashTable.cpp` `SimpleHashTable.cpp` | Problem set 3 due Problem set 4 out |                                           |
 | 10                              | Open addressing, cryptographic hashing<br />`HasTableOA.cpp` | Problem set 4 due                   |                                           |
 | **Unit 4: Numerics**            |                                                              |                                     |                                           |
 | 11                              | Integer arithmetic, Karatsuba multiplication                 | Problem set 5 out                   |                                           |
