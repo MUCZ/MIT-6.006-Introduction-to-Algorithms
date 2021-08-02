@@ -1,34 +1,4 @@
 # MIT-6.006-Introduction-to-Algorithms 算法导论
-##### 课程地址：
-
-- 正课[【MIT公开课】6.006 算法导论（完结·中英字幕·机翻）_哔哩哔哩_bilibili](https://www.bilibili.com/video/av84549127?spm_id_from=333.788.b_636f6d6d656e74.7)
-- 正课+习题课[【英字】MIT 6.006 Introduction to Algorithms算法导论(正课+习题课)_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Ep411R7RB?)
-- MIT [Introduction to Algorithms | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
-
-##### 课程说明：
-
-- MIT的6.046存在两个版本：2005，2015，前者无算法基础要求，后者要求先学过6.006，即本repo 
-- 6.006只有2011年版本的
-- 可以把6.006（2011）理解为 6.046（2005）的 *升级版+精简版* * 
-  - *相当于ps4 slim之于老版ps4
-
-##### 我的课程笔记：
-
-- [MIT-6.006算法导论 Lec01-07 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec01-07-7ba56159116541959f1a0eecf5e4eae2)
-- [MIT-6.006算法导论 Lec08-10 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec08-10-e198039d11c54555a10c445eed67a5df)
-
-##### 我的习题笔记：
-
-- 见`ps`文件夹内的`.md`文件
-
-##### 文件：
-
-- 本repo排序和整理了官网上提供的文档，加了一些自己的笔记和测试代码
-- 文件夹前的编号是为了正确显示lec和ps的顺序，顺序参考了课程页面
-  - 比如：上完lec02和lec03之后才能开始做ps02
-- `lec` ：讲义 or ppt ，与视频正课编号一致
-- `ps `：problem set 也就是题
-
 ##### 目录：
 
 | LEC #                           | TOPICS                                                       | KEY DATES                           | PS key words                              |
@@ -66,5 +36,33 @@
 | 23                              | Computational complexity                                     |                                     |                                           |
 | 24                              | Algorithms research topics                                   |                                     |                                           |
 
+##### 课程地址：
 
+- 正课[【MIT公开课】6.006 算法导论（完结·中英字幕·机翻）_哔哩哔哩_bilibili](https://www.bilibili.com/video/av84549127?spm_id_from=333.788.b_636f6d6d656e74.7)
+- 正课+习题课[【英字】MIT 6.006 Introduction to Algorithms算法导论(正课+习题课)_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Ep411R7RB?)
+- MIT [Introduction to Algorithms | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
+
+##### 课程说明：
+
+- MIT的6.046存在两个版本：2005，2015，前者无算法基础要求，后者要求先学过6.006，即本repo 
+- 6.006只有2011年版本的
+- 可以把6.006（2011）理解为 6.046（2005）的 *升级版+精简版* * 
+  - *相当于ps4 slim之于老版ps4
+
+##### 我的课程笔记：
+
+- [MIT-6.006算法导论 Lec01-07 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec01-07-7ba56159116541959f1a0eecf5e4eae2)
+- [MIT-6.006算法导论 Lec08-10 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec08-10-e198039d11c54555a10c445eed67a5df)
+
+##### 我的习题笔记：
+
+- 见`ps`文件夹内的`.md`文件
+
+##### 文件：
+
+- 本repo排序和整理了官网上提供的文档，加了一些自己的笔记和测试代码
+- 文件夹前的编号是为了正确显示lec和ps的顺序，顺序参考了课程页面
+  - 比如：上完lec02和lec03之后才能开始做ps02
+- `lec` ：讲义 or ppt ，与视频正课编号一致
+- `ps `：problem set 也就是题
 
