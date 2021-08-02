@@ -38,14 +38,14 @@
 | 2                               | Models of computation, Python cost model, document distance  |                                     |                                           |
 | **Unit 2: Sorting and Trees**   |                                                              |                                     |                                           |
 | 3                               | Insertion sort, merge sort<br />`Sort.c`                     | Problem set 1 due Problem set 2 out | **Asymptotic Practice of Tree& Heap**     |
-| 4                               | Heaps and heap sort                                          |                                     |                                           |
+| 4                               | Heaps and heap sort<br />`Heap.py` `HeapSort.c`              |                                     |                                           |
 | 5                               | Binary search trees, BST sort                                |                                     |                                           |
 | 6                               | AVL trees, AVL sort                                          | Problem set 2 due                   |                                           |
 | 7                               | Counting sort, radix sort, lower bounds for sorting and searching<br />`CountingSort.c` | Problem set 3 out                   | **Augmented AVL Trees** **&** **BBST**    |
 | **Unit 3: Hashing**             |                                                              |                                     |                                           |
 | 8                               | Hashing with chaining                                        |                                     |                                           |
-| 9                               | Table doubling, Karp-Rabin<br />`StringMatching.cpp`         | Problem set 3 due Problem set 4 out |                                           |
-| 10                              | Open addressing, cryptographic hashing                       | Problem set 4 due                   |                                           |
+| 9                               | Table doubling, Karp-Rabin<br />`StringMatching.cpp`<br />`HashTable.cpp` `Easy_HashTable.cpp` | Problem set 3 due Problem set 4 out |                                           |
+| 10                              | Open addressing, cryptographic hashing<br />`HasTableOA.cpp` | Problem set 4 due                   |                                           |
 | **Unit 4: Numerics**            |                                                              |                                     |                                           |
 | 11                              | Integer arithmetic, Karatsuba multiplication                 | Problem set 5 out                   |                                           |
 | 12                              | Square roots, Newton's method                                |                                     |                                           |

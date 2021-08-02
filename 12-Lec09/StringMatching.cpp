@@ -17,7 +17,7 @@ public:
 
 int RollingHash::r()
 {
-    return val;
+    return val%256; // A random prime
 }
 
 void RollingHash::append(char c)
