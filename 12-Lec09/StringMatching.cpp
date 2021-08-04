@@ -32,80 +32,101 @@ void RollingHash::skip(char c)
 
 class Solution {
 public:
-    int strStr(string s, string p) {
+    int strStr(string s, string p) { // find p in s 
+// KMP Algo
         auto n = s.size(), m = p.size();
         if(m==0) return 0;
         p.insert(p.begin(),' ');
         s.insert(s.begin(),' ');
-// KMP Algo
-        // vector<int> next(m+1);
-        // // build next
-        // next[1] = 1;
-        // for(int i = 2,j = 1 ;i <=m ; i++)
+        vector<int> next(m+1);
+        // build next
+        next[1] = 1;
+        for(int i = 2,j = 1 ;i <=m ; i++)
+        {
+            while((j>1) and (p[j]!=p[i])) j = next[j-1];
+            if(p[j]==p[i]) j++;
+            next[i] = j;
+        }
+        // rolling check
+        for(int i = 1,j = 1; i<=n ; i++)
+        {
+            while(j>1 and s[i]!=p[j]) j = next[j-1];
+            if(s[i] == p[j]) j++;
+            if(j==m+1) return i-m;
+        }
+        return -1;
+
+// Same KMP Algo but using diffrent subscript
+
+        // int lens = s.size();
+        // int lenp = p.size();
+        // s.insert(s.begin(),' ');
+        // p.insert(p.begin(),' ');
+        // vector<int> next(lenp+1);
+        // for(int j = 2, i = 0; j<=lenp;j++)
         // {
-        //     while((j>1) and (p[j]!=p[i])) j = next[j-1];
-        //     if(p[j]==p[i]) j++;
-        //     next[i] = j;
+        //     if(i && p[i+1]!=p[j]) i = next[i];
+        //     if(p[i+1]==p[j]) i++;
+        //     next[j] = i;
         // }
-        // // rolling check
-        // for(int i = 1,j = 1; i<=n ; i++)
+        // for(int j = 1,i = 0;j<=lens;j++)
         // {
-        //     while(j>1 and s[i]!=p[j]) j = next[j-1];
-        //     if(s[i] == p[j]) j++;
-        //     if(j==m+1) return i-m;
+        //     if(i && s[j]!=p[i+1]) i = next[i];
+        //     if(s[j]==p[i+1]) i++;
+        //     if(i == lenp) return j-lenp;
         // }
         // return -1;
 
 // Rolling Hash Algo
-        int check;
-        RollingHash hs;
-        RollingHash hp;
-        for(int i = 1;i <= m;i++)
-        {
-            hs.append(p[i]);
-        }
-        for(int i = 1;i<= m;i++)
-        {
-            hp.append(s[i]);
-        }
-        int h_v = hs.r();
-        if(h_v==hp.r()) // check string equal
-        {
-            check = 1;
-            for(int j = 1; j <= m ; j++)
-            {
-                if(p[j]!=s[j])
-                {
-                    check = 0;
-                    break;
-                }
-            }
-            if(check)
-                return 0;
-        }
-        for(int i = m+1;i<=n;i++)
-        {
-            hp.skip(s[i-m]);
-            hp.append(s[i]);
-            if(h_v==hp.r()) // check string equal
-            {
-            
-                check = 1;
-                for(int j = m; j >= 1; j--)
-                {
-                    if(s[i-m+j]!=p[j])
-                    {
-                        check = 0;
-                        break;
-                    }
-                }
-                if(check)
-                    return i-m;
-            }
-        }
-        return -1;
+        // int check;
+        // RollingHash hp;
+        // RollingHash hs;
+        // for(int i = 1;i <= m;i++)
+        // {
+        //     hp.append(p[i]);
+        // }
+        // for(int i = 1;i<= m;i++)
+        // {
+        //     hs.append(s[i]);
+        // }
+        // int h_v = hp.r();
+        // if(h_v==hs.r()) // check string equal
+        // {
+        //     check = 1;
+        //     for(int j = 1; j <= m ; j++)
+        //     {
+        //         if(p[j]!=s[j])
+        //         {
+        //             check = 0;
+        //             break;
+        //         }
+        //     }
+        //     if(check)
+        //         return 0;
+        // }
+        // for(int i = m+1;i<=n;i++)
+        // {
+        //     hs.skip(s[i-m]);
+        //     hs.append(s[i]);
+        //     if(h_v==hs.r()) // check string equal
+        //     {
+        //         check = 1;
+        //         for(int j = m; j >= 1; j--)
+        //         {
+        //             if(s[i-m+j]!=p[j])
+        //             {
+        //                 check = 0;
+        //                 break;
+        //             }
+        //         }
+        //         if(check)
+        //             return i-m;
+        //     }
+        // }
+        // return -1;
     }
 };
+
 
 
 

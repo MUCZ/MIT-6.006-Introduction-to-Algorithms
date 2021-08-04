@@ -398,23 +398,23 @@ int main(){
     printf("  Batch:  %d \
               Length of array : %d\n",checkround,len);
 
-    // printf("m_r: ");
-    // check(&merge_sort);  
+    printf("m_r: ");
+    check(&merge_sort);  
 
     printf("m_i: ");
     check(&merge_sort_i);  
 
-    // printf("q: ");
-    // check(&quick_sort);  
+    printf("q: ");
+    check(&quick_sort);  
 
-    // printf("qO1: ");
-    // check(&quick_sort_O1);  
+    printf("qO1: ");
+    check(&quick_sort_O1);  
 
-    // printf("h_r: "); 
-    // check(&heap_sort_r);  
+    printf("h_r: "); 
+    check(&heap_sort_r);  
 
-    // printf("h_i: "); 
-    // check(&heap_sort_i);  
+    printf("h_i: "); 
+    check(&heap_sort_i);  
 
     printf("c: "); 
     check(&counting_sort); 

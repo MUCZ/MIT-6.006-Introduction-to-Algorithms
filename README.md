@@ -1,40 +1,41 @@
 # MIT-6.006-Introduction-to-Algorithms 算法导论
 ##### 目录：
 
-| LEC #                           | TOPICS                                                       | KEY DATES                           | PS key words                              |
-| :------------------------------ | :----------------------------------------------------------- | :---------------------------------- | ----------------------------------------- |
-| **Unit 1: Introduction**        |                                                              |                                     |                                           |
-| 1                               | Algorithmic thinking, peak finding                           | Problem set 1 out                   | **Asymptotic Practice & 2D Peek-Finding** |
-| 2                               | Models of computation, Python cost model, document distance  |                                     |                                           |
-| **Unit 2: Sorting and Trees**   |                                                              |                                     |                                           |
-| 3                               | Insertion sort, merge sort<br />`Sort.c`                     | Problem set 1 due Problem set 2 out | **Asymptotic Practice of Tree& Heap**     |
-| 4                               | Heaps and heap sort<br />`Heap.py` `HeapSort.c`              |                                     |                                           |
-| 5                               | Binary search trees, BST sort                                |                                     |                                           |
-| 6                               | AVL trees, AVL sort                                          | Problem set 2 due                   |                                           |
-| 7                               | Counting sort, radix sort, lower bounds for sorting and searching<br />`CountingSort.c` | Problem set 3 out                   | **Augmented AVL Trees** **&** **BBST**    |
-| **Unit 3: Hashing**             |                                                              |                                     |                                           |
-| 8                               | Hashing with chaining                                        |                                     |                                           |
-| 9                               | Table doubling, Karp-Rabin<br />`StringMatching.cpp`<br />`HashTable.cpp` `SimpleHashTable.cpp` | Problem set 3 due Problem set 4 out |                                           |
-| 10                              | Open addressing, cryptographic hashing<br />`HasTableOA.cpp` | Problem set 4 due                   |                                           |
-| **Unit 4: Numerics**            |                                                              |                                     |                                           |
-| 11                              | Integer arithmetic, Karatsuba multiplication                 | Problem set 5 out                   |                                           |
-| 12                              | Square roots, Newton's method                                |                                     |                                           |
-| **Unit 5: Graphs**              |                                                              |                                     |                                           |
-| 13                              | Breadth-first search (BFS)                                   |                                     |                                           |
-| 14                              | Depth-first search (DFS), topological sorting                | Problem set 5 due Problem set 6 out |                                           |
-| **Unit 6: Shortest Paths**      |                                                              |                                     |                                           |
-| 15                              | Single-source shortest paths problem                         |                                     |                                           |
-| 16                              | Dijkstra                                                     |                                     |                                           |
-| 17                              | Bellman-Ford                                                 |                                     |                                           |
-| 18                              | Speeding up Dijkstra                                         | Problem set 6 due                   |                                           |
-| **Unit 7: Dynamic Programming** |                                                              |                                     |                                           |
-| 19                              | Memoization, subproblems, guessing, bottom-up; Fibonacci, shortest paths | Problem set 7 out                   |                                           |
-| 20                              | Parent pointers; text justification, perfect-information blackjack |                                     |                                           |
-| 21                              | String subproblems, psuedopolynomial time; parenthesization, edit distance, knapsack |                                     |                                           |
-| 22                              | Two kinds of guessing; piano/guitar fingering, Tetris training, Super Mario Bros. | Problem set 7 due                   |                                           |
-| **Unit 8: Advanced Topics**     |                                                              |                                     |                                           |
-| 23                              | Computational complexity                                     |                                     |                                           |
-| 24                              | Algorithms research topics                                   |                                     |                                           |
+| LEC #                           | TOPICS                                                       | KEY DATES                                 | PS key words                              |
+| :------------------------------ | :----------------------------------------------------------- | :---------------------------------------- | ----------------------------------------- |
+| **Unit 1: Introduction**        |                                                              |                                           |                                           |
+| 1                               | Algorithmic thinking, peak finding                           | Problem set 1 out                         | **Asymptotic Practice & 2D Peek-Finding** |
+| 2                               | Models of computation, Python cost model, document distance  |                                           |                                           |
+| **Unit 2: Sorting and Trees**   |                                                              |                                           |                                           |
+| 3                               | Insertion sort, merge sort<br />`Sort.c`                     | Problem set 1 due <br />Problem set 2 out | **Asymptotic Practice of Tree& Heap**     |
+| 4                               | Heaps and heap sort<br />`Heap.py` `HeapSort.c`              |                                           |                                           |
+| 5                               | Binary search trees, BST sort                                |                                           |                                           |
+| 6                               | AVL trees, AVL sort<br />`BBST.cpp`                          | Problem set 2 due                         |                                           |
+| 7                               | Counting sort, radix sort, lower bounds for sorting and searching<br />`CountingSort.c` | Problem set 3 out                         | **Augmented AVL Trees** **&** **BBST**    |
+| **Unit 3: Hashing**             |                                                              |                                           |                                           |
+| 8                               | Hashing with chaining                                        |                                           |                                           |
+| 9                               | Table doubling, Karp-Rabin<br />`StringMatching.cpp`<br />`HashTable.cpp` `SimpleHashTable.cpp` | Problem set 3 due <br />Problem set 4 out | **Hash Table**                            |
+| 10                              | Open addressing, cryptographic hashing<br />`HasTableOA.cpp` | Problem set 4 due                         |                                           |
+| **Quiz 1**                      |                                                              |                                           |                                           |
+| **Unit 4: Numerics**            |                                                              |                                           |                                           |
+| 11                              | *Integer arithmetic, Karatsuba multiplication*               | Problem set 5 out                         |                                           |
+| 12                              | *Square roots, Newton's method*                              |                                           |                                           |
+| **Unit 5: Graphs**              |                                                              |                                           |                                           |
+| 13                              | Breadth-first search (BFS)                                   |                                           |                                           |
+| 14                              | Depth-first search (DFS), topological sorting                | Problem set 5 due <br />Problem set 6 out |                                           |
+| **Unit 6: Shortest Paths**      |                                                              |                                           |                                           |
+| 15                              | Single-source shortest paths problem                         |                                           |                                           |
+| 16                              | Dijkstra                                                     |                                           |                                           |
+| 17                              | Bellman-Ford                                                 |                                           |                                           |
+| 18                              | Speeding up Dijkstra                                         | Problem set 6 due                         |                                           |
+| **Unit 7: Dynamic Programming** |                                                              |                                           |                                           |
+| 19                              | Memoization, subproblems, guessing, bottom-up; Fibonacci, shortest paths | Problem set 7 out                         |                                           |
+| 20                              | Parent pointers; text justification, perfect-information blackjack |                                           |                                           |
+| 21                              | String subproblems, psuedopolynomial time; parenthesization, edit distance, knapsack |                                           |                                           |
+| 22                              | Two kinds of guessing; piano/guitar fingering, Tetris training, Super Mario Bros. | Problem set 7 due                         |                                           |
+| **Unit 8: Advanced Topics**     |                                                              |                                           |                                           |
+| 23                              | Computational complexity                                     |                                           |                                           |
+| 24                              | Algorithms research topics                                   |                                           |                                           |
 
 ##### 课程地址：
 
@@ -51,7 +52,9 @@
 
 - [MIT-6.006算法导论 Lec01-07 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec01-07-7ba56159116541959f1a0eecf5e4eae2)
 - [MIT-6.006算法导论 Lec08-10 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec08-10-e198039d11c54555a10c445eed67a5df)
-- [MIT-6.006算法导论 Lec11-14 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec11-14-f50c22799d9a42d08fc9fc2fa3e7544f)
+- [MIT-6.006算法导论 前10课复习&Quiz (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-10-Quiz-5224efe97a08402798fd680aede56e6d)
+- [MIT-6.006算法导论 Lec11-12 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec11-14-f50c22799d9a42d08fc9fc2fa3e7544f)
+- [MIT-6.006算法导论 Lec13-14 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec13-14-768f3e104ad54cf4b2c92226b090d8e6)
 
 ##### 我的习题笔记：
 
