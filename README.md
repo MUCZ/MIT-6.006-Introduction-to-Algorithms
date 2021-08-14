@@ -1,4 +1,36 @@
 # MIT-6.006-Introduction-to-Algorithms 算法导论
+##### 课程地址：
+
+- 正课 [【MIT公开课】6.006 算法导论（完结·中英字幕·机翻）_哔哩哔哩_bilibili](https://www.bilibili.com/video/av84549127?spm_id_from=333.788.b_636f6d6d656e74.7)
+- 正课+习题课[【英字】MIT 6.006 Introduction to Algorithms算法导论(正课+习题课)_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Ep411R7RB?)
+- MIT [Introduction to Algorithms | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
+
+##### 课程说明：
+
+- MIT的6.046存在两个版本：2005，2015，前者无算法基础要求，后者要求先学过6.006，即本repo 
+- 6.006只有2011年版本的，可以把它理解为 6.046（2005）的 *升级版+精简版* 
+
+##### 课程笔记：
+
+- [MIT-6.006算法导论 Lec01-07 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec01-07-7ba56159116541959f1a0eecf5e4eae2)
+- [MIT-6.006算法导论 Lec08-10 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec08-10-e198039d11c54555a10c445eed67a5df)
+- [MIT-6.006算法导论 前10课复习&Quiz (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-10-Quiz-5224efe97a08402798fd680aede56e6d)
+- [MIT-6.006算法导论 Lec11-12 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec11-14-f50c22799d9a42d08fc9fc2fa3e7544f)
+- [MIT-6.006算法导论 Lec13-14 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec13-14-768f3e104ad54cf4b2c92226b090d8e6)
+- [MIT-6.006算法导论 Lec15-18 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec15-18-ed2f03404ced4bb7b1411b2330f165fd#8b3341b852594b65a928c82d15849865)
+- [MIT-6.006算法导论 Lec19-22 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec19-22-a36192eb8e2c461dbe534a7b1875b136)
+
+##### 文件说明：
+
+- 本repo整理了MIT官网上提供的文档，加了一些自己的笔记和测试代码
+- 文件夹前的编号是为了正确显示lec和ps的顺序，顺序参考了课程页面
+  - 比如：上完lec02和lec03之后开始做ps02
+- `lec` ：讲义 or ppt ，与视频正课编号一致
+- `ps `：problem set 也就是题
+- `xxx.cpp xxx.c xxx.py` 课上提到的问题、算法、数据结构的实现
+
+
+
 ##### 目录：
 
 | LEC #                           | TOPICS                                                       | KEY DATES                                 | PS key words                              |
@@ -28,44 +60,13 @@
 | 16                              | Dijkstra                                                     |                                           |                                           |
 | 17                              | Bellman-Ford                                                 |                                           |                                           |
 | 18                              | Speeding up Dijkstra                                         | Problem set 6 due                         |                                           |
+| **Quiz 2**                      |                                                              |                                           |                                           |
 | **Unit 7: Dynamic Programming** |                                                              |                                           |                                           |
 | 19                              | Memoization, subproblems, guessing, bottom-up; Fibonacci, shortest paths | Problem set 7 out                         |                                           |
-| 20                              | Parent pointers; text justification, perfect-information blackjack |                                           |                                           |
-| 21                              | String subproblems, psuedopolynomial time; parenthesization, edit distance, knapsack |                                           |                                           |
+| 20                              | Parent pointers; text justification, perfect-information blackjack<br />`BlackJack.cpp` |                                           |                                           |
+| 21                              | String subproblems, psuedopolynomial time; parenthesization, edit distance, knapsack<br />`EditDistance.cpp`<br />`LongestCommonSubsequence.cpp` |                                           |                                           |
 | 22                              | Two kinds of guessing; piano/guitar fingering, Tetris training, Super Mario Bros. | Problem set 7 due                         |                                           |
 | **Unit 8: Advanced Topics**     |                                                              |                                           |                                           |
 | 23                              | Computational complexity                                     |                                           |                                           |
 | 24                              | Algorithms research topics                                   |                                           |                                           |
-
-##### 课程地址：
-
-- 正课 [【MIT公开课】6.006 算法导论（完结·中英字幕·机翻）_哔哩哔哩_bilibili](https://www.bilibili.com/video/av84549127?spm_id_from=333.788.b_636f6d6d656e74.7)
-- 正课+习题课[【英字】MIT 6.006 Introduction to Algorithms算法导论(正课+习题课)_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Ep411R7RB?)
-- MIT [Introduction to Algorithms | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
-
-##### 课程说明：
-
-- MIT的6.046存在两个版本：2005，2015，前者无算法基础要求，后者要求先学过6.006，即本repo 
-- 6.006只有2011年版本的，可以把它理解为 6.046（2005）的 *升级版+精简版* 
-
-##### 我的课程笔记：
-
-- [MIT-6.006算法导论 Lec01-07 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec01-07-7ba56159116541959f1a0eecf5e4eae2)
-- [MIT-6.006算法导论 Lec08-10 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec08-10-e198039d11c54555a10c445eed67a5df)
-- [MIT-6.006算法导论 前10课复习&Quiz (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-10-Quiz-5224efe97a08402798fd680aede56e6d)
-- [MIT-6.006算法导论 Lec11-12 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec11-14-f50c22799d9a42d08fc9fc2fa3e7544f)
-- [MIT-6.006算法导论 Lec13-14 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec13-14-768f3e104ad54cf4b2c92226b090d8e6)
-
-##### 我的习题笔记：
-
-- 见`ps`文件夹内的`.md`文件
-
-##### 文件说明：
-
-- 本repo整理了MIT官网上提供的文档，加了一些自己的笔记和测试代码
-- 文件夹前的编号是为了正确显示lec和ps的顺序，顺序参考了课程页面
-  - 比如：上完lec02和lec03之后开始做ps02
-- `lec` ：讲义 or ppt ，与视频正课编号一致
-- `ps `：problem set 也就是题
-- `xxx.cpp xxx.c xxx.py` 课上提到的问题、算法、数据结构的实现
 
