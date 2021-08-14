@@ -12,13 +12,7 @@
 
 ##### 课程笔记：
 
-- [MIT-6.006算法导论 Lec01-07 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec01-07-7ba56159116541959f1a0eecf5e4eae2)
-- [MIT-6.006算法导论 Lec08-10 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec08-10-e198039d11c54555a10c445eed67a5df)
-- [MIT-6.006算法导论 前10课复习&Quiz (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-10-Quiz-5224efe97a08402798fd680aede56e6d)
-- [MIT-6.006算法导论 Lec11-12 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec11-14-f50c22799d9a42d08fc9fc2fa3e7544f)
-- [MIT-6.006算法导论 Lec13-14 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec13-14-768f3e104ad54cf4b2c92226b090d8e6)
-- [MIT-6.006算法导论 Lec15-18 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec15-18-ed2f03404ced4bb7b1411b2330f165fd#8b3341b852594b65a928c82d15849865)
-- [MIT-6.006算法导论 Lec19-22 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-Lec19-22-a36192eb8e2c461dbe534a7b1875b136)
+- [MIT-6.006算法导论 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-c0d7fa39f4054b64b14eed04e7554163)
 
 ##### 文件说明：
 
