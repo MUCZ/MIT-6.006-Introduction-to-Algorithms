@@ -1,7 +1,7 @@
 # MIT-6.006-Introduction-to-Algorithms 算法导论
 ##### 课程地址：
 
-- ※[推荐]※ youtube上的 [youtube.com]https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&ab_channel=MITOpenCourseWare
+- ※[推荐]※ youtube上的 [youtube.com](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&ab_channel=MITOpenCourseWare)
 - B站上的 [【MIT公开课】6.006 算法导论（完结·中英字幕·机翻）_哔哩哔哩_bilibili](https://www.bilibili.com/video/av84549127?spm_id_from=333.788.b_636f6d6d656e74.7)
 - MIT课程介绍官网 [Introduction to Algorithms | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
 
