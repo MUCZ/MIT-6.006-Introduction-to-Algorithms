@@ -12,7 +12,7 @@
 
 ##### 我的笔记：
 
-- [MIT-6.006算法导论 (notion.site)](https://chambray-launch-d34.notion.site/MIT-6-006-c0d7fa39f4054b64b14eed04e7554163)
+- [MIT-6.006算法导论 (notion.site)](https://mucz.notion.site/MIT-6-006-c0d7fa39f4054b64b14eed04e7554163)
 
 ##### 文件说明：
 
